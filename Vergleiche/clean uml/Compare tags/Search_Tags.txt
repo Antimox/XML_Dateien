@@ -1,0 +1,33 @@
+packagedElement xmi:type="uml:Model"
+packagedElement xmi:type="uml:Package"
+packagedElement xmi:type="uml:Class"
+packagedElement xmi:type="uml:Association"
+packagedElement xmi:type="uml:SignalEvent"
+packagedElement xmi:type="uml:UseCase"
+packagedElement xmi:type="uml:InformationFlow"
+packagedElement xmi:type="uml:Signal"
+packagedElement xmi:type="uml:Abstraction"
+packagedElement xmi:type="uml:Activity"
+packagedElement xmi:type="uml:TimeEvent"
+packagedElement xmi:type="uml:ChangeEvent"
+packagedElement xmi:type="uml:Component"
+packagedElement xmi:type="uml:InstanceSpecification"
+packagedElement xmi:type="uml:Interaction"
+packagedElement xmi:type="uml:DataType"
+packagedElement xmi:type="uml:Dependency"
+packagedElement xmi:type="uml:Actor"
+packagedElement xmi:type="uml:Usage"
+packagedElement xmi:type="uml:Interface"
+packagedElement xmi:type="uml:Profile"
+packagedElement xmi:type="uml:Extension"
+packagedElement xmi:type="uml:Stereotype"
+packagedElement xmi:type="uml:AssociationClass"
+packagedElement xmi:type="uml:OpaqueBehavior"
+packagedElement xmi:type="uml:Realization"
+packagedElement xmi:type="uml:StateMachine"
+
+
+
+
+String:
+(packagedElement xmi:type="uml:StateMachine"|packagedElement xmi:type="uml:Model"|packagedElement xmi:type="uml:Package"|packagedElement xmi:type="uml:Class"|packagedElement xmi:type="uml:Association"|packagedElement xmi:type="uml:SignalEvent"|packagedElement xmi:type="uml:UseCase"|packagedElement xmi:type="uml:InformationFlow"|packagedElement xmi:type="uml:Signal"|packagedElement xmi:type="uml:Abstraction"|packagedElement xmi:type="uml:Activity"|packagedElement xmi:type="uml:TimeEvent"|packagedElement xmi:type="uml:ChangeEvent"|packagedElement xmi:type="uml:Component"|packagedElement xmi:type="uml:InstanceSpecification"|packagedElement xmi:type="uml:Interaction"|packagedElement xmi:type="uml:DataType"|packagedElement xmi:type="uml:Dependency"|packagedElement xmi:type="uml:Actor"|packagedElement xmi:type="uml:Usage"|packagedElement xmi:type="uml:Interface"|packagedElement xmi:type="uml:Profile"|packagedElement xmi:type="uml:Extension"|packagedElement xmi:type="uml:Stereotype"|packagedElement xmi:type="uml:AssociationClass"|packagedElement xmi:type="uml:OpaqueBehavior"|packagedElement xmi:type="uml:Realization")

@@ -1,0 +1,1903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmlns:uml="http://www.omg.org/spec/UML/20131001"
+         xmlns:StandardProfile="http://www.omg.org/spec/UML/20131001/StandardProfile"
+         xmlns:User_Defined_Stereotypes="http://www.magicdraw.com/schemas/User_Defined_Stereotypes.xmi"
+         xmlns:MD_Customization_for_SysML__additional_stereotypes="http://www.magicdraw.com/spec/Customization/180/SysML"
+         xmlns:sysml="http://www.omg.org/spec/SysML/20150709/SysML"
+         xmlns:xmi="http://www.omg.org/spec/XMI/20131001"
+         xmlns:MD_Customization_for_Requirements__additional_stereotypes="http://www.magicdraw.com/spec/Customization/180/Requirements">
+   <xmi:documentation xmi:type="xmi:Documentation">
+      <xmi:exporter>MagicDraw Clean XMI Exporter</xmi:exporter>
+      <xmi:exporterVersion>19.0 v9</xmi:exporterVersion>
+   </xmi:documentation>
+   <uml:Model xmi:type="uml:Model" xmi:id="eee_1045467100313_135436_1"
+              name="SysML Starter Template">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_12_1_8740266_1173856349343_83760_98"
+                    body="Author:Sanford.&#xA;Created:4/1/12 7:03 PM.&#xA;Title:.&#xA;Comment:.&#xA;">
+         <annotatedElement xmi:idref="eee_1045467100313_135436_1"/>
+      </ownedComment>
+      <packagedElement xmi:type="uml:Package" xmi:id="_17_0_ae502ce_1333321427031_456492_11515"
+                       name="Context">
+         <packagedElement xmi:type="uml:Package" xmi:id="_17_0_ae502ce_1333321449667_259757_11516"
+                          name="3-Behavior">
+            <packagedElement xmi:type="uml:Activity" xmi:id="_17_0_ae502ce_1333327400193_493635_12240"
+                             name="Perform Mission1">
+               <partition xmi:idref="_17_0_ae502ce_1333327841556_154719_12532"/>
+               <partition xmi:idref="_17_0_ae502ce_1333327841572_748479_12536"/>
+               <partition xmi:idref="_17_0_ae502ce_1333327892366_426974_12557"/>
+               <edge xmi:type="uml:ObjectFlow" xmi:id="_17_0_ae502ce_1333329782473_564347_11266"
+                     visibility="public"
+                     source="_17_0_ae502ce_1333329591286_932240_11103"
+                     target="_17_0_ae502ce_1333329560125_337680_11079">
+                  <weight xmi:type="uml:LiteralUnlimitedNatural"
+                          xmi:id="_17_0_ae502ce_1333329782473_273481_11267"
+                          value="1"/>
+               </edge>
+               <edge xmi:type="uml:ObjectFlow" xmi:id="_17_0_ae502ce_1333329821067_613699_11301"
+                     visibility="public"
+                     source="_17_0_ae502ce_1333329618493_933618_11130"
+                     target="_17_0_ae502ce_1333329640793_108692_11148">
+                  <weight xmi:type="uml:LiteralUnlimitedNatural"
+                          xmi:id="_17_0_ae502ce_1333329821083_707312_11302"
+                          value="1"/>
+               </edge>
+               <edge xmi:type="uml:ObjectFlow" xmi:id="_17_0_ae502ce_1333329846214_578574_11327"
+                     visibility="public"
+                     source="_17_0_ae502ce_1333329736117_577928_11220"
+                     target="_17_0_ae502ce_1333329755414_350684_11238">
+                  <weight xmi:type="uml:LiteralUnlimitedNatural"
+                          xmi:id="_17_0_ae502ce_1333329846214_61451_11328"
+                          value="1"/>
+               </edge>
+               <edge xmi:type="uml:ObjectFlow" xmi:id="_17_0_ae502ce_1333329872204_719506_11374"
+                     visibility="public"
+                     source="_17_0_ae502ce_1333329690401_540347_11178"
+                     target="_17_0_ae502ce_1333329711204_234271_11193">
+                  <weight xmi:type="uml:LiteralUnlimitedNatural"
+                          xmi:id="_17_0_ae502ce_1333329872204_705492_11375"
+                          value="1"/>
+               </edge>
+               <edge xmi:type="uml:ControlFlow" xmi:id="_17_0_ae502ce_1333329943839_168293_12104"
+                     visibility="public"
+                     source="_17_0_ae502ce_1333329941936_994558_12092"
+                     target="_17_0_ae502ce_1333329214328_774359_11177">
+                  <inPartition xmi:idref="_17_0_ae502ce_1333327841556_154719_12532"/>
+                  <weight xmi:type="uml:LiteralUnlimitedNatural"
+                          xmi:id="_17_0_ae502ce_1333329943839_370088_12105"
+                          value="1"/>
+               </edge>
+               <edge xmi:type="uml:ControlFlow" xmi:id="_17_0_ae502ce_1333329957193_754214_12129"
+                     visibility="public"
+                     source="_17_0_ae502ce_1333329227245_350063_11215"
+                     target="_17_0_ae502ce_1333329952825_729621_12114">
+                  <inPartition xmi:idref="_17_0_ae502ce_1333327841556_154719_12532"/>
+                  <weight xmi:type="uml:LiteralUnlimitedNatural"
+                          xmi:id="_17_0_ae502ce_1333329957193_718946_12130"
+                          value="1"/>
+               </edge>
+               <group xmi:type="uml:ActivityPartition"
+                      xmi:id="_17_0_ae502ce_1333327841556_154719_12532"
+                      visibility="public"
+                      represents="_17_0_ae502ce_1333323628140_85184_13090">
+                  <edge xmi:idref="_17_0_ae502ce_1333329943839_168293_12104"/>
+                  <edge xmi:idref="_17_0_ae502ce_1333329957193_754214_12129"/>
+                  <node xmi:idref="_17_0_ae502ce_1333329214328_774359_11177"/>
+                  <node xmi:idref="_17_0_ae502ce_1333329227245_350063_11215"/>
+                  <node xmi:idref="_17_0_ae502ce_1333329941936_994558_12092"/>
+                  <node xmi:idref="_17_0_ae502ce_1333329952825_729621_12114"/>
+               </group>
+               <group xmi:type="uml:ActivityPartition"
+                      xmi:id="_17_0_ae502ce_1333327841572_748479_12536"
+                      visibility="public"
+                      represents="_17_0_ae502ce_1333323613367_143165_13057">
+                  <node xmi:idref="_17_0_ae502ce_1333329200834_214481_11110"/>
+                  <node xmi:idref="_17_0_ae502ce_1333329203517_962746_11140"/>
+               </group>
+               <group xmi:type="uml:ActivityPartition"
+                      xmi:id="_17_0_ae502ce_1333327892366_426974_12557"
+                      visibility="public"
+                      represents="_17_0_ae502ce_1333323640574_132474_13123">
+                  <node xmi:idref="_17_0_ae502ce_1333329242892_723768_11252"/>
+               </group>
+               <node xmi:type="uml:CallBehaviorAction"
+                     xmi:id="_17_0_ae502ce_1333329200834_214481_11110"
+                     visibility="public"
+                     behavior="_17_0_ae502ce_1333329181864_706283_11084">
+                  <inPartition xmi:idref="_17_0_ae502ce_1333327841572_748479_12536"/>
+                  <argument xmi:type="uml:InputPin" xmi:id="_17_0_ae502ce_1333329560125_337680_11079"
+                            visibility="public"
+                            type="_17_0_ae502ce_1333326543767_272422_12021"/>
+                  <result xmi:type="uml:OutputPin" xmi:id="_17_0_ae502ce_1333329618493_933618_11130"
+                          visibility="public"
+                          type="_17_0_ae502ce_1333326560662_73409_12087"/>
+               </node>
+               <node xmi:type="uml:CallBehaviorAction"
+                     xmi:id="_17_0_ae502ce_1333329203517_962746_11140"
+                     visibility="public"
+                     behavior="_17_0_ae502ce_1333329194750_426508_11091">
+                  <inPartition xmi:idref="_17_0_ae502ce_1333327841572_748479_12536"/>
+                  <argument xmi:type="uml:InputPin" xmi:id="_17_0_ae502ce_1333329755414_350684_11238"
+                            visibility="public"
+                            type="_17_0_ae502ce_1333326570599_865838_12120"/>
+                  <result xmi:type="uml:OutputPin" xmi:id="_17_0_ae502ce_1333329690401_540347_11178"
+                          visibility="public"
+                          type="_17_0_ae502ce_1333326553361_438267_12054"/>
+               </node>
+               <node xmi:type="uml:CallBehaviorAction"
+                     xmi:id="_17_0_ae502ce_1333329214328_774359_11177"
+                     name="Do A1"
+                     visibility="public">
+                  <inPartition xmi:idref="_17_0_ae502ce_1333327841556_154719_12532"/>
+                  <result xmi:type="uml:OutputPin" xmi:id="_17_0_ae502ce_1333329591286_932240_11103"
+                          visibility="public"
+                          type="_17_0_ae502ce_1333326543767_272422_12021"/>
+               </node>
+               <node xmi:type="uml:CallBehaviorAction"
+                     xmi:id="_17_0_ae502ce_1333329227245_350063_11215"
+                     name="Do A3"
+                     visibility="public">
+                  <inPartition xmi:idref="_17_0_ae502ce_1333327841556_154719_12532"/>
+                  <argument xmi:type="uml:InputPin" xmi:id="_17_0_ae502ce_1333329711204_234271_11193"
+                            visibility="public"
+                            type="_17_0_ae502ce_1333326553361_438267_12054"/>
+               </node>
+               <node xmi:type="uml:CallBehaviorAction"
+                     xmi:id="_17_0_ae502ce_1333329242892_723768_11252"
+                     name="Do A2"
+                     visibility="public">
+                  <inPartition xmi:idref="_17_0_ae502ce_1333327892366_426974_12557"/>
+                  <argument xmi:type="uml:InputPin" xmi:id="_17_0_ae502ce_1333329640793_108692_11148"
+                            visibility="public"
+                            type="_17_0_ae502ce_1333326560662_73409_12087"/>
+                  <result xmi:type="uml:OutputPin" xmi:id="_17_0_ae502ce_1333329736117_577928_11220"
+                          visibility="public"
+                          type="_17_0_ae502ce_1333326570599_865838_12120"/>
+               </node>
+               <node xmi:type="uml:InitialNode" xmi:id="_17_0_ae502ce_1333329941936_994558_12092"
+                     visibility="public">
+                  <inPartition xmi:idref="_17_0_ae502ce_1333327841556_154719_12532"/>
+               </node>
+               <node xmi:type="uml:ActivityFinalNode"
+                     xmi:id="_17_0_ae502ce_1333329952825_729621_12114"
+                     visibility="public">
+                  <inPartition xmi:idref="_17_0_ae502ce_1333327841556_154719_12532"/>
+               </node>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Activity" xmi:id="_17_0_ae502ce_1333327419646_774227_12241"
+                             name="Perform Mission2">
+               <partition xmi:idref="_17_0_ae502ce_1334112837299_861461_13259"/>
+               <partition xmi:idref="_17_0_ae502ce_1334112837299_414703_13263"/>
+               <partition xmi:idref="_17_0_ae502ce_1334112877406_887896_13320"/>
+               <group xmi:type="uml:ActivityPartition"
+                      xmi:id="_17_0_ae502ce_1334112837299_861461_13259"
+                      visibility="public"
+                      represents="_17_0_ae502ce_1333323628140_85184_13090"/>
+               <group xmi:type="uml:ActivityPartition"
+                      xmi:id="_17_0_ae502ce_1334112837299_414703_13263"
+                      visibility="public"
+                      represents="_17_0_ae502ce_1333323613367_143165_13057"/>
+               <group xmi:type="uml:ActivityPartition"
+                      xmi:id="_17_0_ae502ce_1334112877406_887896_13320"
+                      visibility="public"
+                      represents="_17_0_ae502ce_1333323640574_132474_13123"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Dependency" xmi:id="_17_0_ae502ce_1333757902226_937341_12206">
+               <client xmi:idref="_17_0_ae502ce_1333327475712_683086_12264"/>
+               <supplier xmi:idref="_17_0_ae502ce_1333326532223_984758_11995"/>
+            </packagedElement>
+         </packagedElement>
+         <packagedElement xmi:type="uml:Package" xmi:id="_17_0_ae502ce_1333321507449_29157_11517"
+                          name="1-Structure">
+            <packagedElement xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1333323590279_686880_13024"
+                             name="Context">
+               <ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1333323878318_924240_13188"
+                               visibility="private"
+                               aggregation="composite"
+                               type="_17_0_ae502ce_1333323613367_143165_13057"
+                               association="_17_0_ae502ce_1333323878318_537895_13187"/>
+               <ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1333323882624_55451_13202"
+                               visibility="private"
+                               aggregation="composite"
+                               type="_17_0_ae502ce_1333323640574_132474_13123"
+                               association="_17_0_ae502ce_1333323882624_581296_13201"/>
+               <ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1333323886711_929067_13216"
+                               visibility="private"
+                               aggregation="composite"
+                               type="_17_0_ae502ce_1333323628140_85184_13090"
+                               association="_17_0_ae502ce_1333323886711_454889_13215"/>
+               <ownedConnector xmi:type="uml:Connector" xmi:id="_17_0_ae502ce_1333326032663_85645_11702"
+                               visibility="public">
+                  <end xmi:type="uml:ConnectorEnd" xmi:id="_17_0_ae502ce_1333326032663_176596_11703"
+                       partWithPort="_17_0_ae502ce_1333323878318_924240_13188"
+                       role="_17_0_ae502ce_1333325143087_739078_13373"/>
+                  <end xmi:type="uml:ConnectorEnd" xmi:id="_17_0_ae502ce_1333326032663_852356_11704"
+                       role="_17_0_ae502ce_1333323882624_55451_13202"/>
+               </ownedConnector>
+               <ownedConnector xmi:type="uml:Connector" xmi:id="_17_0_ae502ce_1333326035393_787848_11714"
+                               visibility="public">
+                  <end xmi:type="uml:ConnectorEnd" xmi:id="_17_0_ae502ce_1333326035393_305098_11715"
+                       partWithPort="_17_0_ae502ce_1333323878318_924240_13188"
+                       role="_17_0_ae502ce_1333325157985_383025_13375"/>
+                  <end xmi:type="uml:ConnectorEnd" xmi:id="_17_0_ae502ce_1333326035393_285179_11716"
+                       role="_17_0_ae502ce_1333323882624_55451_13202"/>
+               </ownedConnector>
+               <ownedConnector xmi:type="uml:Connector" xmi:id="_17_0_ae502ce_1333326074299_34433_11735"
+                               visibility="public">
+                  <end xmi:type="uml:ConnectorEnd" xmi:id="_17_0_ae502ce_1333326074299_263698_11736"
+                       role="_17_0_ae502ce_1333323886711_929067_13216"/>
+                  <end xmi:type="uml:ConnectorEnd" xmi:id="_17_0_ae502ce_1333326074299_957720_11737"
+                       partWithPort="_17_0_ae502ce_1333323878318_924240_13188"
+                       role="_17_0_ae502ce_1333325111700_134104_13369"/>
+               </ownedConnector>
+               <ownedConnector xmi:type="uml:Connector" xmi:id="_17_0_ae502ce_1333326078699_515934_11747"
+                               visibility="public">
+                  <end xmi:type="uml:ConnectorEnd" xmi:id="_17_0_ae502ce_1333326078699_435446_11748"
+                       role="_17_0_ae502ce_1333323886711_929067_13216"/>
+                  <end xmi:type="uml:ConnectorEnd" xmi:id="_17_0_ae502ce_1333326078699_238577_11749"
+                       partWithPort="_17_0_ae502ce_1333323878318_924240_13188"
+                       role="_17_0_ae502ce_1333325130997_489525_13371"/>
+               </ownedConnector>
+               <ownedConnector xmi:type="uml:Connector" xmi:id="_17_0_ae502ce_1333326104330_413103_11759"
+                               visibility="public">
+                  <end xmi:type="uml:ConnectorEnd" xmi:id="_17_0_ae502ce_1333326104330_177520_11760"
+                       role="_17_0_ae502ce_1333323882624_55451_13202"/>
+                  <end xmi:type="uml:ConnectorEnd" xmi:id="_17_0_ae502ce_1333326104330_490985_11761"
+                       role="_17_0_ae502ce_1333323886711_929067_13216"/>
+               </ownedConnector>
+               <ownedConnector xmi:type="uml:Connector" xmi:id="_17_0_ae502ce_1333327276656_503965_12196"
+                               visibility="public">
+                  <end xmi:type="uml:ConnectorEnd" xmi:id="_17_0_ae502ce_1333327276656_767347_12197"
+                       partWithPort="_17_0_ae502ce_1333323878318_924240_13188"
+                       role="_17_0_ae502ce_1333325157985_383025_13375"/>
+                  <end xmi:type="uml:ConnectorEnd" xmi:id="_17_0_ae502ce_1333327276656_951093_12198"
+                       role="_17_0_ae502ce_1333323882624_55451_13202"/>
+               </ownedConnector>
+               <ownedConnector xmi:type="uml:Connector" xmi:id="_17_0_ae502ce_1333327296655_806453_12208"
+                               visibility="public">
+                  <end xmi:type="uml:ConnectorEnd" xmi:id="_17_0_ae502ce_1333327296655_371183_12209"
+                       partWithPort="_17_0_ae502ce_1333323878318_924240_13188"
+                       role="_17_0_ae502ce_1333325143087_739078_13373"/>
+                  <end xmi:type="uml:ConnectorEnd" xmi:id="_17_0_ae502ce_1333327296655_671993_12210"
+                       role="_17_0_ae502ce_1333323882624_55451_13202"/>
+               </ownedConnector>
+               <ownedConnector xmi:type="uml:Connector" xmi:id="_17_0_ae502ce_1333327304986_595153_12220"
+                               visibility="public">
+                  <end xmi:type="uml:ConnectorEnd" xmi:id="_17_0_ae502ce_1333327304986_131962_12221"
+                       role="_17_0_ae502ce_1333323886711_929067_13216"/>
+                  <end xmi:type="uml:ConnectorEnd" xmi:id="_17_0_ae502ce_1333327304986_255059_12222"
+                       partWithPort="_17_0_ae502ce_1333323878318_924240_13188"
+                       role="_17_0_ae502ce_1333325111700_134104_13369"/>
+               </ownedConnector>
+               <ownedConnector xmi:type="uml:Connector" xmi:id="_17_0_ae502ce_1333327312302_730636_12232"
+                               visibility="public">
+                  <end xmi:type="uml:ConnectorEnd" xmi:id="_17_0_ae502ce_1333327312302_3234_12233"
+                       role="_17_0_ae502ce_1333323886711_929067_13216"/>
+                  <end xmi:type="uml:ConnectorEnd" xmi:id="_17_0_ae502ce_1333327312302_761779_12234"
+                       partWithPort="_17_0_ae502ce_1333323878318_924240_13188"
+                       role="_17_0_ae502ce_1333325130997_489525_13371"/>
+               </ownedConnector>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1333323628140_85184_13090"
+                             name="User1"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1333323640574_132474_13123"
+                             name="External System1"/>
+            <packagedElement xmi:type="uml:Association" xmi:id="_17_0_ae502ce_1333323878318_537895_13187">
+               <memberEnd xmi:idref="_17_0_ae502ce_1333323878318_924240_13188"/>
+               <memberEnd xmi:idref="_17_0_ae502ce_1333323878318_989502_13189"/>
+               <ownedEnd xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1333323878318_989502_13189"
+                         visibility="private"
+                         type="_17_0_ae502ce_1333323590279_686880_13024"
+                         association="_17_0_ae502ce_1333323878318_537895_13187"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_17_0_ae502ce_1333323882624_581296_13201">
+               <memberEnd xmi:idref="_17_0_ae502ce_1333323882624_55451_13202"/>
+               <memberEnd xmi:idref="_17_0_ae502ce_1333323882624_806151_13203"/>
+               <ownedEnd xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1333323882624_806151_13203"
+                         visibility="private"
+                         type="_17_0_ae502ce_1333323590279_686880_13024"
+                         association="_17_0_ae502ce_1333323882624_581296_13201"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_17_0_ae502ce_1333323886711_454889_13215">
+               <memberEnd xmi:idref="_17_0_ae502ce_1333323886711_929067_13216"/>
+               <memberEnd xmi:idref="_17_0_ae502ce_1333323886711_866625_13217"/>
+               <ownedEnd xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1333323886711_866625_13217"
+                         visibility="private"
+                         type="_17_0_ae502ce_1333323590279_686880_13024"
+                         association="_17_0_ae502ce_1333323886711_454889_13215"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:InformationFlow"
+                             xmi:id="_17_0_ae502ce_1333326947207_878156_12160"
+                             name="flow for Flow1">
+               <conveyed xmi:idref="_17_0_ae502ce_1333326543767_272422_12021"/>
+               <informationSource xmi:idref="_17_0_ae502ce_1333323886711_929067_13216"/>
+               <informationTarget xmi:idref="_17_0_ae502ce_1333325111700_134104_13369"/>
+               <realizingConnector xmi:idref="_17_0_ae502ce_1333326074299_34433_11735"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:InformationFlow"
+                             xmi:id="_17_0_ae502ce_1333326962947_154253_12165"
+                             name="flow for Flow2">
+               <conveyed xmi:idref="_17_0_ae502ce_1333326553361_438267_12054"/>
+               <informationSource xmi:idref="_17_0_ae502ce_1333325130997_489525_13371"/>
+               <informationTarget xmi:idref="_17_0_ae502ce_1333323886711_929067_13216"/>
+               <realizingConnector xmi:idref="_17_0_ae502ce_1333326078699_515934_11747"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:InformationFlow"
+                             xmi:id="_17_0_ae502ce_1333326983196_150721_12170"
+                             name="flow for Flow3">
+               <conveyed xmi:idref="_17_0_ae502ce_1333326560662_73409_12087"/>
+               <informationSource xmi:idref="_17_0_ae502ce_1333325143087_739078_13373"/>
+               <informationTarget xmi:idref="_17_0_ae502ce_1333323882624_55451_13202"/>
+               <realizingConnector xmi:idref="_17_0_ae502ce_1333326032663_85645_11702"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:InformationFlow"
+                             xmi:id="_17_0_ae502ce_1333327016315_719831_12175"
+                             name="flow for Flow4">
+               <conveyed xmi:idref="_17_0_ae502ce_1333326570599_865838_12120"/>
+               <informationSource xmi:idref="_17_0_ae502ce_1333323882624_55451_13202"/>
+               <informationTarget xmi:idref="_17_0_ae502ce_1333325157985_383025_13375"/>
+               <realizingConnector xmi:idref="_17_0_ae502ce_1333326035393_787848_11714"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Dependency" xmi:id="_17_0_ae502ce_1333757808111_255095_12088">
+               <client xmi:idref="_17_0_ae502ce_1333323519385_651946_12961"/>
+               <supplier xmi:idref="_17_0_ae502ce_1333324657505_308916_13257"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Dependency" xmi:id="_17_0_ae502ce_1333757990226_42380_12269">
+               <client xmi:idref="_17_0_ae502ce_1333323519385_651946_12961"/>
+               <supplier xmi:idref="_17_0_ae502ce_1333330237055_913781_12319"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Dependency" xmi:id="_17_0_ae502ce_1334113288130_398655_13650">
+               <client xmi:idref="_17_0_ae502ce_1333324657505_308916_13257"/>
+               <supplier xmi:idref="_17_0_ae502ce_1333327475712_683086_12264"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Dependency" xmi:id="_17_0_ae502ce_1334113352643_905074_13674">
+               <client xmi:idref="_17_0_ae502ce_1333323519385_651946_12961"/>
+               <supplier xmi:idref="_17_0_ae502ce_1334111902629_85076_12309"/>
+            </packagedElement>
+         </packagedElement>
+         <packagedElement xmi:type="uml:Package" xmi:id="_17_0_ae502ce_1333321538165_981561_11518"
+                          name="5-Parametrics">
+            <packagedElement xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1333330278356_552320_12349"
+                             name="Analysis Context">
+               <ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1333330384686_829819_12598"
+                               visibility="private"
+                               aggregation="composite"
+                               type="_17_0_ae502ce_1333330301413_226975_12441"
+                               association="_17_0_ae502ce_1333330384686_535671_12597"/>
+               <ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1333330387900_594983_12624"
+                               visibility="private"
+                               aggregation="composite"
+                               type="_17_0_ae502ce_1333330292958_287741_12398"
+                               association="_17_0_ae502ce_1333330387900_624282_12623"/>
+               <ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1333330533292_647803_12774"
+                               visibility="private"
+                               aggregation="composite"
+                               type="_17_0_ae502ce_1333330526163_972539_12723"
+                               association="_17_0_ae502ce_1333330533292_519929_12773"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1333330292958_287741_12398"
+                             name="Analysis1">
+               <ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1333330782175_380504_13039"
+                               name="soa"
+                               visibility="private"
+                               aggregation="shared"
+                               type="_17_0_ae502ce_1333323590279_686880_13024"
+                               association="_17_0_ae502ce_1333330782175_559365_13038"/>
+               <ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1333330807634_884507_13117"
+                               visibility="private"
+                               aggregation="composite"
+                               type="_17_0_ae502ce_1333330786309_500780_13063"
+                               association="_17_0_ae502ce_1333330807634_220593_13116"/>
+               <ownedConnector xmi:type="uml:Connector" xmi:id="_17_0_ae502ce_1334088677293_555126_11491"
+                               visibility="public">
+                  <end xmi:type="uml:ConnectorEnd" xmi:id="_17_0_ae502ce_1334088677294_407650_11492"
+                       role="_17_0_ae502ce_1334088045969_794847_15374"/>
+                  <end xmi:type="uml:ConnectorEnd" xmi:id="_17_0_ae502ce_1334088677295_570494_11493"
+                       partWithPort="_17_0_ae502ce_1333330807634_884507_13117"
+                       role="_17_0_ae502ce_1334087720194_289248_14889"/>
+               </ownedConnector>
+               <ownedConnector xmi:type="uml:Connector" xmi:id="_17_0_ae502ce_1334088680578_156012_11516"
+                               visibility="public">
+                  <end xmi:type="uml:ConnectorEnd" xmi:id="_17_0_ae502ce_1334088680578_113860_11517"
+                       role="_17_0_ae502ce_1334088082754_862896_15434"/>
+                  <end xmi:type="uml:ConnectorEnd" xmi:id="_17_0_ae502ce_1334088680578_817903_11518"
+                       partWithPort="_17_0_ae502ce_1333330807634_884507_13117"
+                       role="_17_0_ae502ce_1333331072273_252470_13273"/>
+               </ownedConnector>
+               <ownedConnector xmi:type="uml:Connector" xmi:id="_17_0_ae502ce_1334088683800_289526_11542"
+                               visibility="public">
+                  <end xmi:type="uml:ConnectorEnd" xmi:id="_17_0_ae502ce_1334088683800_76783_11543"
+                       role="_17_0_ae502ce_1334088116512_710093_15467"/>
+                  <end xmi:type="uml:ConnectorEnd" xmi:id="_17_0_ae502ce_1334088683800_149054_11544"
+                       partWithPort="_17_0_ae502ce_1333330807634_884507_13117"
+                       role="_17_0_ae502ce_1333331084176_183555_13279"/>
+               </ownedConnector>
+               <nestedClassifier xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1333330786309_500780_13063"
+                                 name="Analysis1 Equaitons">
+                  <ownedRule xmi:type="uml:Constraint" xmi:id="_17_0_ae502ce_1333331032103_532893_13254">
+                     <constrainedElement xmi:idref="_17_0_ae502ce_1333330786309_500780_13063"/>
+                     <specification xmi:type="uml:OpaqueExpression"
+                                    xmi:id="_17_0_ae502ce_1333331032103_275581_13255">
+                        <body>y=x1+x2</body>
+                        <language>English</language>
+                     </specification>
+                  </ownedRule>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_17_0_ae502ce_1333331072273_252470_13273" name="x1"
+                                  visibility="private"
+                                  aggregation="composite"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_17_0_ae502ce_1333331084176_183555_13279" name="x2"
+                                  visibility="private"
+                                  aggregation="composite"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_17_0_ae502ce_1334087720194_289248_14889" name="y"
+                                  visibility="private"
+                                  aggregation="composite"/>
+               </nestedClassifier>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1333330301413_226975_12441"
+                             name="Analysis2"/>
+            <packagedElement xmi:type="uml:Association" xmi:id="_17_0_ae502ce_1333330384686_535671_12597">
+               <memberEnd xmi:idref="_17_0_ae502ce_1333330384686_829819_12598"/>
+               <memberEnd xmi:idref="_17_0_ae502ce_1333330384686_410312_12599"/>
+               <ownedEnd xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1333330384686_410312_12599"
+                         visibility="private"
+                         type="_17_0_ae502ce_1333330278356_552320_12349"
+                         association="_17_0_ae502ce_1333330384686_535671_12597"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_17_0_ae502ce_1333330387900_624282_12623">
+               <memberEnd xmi:idref="_17_0_ae502ce_1333330387900_594983_12624"/>
+               <memberEnd xmi:idref="_17_0_ae502ce_1333330387900_945812_12625"/>
+               <ownedEnd xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1333330387900_945812_12625"
+                         visibility="private"
+                         type="_17_0_ae502ce_1333330278356_552320_12349"
+                         association="_17_0_ae502ce_1333330387900_624282_12623"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1333330526163_972539_12723"
+                             name="Analysis3"/>
+            <packagedElement xmi:type="uml:Association" xmi:id="_17_0_ae502ce_1333330533292_519929_12773">
+               <memberEnd xmi:idref="_17_0_ae502ce_1333330533292_647803_12774"/>
+               <memberEnd xmi:idref="_17_0_ae502ce_1333330533292_752043_12775"/>
+               <ownedEnd xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1333330533292_752043_12775"
+                         visibility="private"
+                         type="_17_0_ae502ce_1333330278356_552320_12349"
+                         association="_17_0_ae502ce_1333330533292_519929_12773"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_17_0_ae502ce_1333330782175_559365_13038">
+               <memberEnd xmi:idref="_17_0_ae502ce_1333330782175_380504_13039"/>
+               <memberEnd xmi:idref="_17_0_ae502ce_1333330782175_21890_13040"/>
+               <ownedEnd xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1333330782175_21890_13040"
+                         visibility="private"
+                         type="_17_0_ae502ce_1333330292958_287741_12398"
+                         association="_17_0_ae502ce_1333330782175_559365_13038"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_17_0_ae502ce_1333330807634_220593_13116">
+               <memberEnd xmi:idref="_17_0_ae502ce_1333330807634_884507_13117"/>
+               <memberEnd xmi:idref="_17_0_ae502ce_1333330807634_720281_13118"/>
+               <ownedEnd xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1333330807634_720281_13118"
+                         visibility="private"
+                         type="_17_0_ae502ce_1333330292958_287741_12398"
+                         association="_17_0_ae502ce_1333330807634_220593_13116"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Dependency" xmi:id="_17_0_ae502ce_1333758004313_609907_12291">
+               <client xmi:idref="_17_0_ae502ce_1333330237055_913781_12319"/>
+               <supplier xmi:idref="_17_0_ae502ce_1333330677078_211456_12846"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Dependency" xmi:id="_17_0_ae502ce_1334087910795_268322_15083">
+               <client xmi:idref="_17_0_ae502ce_1333330677078_211456_12846"/>
+               <supplier xmi:idref="_17_0_ae502ce_1334086820710_10943_14673"/>
+            </packagedElement>
+         </packagedElement>
+         <packagedElement xmi:type="uml:Package" xmi:id="_17_0_ae502ce_1333321626680_800520_11519"
+                          name="4-Input-Output Definitions">
+            <packagedElement xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1333326543767_272422_12021"
+                             name="Flow1"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1333326553361_438267_12054"
+                             name="Flow2"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1333326560662_73409_12087"
+                             name="Flow3"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1333326570599_865838_12120"
+                             name="Flow4"/>
+            <packagedElement xmi:type="uml:Dependency" xmi:id="_17_0_ae502ce_1333757927842_313159_12224">
+               <client xmi:idref="_17_0_ae502ce_1333326532223_984758_11995"/>
+               <supplier xmi:idref="_17_0_ae502ce_1333326356621_754526_11775"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1334022374884_655292_12102"
+                             name="Flow5"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1334022387800_439163_12154"
+                             name="Flow6"/>
+            <packagedElement xmi:type="uml:Signal" xmi:id="_17_0_ae502ce_1335966442859_236536_11771"
+                             name="Flow7"/>
+         </packagedElement>
+         <packagedElement xmi:type="uml:Package" xmi:id="_17_0_ae502ce_1333321683917_671670_11520"
+                          name="6-System">
+            <packagedElement xmi:type="uml:Package" xmi:id="_17_0_ae502ce_1333321716864_251342_11521"
+                             name="2-Structure">
+               <packagedElement xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1333323613367_143165_13057"
+                                name="System XYZ">
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_17_0_ae502ce_1333325111700_134104_13369"
+                                  name="p1 interface"
+                                  visibility="public"
+                                  aggregation="composite"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_17_0_ae502ce_1333325130997_489525_13371"
+                                  name="p2 interface"
+                                  visibility="public"
+                                  aggregation="composite"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_17_0_ae502ce_1333325143087_739078_13373"
+                                  name="p3 interface"
+                                  visibility="public"
+                                  aggregation="composite"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_17_0_ae502ce_1333325157985_383025_13375"
+                                  name="p4 interface"
+                                  visibility="public"
+                                  aggregation="composite"/>
+                  <ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1333759250901_943874_13940"
+                                  visibility="private"
+                                  aggregation="composite"
+                                  type="_17_0_ae502ce_1333759239544_836462_13886"
+                                  association="_17_0_ae502ce_1333759250901_870100_13939"/>
+                  <ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1333759254614_999919_13992"
+                                  visibility="private"
+                                  aggregation="composite"
+                                  type="_17_0_ae502ce_1333759228390_307923_13840"
+                                  association="_17_0_ae502ce_1333759254614_645863_13991"/>
+                  <ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1334088045969_794847_15374"
+                                  name="mtotal"
+                                  visibility="public"
+                                  aggregation="composite"/>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_17_0_ae502ce_1333760055847_800319_14970"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd" xmi:id="_17_0_ae502ce_1333760055847_829070_14971"
+                          role="_17_0_ae502ce_1333325111700_134104_13369"/>
+                     <end xmi:type="uml:ConnectorEnd" xmi:id="_17_0_ae502ce_1333760055847_263196_14972"
+                          partWithPort="_17_0_ae502ce_1333759254614_999919_13992"
+                          role="_17_0_ae502ce_1333759543276_731361_14467"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_17_0_ae502ce_1333760062913_937830_14998"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd" xmi:id="_17_0_ae502ce_1333760062913_905508_14999"
+                          role="_17_0_ae502ce_1333325130997_489525_13371"/>
+                     <end xmi:type="uml:ConnectorEnd" xmi:id="_17_0_ae502ce_1333760062913_275740_15000"
+                          partWithPort="_17_0_ae502ce_1333759250901_943874_13940"
+                          role="_17_0_ae502ce_1333759575537_266391_14473"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_17_0_ae502ce_1333760080916_567661_15037"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd" xmi:id="_17_0_ae502ce_1333760080916_431027_15038"
+                          partWithPort="_17_0_ae502ce_1333759254614_999919_13992"
+                          role="_17_0_ae502ce_1333759555507_142053_14469"/>
+                     <end xmi:type="uml:ConnectorEnd" xmi:id="_17_0_ae502ce_1333760080916_676536_15039"
+                          role="_17_0_ae502ce_1333325143087_739078_13373"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_17_0_ae502ce_1333760084831_610337_15065"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd" xmi:id="_17_0_ae502ce_1333760084831_716191_15066"
+                          partWithPort="_17_0_ae502ce_1333759250901_943874_13940"
+                          role="_17_0_ae502ce_1333759581185_594103_14475"/>
+                     <end xmi:type="uml:ConnectorEnd" xmi:id="_17_0_ae502ce_1333760084831_98564_15067"
+                          role="_17_0_ae502ce_1333325157985_383025_13375"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_17_0_ae502ce_1333760175561_61958_15238"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd" xmi:id="_17_0_ae502ce_1333760175561_495661_15239"
+                          partWithPort="_17_0_ae502ce_1333759254614_999919_13992"
+                          role="_17_0_ae502ce_1333759748760_294298_14568"/>
+                     <end xmi:type="uml:ConnectorEnd" xmi:id="_17_0_ae502ce_1333760175561_588639_15240"
+                          partWithPort="_17_0_ae502ce_1333759250901_943874_13940"
+                          role="_17_0_ae502ce_1333759807479_204020_14602"/>
+                  </ownedConnector>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Association" xmi:id="_17_0_ae502ce_1333759250901_870100_13939">
+                  <memberEnd xmi:idref="_17_0_ae502ce_1333759250901_943874_13940"/>
+                  <memberEnd xmi:idref="_17_0_ae502ce_1333759250901_35216_13941"/>
+                  <ownedEnd xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1333759250901_35216_13941"
+                            visibility="private"
+                            type="_17_0_ae502ce_1333323613367_143165_13057"
+                            association="_17_0_ae502ce_1333759250901_870100_13939"/>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Association" xmi:id="_17_0_ae502ce_1333759254614_645863_13991">
+                  <memberEnd xmi:idref="_17_0_ae502ce_1333759254614_999919_13992"/>
+                  <memberEnd xmi:idref="_17_0_ae502ce_1333759254614_839932_13993"/>
+                  <ownedEnd xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1333759254614_839932_13993"
+                            visibility="private"
+                            type="_17_0_ae502ce_1333323613367_143165_13057"
+                            association="_17_0_ae502ce_1333759254614_645863_13991"/>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Dependency" xmi:id="_17_0_ae502ce_1334085917133_606269_14060">
+                  <client xmi:idref="_17_0_ae502ce_1333759206207_614302_13768"/>
+                  <supplier xmi:idref="_17_0_ae502ce_1333759411394_22881_14321"/>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Dependency" xmi:id="_17_0_ae502ce_1334085925619_995706_14076">
+                  <client xmi:idref="_17_0_ae502ce_1333759206207_614302_13768"/>
+                  <supplier xmi:idref="_17_0_ae502ce_1333760669926_238387_15586"/>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Dependency" xmi:id="_17_0_ae502ce_1334086056613_311054_14228">
+                  <client xmi:idref="_17_0_ae502ce_1333759206207_614302_13768"/>
+                  <supplier xmi:idref="_17_0_ae502ce_1334022217185_168557_11885"/>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Abstraction" xmi:id="_17_0_ae502ce_1335960738337_697066_14785">
+                  <client xmi:idref="_17_0_ae502ce_1334088045969_794847_15374"/>
+                  <supplier xmi:idref="_17_0_ae502ce_1333759041395_727583_13321"/>
+               </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_17_0_ae502ce_1333321729765_217958_11522"
+                             name="3-Behavior">
+               <packagedElement xmi:type="uml:Activity" xmi:id="_17_0_ae502ce_1333329181864_706283_11084"
+                                name="Do X1">
+                  <partition xmi:idref="_17_0_ae502ce_1333760710837_312547_15643"/>
+                  <partition xmi:idref="_17_0_ae502ce_1333760710837_565544_15647"/>
+                  <ownedParameter xmi:type="uml:Parameter" xmi:id="_17_0_ae502ce_1333329561763_127071_11083"
+                                  visibility="public"
+                                  type="_17_0_ae502ce_1333326543767_272422_12021"/>
+                  <ownedParameter xmi:type="uml:Parameter" xmi:id="_17_0_ae502ce_1333329619959_818710_11134"
+                                  visibility="public"
+                                  direction="out"
+                                  type="_17_0_ae502ce_1333326560662_73409_12087"/>
+                  <edge xmi:type="uml:ControlFlow" xmi:id="_17_0_ae502ce_1333760829741_770128_15801"
+                        visibility="public"
+                        source="_17_0_ae502ce_1333760823547_388653_15789"
+                        target="_17_0_ae502ce_1333760806403_355616_15737">
+                     <inPartition xmi:idref="_17_0_ae502ce_1333760710837_312547_15643"/>
+                     <weight xmi:type="uml:LiteralUnlimitedNatural"
+                             xmi:id="_17_0_ae502ce_1333760829741_778649_15802"
+                             value="1"/>
+                  </edge>
+                  <edge xmi:type="uml:ControlFlow" xmi:id="_17_0_ae502ce_1333760841831_478262_15830"
+                        visibility="public"
+                        source="_17_0_ae502ce_1333760814796_393627_15764"
+                        target="_17_0_ae502ce_1333760837119_869878_15814">
+                     <inPartition xmi:idref="_17_0_ae502ce_1333760710837_565544_15647"/>
+                     <weight xmi:type="uml:LiteralUnlimitedNatural"
+                             xmi:id="_17_0_ae502ce_1333760841831_83647_15831"
+                             value="1"/>
+                  </edge>
+                  <edge xmi:type="uml:ObjectFlow" xmi:id="_17_0_ae502ce_1334022688241_710512_12363"
+                        visibility="public"
+                        source="_17_0_ae502ce_1333329575577_709315_11085"
+                        target="_17_0_ae502ce_1334022496798_868150_12231">
+                     <weight xmi:type="uml:LiteralUnlimitedNatural"
+                             xmi:id="_17_0_ae502ce_1334022688241_600067_12364"
+                             value="1"/>
+                  </edge>
+                  <edge xmi:type="uml:ObjectFlow" xmi:id="_17_0_ae502ce_1334022693218_104779_12380"
+                        visibility="public"
+                        source="_17_0_ae502ce_1334022535189_845874_12244"
+                        target="_17_0_ae502ce_1334022634874_590106_12297">
+                     <weight xmi:type="uml:LiteralUnlimitedNatural"
+                             xmi:id="_17_0_ae502ce_1334022693218_967156_12381"
+                             value="1"/>
+                  </edge>
+                  <edge xmi:type="uml:ObjectFlow" xmi:id="_17_0_ae502ce_1334022778597_785750_12458"
+                        visibility="public"
+                        source="_17_0_ae502ce_1334022750423_101805_12415"
+                        target="_17_0_ae502ce_1333329633492_455818_11136">
+                     <weight xmi:type="uml:LiteralUnlimitedNatural"
+                             xmi:id="_17_0_ae502ce_1334022778597_753837_12459"
+                             value="1"/>
+                  </edge>
+                  <group xmi:type="uml:ActivityPartition"
+                         xmi:id="_17_0_ae502ce_1333760710837_312547_15643"
+                         visibility="public"
+                         represents="_17_0_ae502ce_1333759228390_307923_13840">
+                     <edge xmi:idref="_17_0_ae502ce_1333760829741_770128_15801"/>
+                     <node xmi:idref="_17_0_ae502ce_1333760806403_355616_15737"/>
+                     <node xmi:idref="_17_0_ae502ce_1333760823547_388653_15789"/>
+                  </group>
+                  <group xmi:type="uml:ActivityPartition"
+                         xmi:id="_17_0_ae502ce_1333760710837_565544_15647"
+                         visibility="public"
+                         represents="_17_0_ae502ce_1333759239544_836462_13886">
+                     <edge xmi:idref="_17_0_ae502ce_1333760841831_478262_15830"/>
+                     <node xmi:idref="_17_0_ae502ce_1333760814796_393627_15764"/>
+                     <node xmi:idref="_17_0_ae502ce_1333760837119_869878_15814"/>
+                  </group>
+                  <node xmi:type="uml:ActivityParameterNode"
+                        xmi:id="_17_0_ae502ce_1333329575577_709315_11085"
+                        visibility="public"
+                        type="_17_0_ae502ce_1333326543767_272422_12021"
+                        parameter="_17_0_ae502ce_1333329561763_127071_11083"/>
+                  <node xmi:type="uml:ActivityParameterNode"
+                        xmi:id="_17_0_ae502ce_1333329633492_455818_11136"
+                        visibility="public"
+                        type="_17_0_ae502ce_1333326560662_73409_12087"
+                        parameter="_17_0_ae502ce_1333329619959_818710_11134"/>
+                  <node xmi:type="uml:CallBehaviorAction"
+                        xmi:id="_17_0_ae502ce_1333760806403_355616_15737"
+                        visibility="public"
+                        behavior="_17_0_ae502ce_1333760488794_700584_15544">
+                     <inPartition xmi:idref="_17_0_ae502ce_1333760710837_312547_15643"/>
+                     <argument xmi:type="uml:InputPin" xmi:id="_17_0_ae502ce_1334022496798_868150_12231"
+                               visibility="public"
+                               type="_17_0_ae502ce_1333326543767_272422_12021"/>
+                     <result xmi:type="uml:OutputPin" xmi:id="_17_0_ae502ce_1334022535189_845874_12244"
+                             visibility="public"
+                             type="_17_0_ae502ce_1334022374884_655292_12102"/>
+                  </node>
+                  <node xmi:type="uml:CallBehaviorAction"
+                        xmi:id="_17_0_ae502ce_1333760814796_393627_15764"
+                        visibility="public"
+                        behavior="_17_0_ae502ce_1333760542053_930875_15566">
+                     <inPartition xmi:idref="_17_0_ae502ce_1333760710837_565544_15647"/>
+                     <argument xmi:type="uml:InputPin" xmi:id="_17_0_ae502ce_1334022634874_590106_12297"
+                               visibility="public"
+                               type="_17_0_ae502ce_1334022374884_655292_12102"/>
+                     <result xmi:type="uml:OutputPin" xmi:id="_17_0_ae502ce_1334022750423_101805_12415"
+                             visibility="public"
+                             type="_17_0_ae502ce_1333326560662_73409_12087"/>
+                  </node>
+                  <node xmi:type="uml:InitialNode" xmi:id="_17_0_ae502ce_1333760823547_388653_15789"
+                        visibility="public">
+                     <inPartition xmi:idref="_17_0_ae502ce_1333760710837_312547_15643"/>
+                  </node>
+                  <node xmi:type="uml:ActivityFinalNode"
+                        xmi:id="_17_0_ae502ce_1333760837119_869878_15814"
+                        visibility="public">
+                     <inPartition xmi:idref="_17_0_ae502ce_1333760710837_565544_15647"/>
+                  </node>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Activity" xmi:id="_17_0_ae502ce_1333329194750_426508_11091"
+                                name="Do X2">
+                  <partition xmi:idref="_17_0_ae502ce_1334022243042_315838_11940"/>
+                  <partition xmi:idref="_17_0_ae502ce_1334022243058_430684_11944"/>
+                  <ownedParameter xmi:type="uml:Parameter" xmi:id="_17_0_ae502ce_1333329691836_660362_11182"
+                                  visibility="public"
+                                  direction="out"
+                                  type="_17_0_ae502ce_1333326553361_438267_12054"/>
+                  <ownedParameter xmi:type="uml:Parameter" xmi:id="_17_0_ae502ce_1333329756881_227339_11242"
+                                  visibility="public"
+                                  type="_17_0_ae502ce_1333326570599_865838_12120"/>
+                  <edge xmi:type="uml:ObjectFlow" xmi:id="_17_0_ae502ce_1334023341539_24824_12699"
+                        visibility="public"
+                        source="_17_0_ae502ce_1334023184416_117295_12555"
+                        target="_17_0_ae502ce_1334023228470_734151_12572">
+                     <weight xmi:type="uml:LiteralUnlimitedNatural"
+                             xmi:id="_17_0_ae502ce_1334023341539_211808_12700"
+                             value="1"/>
+                  </edge>
+                  <edge xmi:type="uml:ObjectFlow" xmi:id="_17_0_ae502ce_1334024025164_242207_13125"
+                        visibility="public"
+                        source="_17_0_ae502ce_1333329769119_636910_11244"
+                        target="_17_0_ae502ce_1334023997427_913029_13081">
+                     <weight xmi:type="uml:LiteralUnlimitedNatural"
+                             xmi:id="_17_0_ae502ce_1334024025164_770403_13126"
+                             value="1"/>
+                  </edge>
+                  <edge xmi:type="uml:ObjectFlow" xmi:id="_17_0_ae502ce_1334024123756_422138_13211"
+                        visibility="public"
+                        source="_17_0_ae502ce_1334024094958_262756_13178"
+                        target="_17_0_ae502ce_1333329704792_250376_11184">
+                     <weight xmi:type="uml:LiteralUnlimitedNatural"
+                             xmi:id="_17_0_ae502ce_1334024123756_14534_13212"
+                             value="1"/>
+                  </edge>
+                  <edge xmi:type="uml:ControlFlow" xmi:id="_17_0_ae502ce_1334024152710_339336_13269"
+                        visibility="public"
+                        source="_17_0_ae502ce_1334024147296_534449_13256"
+                        target="_17_0_ae502ce_1334022328567_244193_12016">
+                     <inPartition xmi:idref="_17_0_ae502ce_1334022243042_315838_11940"/>
+                     <weight xmi:type="uml:LiteralUnlimitedNatural"
+                             xmi:id="_17_0_ae502ce_1334024152710_677418_13270"
+                             value="1"/>
+                  </edge>
+                  <edge xmi:type="uml:ControlFlow" xmi:id="_17_0_ae502ce_1334024164082_353348_13294"
+                        visibility="public"
+                        source="_17_0_ae502ce_1334022342670_652313_12045"
+                        target="_17_0_ae502ce_1334024158185_444933_13279">
+                     <inPartition xmi:idref="_17_0_ae502ce_1334022243058_430684_11944"/>
+                     <weight xmi:type="uml:LiteralUnlimitedNatural"
+                             xmi:id="_17_0_ae502ce_1334024164082_165154_13295"
+                             value="1"/>
+                  </edge>
+                  <group xmi:type="uml:ActivityPartition"
+                         xmi:id="_17_0_ae502ce_1334022243042_315838_11940"
+                         visibility="public"
+                         represents="_17_0_ae502ce_1333759228390_307923_13840">
+                     <edge xmi:idref="_17_0_ae502ce_1334024152710_339336_13269"/>
+                     <node xmi:idref="_17_0_ae502ce_1334022328567_244193_12016"/>
+                     <node xmi:idref="_17_0_ae502ce_1334024147296_534449_13256"/>
+                  </group>
+                  <group xmi:type="uml:ActivityPartition"
+                         xmi:id="_17_0_ae502ce_1334022243058_430684_11944"
+                         visibility="public"
+                         represents="_17_0_ae502ce_1333759239544_836462_13886">
+                     <edge xmi:idref="_17_0_ae502ce_1334024164082_353348_13294"/>
+                     <node xmi:idref="_17_0_ae502ce_1334022342670_652313_12045"/>
+                     <node xmi:idref="_17_0_ae502ce_1334024158185_444933_13279"/>
+                  </group>
+                  <node xmi:type="uml:ActivityParameterNode"
+                        xmi:id="_17_0_ae502ce_1333329704792_250376_11184"
+                        visibility="public"
+                        type="_17_0_ae502ce_1333326553361_438267_12054"
+                        parameter="_17_0_ae502ce_1333329691836_660362_11182"/>
+                  <node xmi:type="uml:ActivityParameterNode"
+                        xmi:id="_17_0_ae502ce_1333329769119_636910_11244"
+                        visibility="public"
+                        type="_17_0_ae502ce_1333326570599_865838_12120"
+                        parameter="_17_0_ae502ce_1333329756881_227339_11242"/>
+                  <node xmi:type="uml:CallBehaviorAction"
+                        xmi:id="_17_0_ae502ce_1334022328567_244193_12016"
+                        visibility="public"
+                        behavior="_17_0_ae502ce_1333760518840_32281_15555">
+                     <inPartition xmi:idref="_17_0_ae502ce_1334022243042_315838_11940"/>
+                     <argument xmi:type="uml:InputPin" xmi:id="_17_0_ae502ce_1334023997427_913029_13081"
+                               visibility="public"
+                               type="_17_0_ae502ce_1333326570599_865838_12120"/>
+                     <result xmi:type="uml:OutputPin" xmi:id="_17_0_ae502ce_1334023184416_117295_12555"
+                             visibility="public"
+                             type="_17_0_ae502ce_1334022387800_439163_12154"/>
+                  </node>
+                  <node xmi:type="uml:CallBehaviorAction"
+                        xmi:id="_17_0_ae502ce_1334022342670_652313_12045"
+                        visibility="public"
+                        behavior="_17_0_ae502ce_1333760572613_552537_15573">
+                     <inPartition xmi:idref="_17_0_ae502ce_1334022243058_430684_11944"/>
+                     <argument xmi:type="uml:InputPin" xmi:id="_17_0_ae502ce_1334023228470_734151_12572"
+                               visibility="public"
+                               type="_17_0_ae502ce_1334022387800_439163_12154"/>
+                     <result xmi:type="uml:OutputPin" xmi:id="_17_0_ae502ce_1334024094958_262756_13178"
+                             visibility="public"
+                             type="_17_0_ae502ce_1333326553361_438267_12054"/>
+                  </node>
+                  <node xmi:type="uml:InitialNode" xmi:id="_17_0_ae502ce_1334024147296_534449_13256"
+                        visibility="public">
+                     <inPartition xmi:idref="_17_0_ae502ce_1334022243042_315838_11940"/>
+                  </node>
+                  <node xmi:type="uml:ActivityFinalNode"
+                        xmi:id="_17_0_ae502ce_1334024158185_444933_13279"
+                        visibility="public">
+                     <inPartition xmi:idref="_17_0_ae502ce_1334022243058_430684_11944"/>
+                  </node>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Abstraction" xmi:id="_17_0_ae502ce_1335959833361_243391_13938">
+                  <client xmi:idref="_17_0_ae502ce_1333329181864_706283_11084"/>
+                  <supplier xmi:idref="_17_0_ae502ce_1333758740467_56510_12945"/>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Abstraction" xmi:id="_17_0_ae502ce_1335959868760_765617_14017">
+                  <client xmi:idref="_17_0_ae502ce_1333329194750_426508_11091"/>
+                  <supplier xmi:idref="_17_0_ae502ce_1333758852499_677411_13076"/>
+               </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_17_0_ae502ce_1333321765926_326892_11523"
+                             name="1-Requirements">
+               <packagedElement xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1333758338392_898185_12439"
+                                name="System Specification">
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1333758432195_398161_12648"
+                                    name="Physical Requirements">
+                     <nestedClassifier xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1333759041395_727583_13321"
+                                       name="Weight"/>
+                  </nestedClassifier>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1333758378203_602568_12570"
+                                    name="Functional &amp; Performance Requirements">
+                     <nestedClassifier xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1333758740467_56510_12945"
+                                       name="System Function1"/>
+                     <nestedClassifier xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1333758852499_677411_13076"
+                                       name="System Function2"/>
+                  </nestedClassifier>
+                  <nestedClassifier xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1333758354507_807652_12504"
+                                    name="Interface Requirements">
+                     <nestedClassifier xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1333758503721_778875_12793"
+                                       name="Power IF"/>
+                  </nestedClassifier>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Dependency" xmi:id="_17_0_ae502ce_1334085902297_119521_14036">
+                  <client xmi:idref="_17_0_ae502ce_1333758307668_894451_12403"/>
+                  <supplier xmi:idref="_17_0_ae502ce_1333759206207_614302_13768"/>
+               </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_17_0_ae502ce_1333321850814_169817_11524"
+                             name="4-Subsystem1">
+               <packagedElement xmi:type="uml:Package" xmi:id="_17_0_ae502ce_1333321883511_327417_11525"
+                                name="1-Requirements">
+                  <packagedElement xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1334029619306_320416_18598"
+                                   name="Subsystem1 Specification">
+                     <nestedClassifier xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1334029707322_412546_18796"
+                                       name="Physical Requirements"/>
+                     <nestedClassifier xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1334029650233_172027_18713"
+                                       name="Functional &amp; Performance Requirements"/>
+                     <nestedClassifier xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1334029642831_790492_18662"
+                                       name="Interface Requirements"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Dependency" xmi:id="_17_0_ae502ce_1334114433686_44499_14545">
+                     <client xmi:idref="_17_0_ae502ce_1334029597950_984753_18522"/>
+                     <supplier xmi:idref="_17_0_ae502ce_1334025328959_443222_14215"/>
+                  </packagedElement>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Package" xmi:id="_17_0_ae502ce_1333321897411_34599_11526"
+                                name="2-Structure">
+                  <packagedElement xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1333759228390_307923_13840"
+                                   name="Subsystem1">
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_17_0_ae502ce_1333759543276_731361_14467" name="p1"
+                                     visibility="public"
+                                     aggregation="composite"/>
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_17_0_ae502ce_1333759555507_142053_14469" name="p3"
+                                     visibility="public"
+                                     aggregation="composite"/>
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_17_0_ae502ce_1333759748760_294298_14568" name="p5"
+                                     visibility="public"
+                                     aggregation="composite"/>
+                     <ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1334025393349_977533_14395"
+                                     visibility="private"
+                                     aggregation="composite"
+                                     type="_17_0_ae502ce_1334025373864_828552_14293"
+                                     association="_17_0_ae502ce_1334025393349_660765_14394"/>
+                     <ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1334025398949_733257_14423"
+                                     visibility="private"
+                                     aggregation="composite"
+                                     type="_17_0_ae502ce_1334025382538_617452_14336"
+                                     association="_17_0_ae502ce_1334025398949_410810_14422"/>
+                     <ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1334088082754_862896_15434"
+                                     name="m"
+                                     visibility="public"
+                                     aggregation="composite"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Association" xmi:id="_17_0_ae502ce_1334025393349_660765_14394">
+                     <memberEnd xmi:idref="_17_0_ae502ce_1334025393349_977533_14395"/>
+                     <memberEnd xmi:idref="_17_0_ae502ce_1334025393349_445920_14396"/>
+                     <ownedEnd xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1334025393349_445920_14396"
+                               visibility="private"
+                               type="_17_0_ae502ce_1333759228390_307923_13840"
+                               association="_17_0_ae502ce_1334025393349_660765_14394"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Association" xmi:id="_17_0_ae502ce_1334025398949_410810_14422">
+                     <memberEnd xmi:idref="_17_0_ae502ce_1334025398949_733257_14423"/>
+                     <memberEnd xmi:idref="_17_0_ae502ce_1334025398949_394507_14424"/>
+                     <ownedEnd xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1334025398949_394507_14424"
+                               visibility="private"
+                               type="_17_0_ae502ce_1333759228390_307923_13840"
+                               association="_17_0_ae502ce_1334025398949_410810_14422"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Dependency" xmi:id="_17_0_ae502ce_1334114442656_315645_14557">
+                     <client xmi:idref="_17_0_ae502ce_1334025328959_443222_14215"/>
+                     <supplier xmi:idref="_17_0_ae502ce_1334024320191_411244_13393"/>
+                  </packagedElement>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Package" xmi:id="_17_0_ae502ce_1333321921061_49649_11527"
+                                name="3-Behavior">
+                  <packagedElement xmi:type="uml:StateMachine" xmi:id="_17_0_ae502ce_1334024320191_440826_13395"
+                                   name="Subsystem1 States">
+                     <region xmi:type="uml:Region" xmi:id="_17_0_ae502ce_1334024320191_564087_13396"
+                             visibility="public">
+                        <subvertex xmi:type="uml:Pseudostate" xmi:id="_17_0_ae502ce_1334024364230_480171_13423"
+                                   visibility="public"/>
+                        <subvertex xmi:type="uml:State" xmi:id="_17_0_ae502ce_1334024372842_968863_13433"
+                                   name="wait"
+                                   visibility="public"/>
+                        <subvertex xmi:type="uml:State" xmi:id="_17_0_ae502ce_1334024408363_396950_13508"
+                                   name="s1"
+                                   visibility="public">
+                           <region xmi:type="uml:Region" xmi:id="_17_0_ae502ce_1334024408363_809495_13509"
+                                   visibility="public"/>
+                        </subvertex>
+                        <subvertex xmi:type="uml:State" xmi:id="_17_0_ae502ce_1334024418752_813949_13542"
+                                   name="s2"
+                                   visibility="public">
+                           <region xmi:type="uml:Region" xmi:id="_17_0_ae502ce_1334024418752_153241_13543"
+                                   visibility="public"/>
+                        </subvertex>
+                        <subvertex xmi:type="uml:FinalState" xmi:id="_17_0_ae502ce_1334024435008_444627_13603"
+                                   visibility="public"/>
+                        <transition xmi:type="uml:Transition" xmi:id="_17_0_ae502ce_1334024431420_106395_13591"
+                                    visibility="public"
+                                    source="_17_0_ae502ce_1334024364230_480171_13423"
+                                    target="_17_0_ae502ce_1334024372842_968863_13433"/>
+                        <transition xmi:type="uml:Transition" xmi:id="_17_0_ae502ce_1334024437363_684822_13619"
+                                    visibility="public"
+                                    source="_17_0_ae502ce_1334024372842_968863_13433"
+                                    target="_17_0_ae502ce_1334024435008_444627_13603"/>
+                        <transition xmi:type="uml:Transition" xmi:id="_17_0_ae502ce_1334024453462_846040_13652"
+                                    visibility="public"
+                                    source="_17_0_ae502ce_1334024372842_968863_13433"
+                                    target="_17_0_ae502ce_1334024408363_396950_13508"/>
+                        <transition xmi:type="uml:Transition" xmi:id="_17_0_ae502ce_1334024457097_343064_13667"
+                                    visibility="public"
+                                    source="_17_0_ae502ce_1334024408363_396950_13508"
+                                    target="_17_0_ae502ce_1334024372842_968863_13433"/>
+                        <transition xmi:type="uml:Transition" xmi:id="_17_0_ae502ce_1334024462120_463086_13682"
+                                    visibility="public"
+                                    source="_17_0_ae502ce_1334024372842_968863_13433"
+                                    target="_17_0_ae502ce_1334024418752_813949_13542"/>
+                        <transition xmi:type="uml:Transition" xmi:id="_17_0_ae502ce_1334024469499_638034_13700"
+                                    visibility="public"
+                                    source="_17_0_ae502ce_1334024418752_813949_13542"
+                                    target="_17_0_ae502ce_1334024372842_968863_13433"/>
+                     </region>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Activity" xmi:id="_17_0_ae502ce_1333760488794_700584_15544"
+                                   name="Do X1-1">
+                     <partition xmi:idref="_17_0_ae502ce_1334025268572_957294_14168"/>
+                     <partition xmi:idref="_17_0_ae502ce_1334025268572_927687_14172"/>
+                     <ownedParameter xmi:type="uml:Parameter" xmi:id="_17_0_ae502ce_1334022496767_990869_12229"
+                                     visibility="public"
+                                     type="_17_0_ae502ce_1333326543767_272422_12021"/>
+                     <ownedParameter xmi:type="uml:Parameter" xmi:id="_17_0_ae502ce_1334022519543_409184_12236"
+                                     visibility="public"
+                                     direction="out"
+                                     type="_17_0_ae502ce_1334022374884_655292_12102"/>
+                     <edge xmi:type="uml:ObjectFlow" xmi:id="_17_0_ae502ce_1334026181660_290050_15417"
+                           visibility="public"
+                           source="_17_0_ae502ce_1334022496782_236018_12230"
+                           target="_17_0_ae502ce_1334026091273_139536_15362">
+                        <weight xmi:type="uml:LiteralUnlimitedNatural"
+                                xmi:id="_17_0_ae502ce_1334026181660_751280_15418"
+                                value="1"/>
+                     </edge>
+                     <edge xmi:type="uml:ControlFlow" xmi:id="_17_0_ae502ce_1334026186730_297750_15434"
+                           visibility="public"
+                           source="_17_0_ae502ce_1334026054488_153524_15319"
+                           target="_17_0_ae502ce_1334026050308_172751_15298">
+                        <inPartition xmi:idref="_17_0_ae502ce_1334025268572_957294_14168"/>
+                        <weight xmi:type="uml:LiteralUnlimitedNatural"
+                                xmi:id="_17_0_ae502ce_1334026186730_876449_15435"
+                                value="1"/>
+                     </edge>
+                     <edge xmi:type="uml:ObjectFlow" xmi:id="_17_0_ae502ce_1334026192330_487346_15448"
+                           visibility="public"
+                           source="_17_0_ae502ce_1334026126873_84709_15382"
+                           target="_17_0_ae502ce_1334022519558_964547_12237">
+                        <weight xmi:type="uml:LiteralUnlimitedNatural"
+                                xmi:id="_17_0_ae502ce_1334026192330_415686_15449"
+                                value="1"/>
+                     </edge>
+                     <edge xmi:type="uml:ControlFlow" xmi:id="_17_0_ae502ce_1334026200879_299958_15470"
+                           visibility="public"
+                           source="_17_0_ae502ce_1334026198087_317012_15458"
+                           target="_17_0_ae502ce_1334026054488_153524_15319">
+                        <inPartition xmi:idref="_17_0_ae502ce_1334025268572_957294_14168"/>
+                        <weight xmi:type="uml:LiteralUnlimitedNatural"
+                                xmi:id="_17_0_ae502ce_1334026200879_462264_15471"
+                                value="1"/>
+                     </edge>
+                     <edge xmi:type="uml:ControlFlow" xmi:id="_17_0_ae502ce_1334026217431_29532_15501"
+                           visibility="public"
+                           source="_17_0_ae502ce_1334026050308_172751_15298"
+                           target="_17_0_ae502ce_1334026209880_892608_15486">
+                        <inPartition xmi:idref="_17_0_ae502ce_1334025268572_927687_14172"/>
+                        <weight xmi:type="uml:LiteralUnlimitedNatural"
+                                xmi:id="_17_0_ae502ce_1334026217431_527498_15502"
+                                value="1"/>
+                     </edge>
+                     <group xmi:type="uml:ActivityPartition"
+                            xmi:id="_17_0_ae502ce_1334025268572_957294_14168"
+                            visibility="public"
+                            represents="_17_0_ae502ce_1334025373864_828552_14293">
+                        <edge xmi:idref="_17_0_ae502ce_1334026186730_297750_15434"/>
+                        <edge xmi:idref="_17_0_ae502ce_1334026200879_299958_15470"/>
+                        <node xmi:idref="_17_0_ae502ce_1334026054488_153524_15319"/>
+                        <node xmi:idref="_17_0_ae502ce_1334026198087_317012_15458"/>
+                     </group>
+                     <group xmi:type="uml:ActivityPartition"
+                            xmi:id="_17_0_ae502ce_1334025268572_927687_14172"
+                            visibility="public"
+                            represents="_17_0_ae502ce_1334025382538_617452_14336">
+                        <edge xmi:idref="_17_0_ae502ce_1334026217431_29532_15501"/>
+                        <node xmi:idref="_17_0_ae502ce_1334026050308_172751_15298"/>
+                        <node xmi:idref="_17_0_ae502ce_1334026209880_892608_15486"/>
+                     </group>
+                     <node xmi:type="uml:ActivityParameterNode"
+                           xmi:id="_17_0_ae502ce_1334022496782_236018_12230"
+                           visibility="public"
+                           type="_17_0_ae502ce_1333326543767_272422_12021"
+                           parameter="_17_0_ae502ce_1334022496767_990869_12229"/>
+                     <node xmi:type="uml:ActivityParameterNode"
+                           xmi:id="_17_0_ae502ce_1334022519558_964547_12237"
+                           visibility="public"
+                           type="_17_0_ae502ce_1334022374884_655292_12102"
+                           parameter="_17_0_ae502ce_1334022519543_409184_12236"/>
+                     <node xmi:type="uml:CallBehaviorAction"
+                           xmi:id="_17_0_ae502ce_1334026050308_172751_15298"
+                           visibility="public"
+                           behavior="_17_0_ae502ce_1334026039684_339168_15287">
+                        <inPartition xmi:idref="_17_0_ae502ce_1334025268572_927687_14172"/>
+                        <result xmi:type="uml:OutputPin" xmi:id="_17_0_ae502ce_1334026126873_84709_15382"
+                                visibility="public"
+                                type="_17_0_ae502ce_1334022374884_655292_12102"/>
+                     </node>
+                     <node xmi:type="uml:CallBehaviorAction"
+                           xmi:id="_17_0_ae502ce_1334026054488_153524_15319"
+                           visibility="public"
+                           behavior="_17_0_ae502ce_1334026010918_220588_15280">
+                        <inPartition xmi:idref="_17_0_ae502ce_1334025268572_957294_14168"/>
+                        <argument xmi:type="uml:InputPin" xmi:id="_17_0_ae502ce_1334026091273_139536_15362"
+                                  visibility="public"
+                                  type="_17_0_ae502ce_1333326543767_272422_12021"/>
+                     </node>
+                     <node xmi:type="uml:InitialNode" xmi:id="_17_0_ae502ce_1334026198087_317012_15458"
+                           visibility="public">
+                        <inPartition xmi:idref="_17_0_ae502ce_1334025268572_957294_14168"/>
+                     </node>
+                     <node xmi:type="uml:ActivityFinalNode"
+                           xmi:id="_17_0_ae502ce_1334026209880_892608_15486"
+                           visibility="public">
+                        <inPartition xmi:idref="_17_0_ae502ce_1334025268572_927687_14172"/>
+                     </node>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Activity" xmi:id="_17_0_ae502ce_1333760518840_32281_15555"
+                                   name="Do X2-1">
+                     <ownedParameter xmi:type="uml:Parameter" xmi:id="_17_0_ae502ce_1334023169377_201492_12543"
+                                     visibility="public"
+                                     type="_17_0_ae502ce_1333326570599_865838_12120"/>
+                     <ownedParameter xmi:type="uml:Parameter" xmi:id="_17_0_ae502ce_1334023181935_945337_12550"
+                                     visibility="public"
+                                     direction="out"
+                                     type="_17_0_ae502ce_1334022387800_439163_12154"/>
+                     <node xmi:type="uml:ActivityParameterNode"
+                           xmi:id="_17_0_ae502ce_1334023169393_28430_12544"
+                           visibility="public"
+                           type="_17_0_ae502ce_1333326570599_865838_12120"
+                           parameter="_17_0_ae502ce_1334023169377_201492_12543"/>
+                     <node xmi:type="uml:ActivityParameterNode"
+                           xmi:id="_17_0_ae502ce_1334023181951_502817_12551"
+                           visibility="public"
+                           type="_17_0_ae502ce_1334022387800_439163_12154"
+                           parameter="_17_0_ae502ce_1334023181935_945337_12550"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Abstraction" xmi:id="_17_0_ae502ce_1334026578603_429921_15791">
+                     <client xmi:idref="_17_0_ae502ce_1333760488794_700584_15544"/>
+                     <supplier xmi:idref="_17_0_ae502ce_1333759228390_307923_13840"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Abstraction" xmi:id="_17_0_ae502ce_1334026587136_926166_15832">
+                     <client xmi:idref="_17_0_ae502ce_1333760518840_32281_15555"/>
+                     <supplier xmi:idref="_17_0_ae502ce_1333759228390_307923_13840"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Dependency" xmi:id="_17_0_ae502ce_1334114454341_592117_14578">
+                     <client xmi:idref="_17_0_ae502ce_1334024320191_411244_13393"/>
+                     <supplier xmi:idref="_17_0_ae502ce_1334025213075_870847_14087"/>
+                  </packagedElement>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Package" xmi:id="_17_0_ae502ce_1333322022586_582573_11532"
+                                name="4-Component1">
+                  <packagedElement xmi:type="uml:Package" xmi:id="_17_0_ae502ce_1333322045627_156291_11533"
+                                   name="1-Requirements">
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1334030439690_264880_20358"
+                                      name="Component1 Specification">
+                        <nestedClassifier xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1334030475586_937571_20525"
+                                          name="Physical Requirements">
+                           <nestedClassifier xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1335960626181_791180_14729"
+                                             name="Weight"/>
+                        </nestedClassifier>
+                        <nestedClassifier xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1334030462497_831299_20467"
+                                          name="Functional &amp; Performance Requirements"/>
+                        <nestedClassifier xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1334030451999_243086_20416"
+                                          name="Interface Requirements"/>
+                     </packagedElement>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Package" xmi:id="_17_0_ae502ce_1333322059152_206093_11534"
+                                   name="2-Structure">
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1334025373864_828552_14293"
+                                      name="Component1"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Package" xmi:id="_17_0_ae502ce_1333322071632_385042_11535"
+                                   name="3-Behavior">
+                     <packagedElement xmi:type="uml:Abstraction" xmi:id="_17_0_ae502ce_1334026884940_896428_16084">
+                        <client xmi:idref="_17_0_ae502ce_1334026010918_220588_15280"/>
+                        <supplier xmi:idref="_17_0_ae502ce_1334025373864_828552_14293"/>
+                     </packagedElement>
+                     <packagedElement xmi:type="uml:StateMachine" xmi:id="_17_0_ae502ce_1334026997339_509752_16181"
+                                      name="Component1 States">
+                        <region xmi:type="uml:Region" xmi:id="_17_0_ae502ce_1334026997339_911069_16182"
+                                visibility="public">
+                           <subvertex xmi:type="uml:Pseudostate" xmi:id="_17_0_ae502ce_1334027007073_165292_16209"
+                                      visibility="public"/>
+                           <subvertex xmi:type="uml:State" xmi:id="_17_0_ae502ce_1334027012205_477053_16219"
+                                      name="off"
+                                      visibility="public"/>
+                           <subvertex xmi:type="uml:State" xmi:id="_17_0_ae502ce_1334027019335_990377_16252"
+                                      name="on"
+                                      visibility="public">
+                              <doActivity xmi:type="uml:Activity" xmi:id="_17_0_ae502ce_1334026010918_220588_15280"
+                                          name="Do X1-1-1">
+                                 <ownedParameter xmi:type="uml:Parameter" xmi:id="_17_0_ae502ce_1334026091258_167307_15360"
+                                                 visibility="public"
+                                                 type="_17_0_ae502ce_1333326543767_272422_12021"/>
+                                 <node xmi:type="uml:ActivityParameterNode"
+                                       xmi:id="_17_0_ae502ce_1334026091273_883856_15361"
+                                       visibility="public"
+                                       type="_17_0_ae502ce_1333326543767_272422_12021"
+                                       parameter="_17_0_ae502ce_1334026091258_167307_15360"/>
+                              </doActivity>
+                              <region xmi:type="uml:Region" xmi:id="_17_0_ae502ce_1334027019335_646615_16253"
+                                      visibility="public"/>
+                           </subvertex>
+                           <subvertex xmi:type="uml:FinalState" xmi:id="_17_0_ae502ce_1334027118535_236650_16362"
+                                      visibility="public"/>
+                           <transition xmi:type="uml:Transition" xmi:id="_17_0_ae502ce_1334027110298_734033_16338"
+                                       visibility="public"
+                                       source="_17_0_ae502ce_1334027007073_165292_16209"
+                                       target="_17_0_ae502ce_1334027012205_477053_16219"/>
+                           <transition xmi:type="uml:Transition" xmi:id="_17_0_ae502ce_1334027121421_980954_16378"
+                                       visibility="public"
+                                       source="_17_0_ae502ce_1334027012205_477053_16219"
+                                       target="_17_0_ae502ce_1334027118535_236650_16362"/>
+                           <transition xmi:type="uml:Transition" xmi:id="_17_0_ae502ce_1334027124088_417104_16393"
+                                       visibility="public"
+                                       source="_17_0_ae502ce_1334027012205_477053_16219"
+                                       target="_17_0_ae502ce_1334027019335_990377_16252"/>
+                           <transition xmi:type="uml:Transition" xmi:id="_17_0_ae502ce_1334027128160_473757_16414"
+                                       visibility="public"
+                                       source="_17_0_ae502ce_1334027019335_990377_16252"
+                                       target="_17_0_ae502ce_1334027012205_477053_16219"/>
+                        </region>
+                     </packagedElement>
+                  </packagedElement>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Package" xmi:id="_17_0_ae502ce_1333322087903_614804_11536"
+                                name="5-Component2">
+                  <packagedElement xmi:type="uml:Package" xmi:id="_17_0_ae502ce_1333322192251_611709_11537"
+                                   name="1-Requirements">
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1334033237673_689461_21385"
+                                      name="Component2 Specification">
+                        <nestedClassifier xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1334033249233_159272_21443"
+                                          name="Interface Requirements"/>
+                        <nestedClassifier xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1334033258882_705302_21494"
+                                          name="Functional &amp; Performance Requirements"/>
+                        <nestedClassifier xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1334033276244_32225_21552"
+                                          name="Physical Requirements"/>
+                     </packagedElement>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Package" xmi:id="_17_0_ae502ce_1333322205543_134137_11538"
+                                   name="2-Structure">
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1334025382538_617452_14336"
+                                      name="Component2"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Package" xmi:id="_17_0_ae502ce_1333322216962_863278_11539"
+                                   name="3-Behavior">
+                     <packagedElement xmi:type="uml:StateMachine" xmi:id="_17_0_ae502ce_1334027224771_904690_16587"
+                                      name="Component2 States">
+                        <region xmi:type="uml:Region" xmi:id="_17_0_ae502ce_1334027224771_687945_16588"
+                                visibility="public">
+                           <subvertex xmi:type="uml:Pseudostate" xmi:id="_17_0_ae502ce_1334027241447_729036_16615"
+                                      visibility="public"/>
+                           <subvertex xmi:type="uml:State" xmi:id="_17_0_ae502ce_1334027250355_608847_16625"
+                                      name="off"
+                                      visibility="public"/>
+                           <subvertex xmi:type="uml:FinalState" xmi:id="_17_0_ae502ce_1334027260854_554179_16675"
+                                      visibility="public"/>
+                           <subvertex xmi:type="uml:State" xmi:id="_17_0_ae502ce_1334027266688_976918_16707"
+                                      name="on"
+                                      visibility="public">
+                              <doActivity xmi:type="uml:Activity" xmi:id="_17_0_ae502ce_1334026039684_339168_15287"
+                                          name="Do X1-1-2">
+                                 <ownedParameter xmi:type="uml:Parameter" xmi:id="_17_0_ae502ce_1334026124205_659737_15377"
+                                                 name="unnamed1"
+                                                 visibility="public"
+                                                 direction="out"
+                                                 type="_17_0_ae502ce_1334022374884_655292_12102"/>
+                                 <node xmi:type="uml:ActivityParameterNode"
+                                       xmi:id="_17_0_ae502ce_1334026124221_460208_15378"
+                                       name="unnamed1"
+                                       visibility="public"
+                                       type="_17_0_ae502ce_1334022374884_655292_12102"
+                                       parameter="_17_0_ae502ce_1334026124205_659737_15377"/>
+                              </doActivity>
+                              <region xmi:type="uml:Region" xmi:id="_17_0_ae502ce_1334027266688_313575_16708"
+                                      visibility="public"/>
+                           </subvertex>
+                           <transition xmi:type="uml:Transition" xmi:id="_17_0_ae502ce_1334027257609_31307_16663"
+                                       visibility="public"
+                                       source="_17_0_ae502ce_1334027241447_729036_16615"
+                                       target="_17_0_ae502ce_1334027250355_608847_16625"/>
+                           <transition xmi:type="uml:Transition" xmi:id="_17_0_ae502ce_1334027263459_899220_16691"
+                                       visibility="public"
+                                       source="_17_0_ae502ce_1334027250355_608847_16625"
+                                       target="_17_0_ae502ce_1334027260854_554179_16675"/>
+                           <transition xmi:type="uml:Transition" xmi:id="_17_0_ae502ce_1334027275081_503872_16746"
+                                       visibility="public"
+                                       source="_17_0_ae502ce_1334027250355_608847_16625"
+                                       target="_17_0_ae502ce_1334027266688_976918_16707"/>
+                           <transition xmi:type="uml:Transition" xmi:id="_17_0_ae502ce_1334027277249_765073_16761"
+                                       visibility="public"
+                                       source="_17_0_ae502ce_1334027266688_976918_16707"
+                                       target="_17_0_ae502ce_1334027250355_608847_16625"/>
+                        </region>
+                     </packagedElement>
+                     <packagedElement xmi:type="uml:Abstraction" xmi:id="_17_0_ae502ce_1334027409272_740747_17112">
+                        <client xmi:idref="_17_0_ae502ce_1334027224771_904690_16587"/>
+                        <supplier xmi:idref="_17_0_ae502ce_1334025382538_617452_14336"/>
+                     </packagedElement>
+                  </packagedElement>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Dependency" xmi:id="_17_0_ae502ce_1333323001292_421434_12241">
+                  <client xmi:idref="_17_0_ae502ce_1333322573344_301197_11608"/>
+                  <supplier xmi:idref="_17_0_ae502ce_1333322642687_291585_11674"/>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Dependency" xmi:id="_17_0_ae502ce_1334033996435_754624_22983">
+                  <client xmi:idref="_17_0_ae502ce_1333322573344_301197_11608"/>
+                  <supplier xmi:idref="_17_0_ae502ce_1334033853165_60619_22345"/>
+               </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_17_0_ae502ce_1333321938767_324402_11528"
+                             name="5-Subsystem2">
+               <packagedElement xmi:type="uml:Package" xmi:id="_17_0_ae502ce_1333321979093_76203_11529"
+                                name="1-Requirements">
+                  <packagedElement xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1334029989729_111879_19314"
+                                   name="Subsystem2 Specification">
+                     <nestedClassifier xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1334030022458_682078_19434"
+                                       name="Functional &amp; Performance Requirements"/>
+                     <nestedClassifier xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1334030045717_278226_19507"
+                                       name="Physical Requirements"/>
+                     <nestedClassifier xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1334030006483_515806_19372"
+                                       name="Interface Requirements"/>
+                  </packagedElement>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Package" xmi:id="_17_0_ae502ce_1333321990621_927626_11530"
+                                name="2-Structure">
+                  <packagedElement xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1333759239544_836462_13886"
+                                   name="Subsystem2">
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_17_0_ae502ce_1333759575537_266391_14473" name="p2"
+                                     visibility="public"
+                                     aggregation="composite"/>
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_17_0_ae502ce_1333759581185_594103_14475" name="p4"
+                                     visibility="public"
+                                     aggregation="composite"/>
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_17_0_ae502ce_1333759807479_204020_14602" name="p6"
+                                     visibility="public"
+                                     aggregation="composite"/>
+                     <ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1334025506964_522414_14727"
+                                     visibility="private"
+                                     aggregation="composite"
+                                     type="_17_0_ae502ce_1334025490474_483801_14628"
+                                     association="_17_0_ae502ce_1334025506964_391642_14726"/>
+                     <ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1334025509834_680819_14755"
+                                     visibility="private"
+                                     aggregation="composite"
+                                     type="_17_0_ae502ce_1334025497993_440492_14671"
+                                     association="_17_0_ae502ce_1334025509834_91668_14754"/>
+                     <ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1334088116512_710093_15467"
+                                     name="m"
+                                     visibility="public"
+                                     aggregation="composite"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Association" xmi:id="_17_0_ae502ce_1334025506964_391642_14726">
+                     <memberEnd xmi:idref="_17_0_ae502ce_1334025506964_522414_14727"/>
+                     <memberEnd xmi:idref="_17_0_ae502ce_1334025506964_299535_14728"/>
+                     <ownedEnd xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1334025506964_299535_14728"
+                               visibility="private"
+                               type="_17_0_ae502ce_1333759239544_836462_13886"
+                               association="_17_0_ae502ce_1334025506964_391642_14726"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Association" xmi:id="_17_0_ae502ce_1334025509834_91668_14754">
+                     <memberEnd xmi:idref="_17_0_ae502ce_1334025509834_680819_14755"/>
+                     <memberEnd xmi:idref="_17_0_ae502ce_1334025509834_645455_14756"/>
+                     <ownedEnd xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1334025509834_645455_14756"
+                               visibility="private"
+                               type="_17_0_ae502ce_1333759239544_836462_13886"
+                               association="_17_0_ae502ce_1334025509834_91668_14754"/>
+                  </packagedElement>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Package" xmi:id="_17_0_ae502ce_1333322000636_507135_11531"
+                                name="3-Behavior">
+                  <packagedElement xmi:type="uml:Activity" xmi:id="_17_0_ae502ce_1333760542053_930875_15566"
+                                   name="Do X1-2">
+                     <partition xmi:idref="_17_0_ae502ce_1334035307812_902274_23252"/>
+                     <partition xmi:idref="_17_0_ae502ce_1334035307812_207949_23256"/>
+                     <ownedParameter xmi:type="uml:Parameter" xmi:id="_17_0_ae502ce_1334022634858_1542_12295"
+                                     visibility="public"
+                                     type="_17_0_ae502ce_1334022374884_655292_12102"/>
+                     <ownedParameter xmi:type="uml:Parameter" xmi:id="_17_0_ae502ce_1334022647806_724514_12302"
+                                     visibility="public"
+                                     direction="out"
+                                     type="_17_0_ae502ce_1333326560662_73409_12087"/>
+                     <group xmi:type="uml:ActivityPartition"
+                            xmi:id="_17_0_ae502ce_1334035307812_902274_23252"
+                            visibility="public"
+                            represents="_17_0_ae502ce_1334025490474_483801_14628"/>
+                     <group xmi:type="uml:ActivityPartition"
+                            xmi:id="_17_0_ae502ce_1334035307812_207949_23256"
+                            visibility="public"
+                            represents="_17_0_ae502ce_1334025497993_440492_14671"/>
+                     <node xmi:type="uml:ActivityParameterNode"
+                           xmi:id="_17_0_ae502ce_1334022634874_702806_12296"
+                           visibility="public"
+                           type="_17_0_ae502ce_1334022374884_655292_12102"
+                           parameter="_17_0_ae502ce_1334022634858_1542_12295"/>
+                     <node xmi:type="uml:ActivityParameterNode"
+                           xmi:id="_17_0_ae502ce_1334022647822_855708_12303"
+                           visibility="public"
+                           type="_17_0_ae502ce_1333326560662_73409_12087"
+                           parameter="_17_0_ae502ce_1334022647806_724514_12302"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Activity" xmi:id="_17_0_ae502ce_1333760572613_552537_15573"
+                                   name="Do X2-2">
+                     <ownedParameter xmi:type="uml:Parameter" xmi:id="_17_0_ae502ce_1334023228439_479536_12570"
+                                     visibility="public"
+                                     type="_17_0_ae502ce_1334022387800_439163_12154"/>
+                     <ownedParameter xmi:type="uml:Parameter" xmi:id="_17_0_ae502ce_1334023246941_673541_12577"
+                                     visibility="public"
+                                     direction="out"
+                                     type="_17_0_ae502ce_1333326553361_438267_12054"/>
+                     <node xmi:type="uml:ActivityParameterNode"
+                           xmi:id="_17_0_ae502ce_1334023228470_832871_12571"
+                           visibility="public"
+                           type="_17_0_ae502ce_1334022387800_439163_12154"
+                           parameter="_17_0_ae502ce_1334023228439_479536_12570"/>
+                     <node xmi:type="uml:ActivityParameterNode"
+                           xmi:id="_17_0_ae502ce_1334023246956_452631_12578"
+                           visibility="public"
+                           type="_17_0_ae502ce_1333326553361_438267_12054"
+                           parameter="_17_0_ae502ce_1334023246941_673541_12577"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Abstraction" xmi:id="_17_0_ae502ce_1334026686492_560663_15923">
+                     <client xmi:idref="_17_0_ae502ce_1333760542053_930875_15566"/>
+                     <supplier xmi:idref="_17_0_ae502ce_1333759239544_836462_13886"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Abstraction" xmi:id="_17_0_ae502ce_1334026689862_855211_15937">
+                     <client xmi:idref="_17_0_ae502ce_1333760572613_552537_15573"/>
+                     <supplier xmi:idref="_17_0_ae502ce_1333759239544_836462_13886"/>
+                  </packagedElement>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Package" xmi:id="_17_0_ae502ce_1333322235385_663742_11540"
+                                name="4-Component3">
+                  <packagedElement xmi:type="uml:Package" xmi:id="_17_0_ae502ce_1334025596113_81271_14990"
+                                   name="2-Structure">
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1334025490474_483801_14628"
+                                      name="Component3"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Package" xmi:id="_17_0_ae502ce_1334025608203_723066_14997"
+                                   name="3-Behavior"/>
+                  <packagedElement xmi:type="uml:Package" xmi:id="_17_0_ae502ce_1334025714049_242384_15047"
+                                   name="1-Requirements">
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1334030542526_523211_20701"
+                                      name="Component3 Specification">
+                        <nestedClassifier xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1334030556971_947035_20763"
+                                          name="Interface Requirements"/>
+                        <nestedClassifier xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1334030570918_362990_20825"
+                                          name="Functional &amp; Performance Requirements"/>
+                        <nestedClassifier xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1334030586861_922760_20887"
+                                          name="Physical Requirements"/>
+                     </packagedElement>
+                  </packagedElement>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Package" xmi:id="_17_0_ae502ce_1333322256804_977313_11541"
+                                name="5-Component4">
+                  <packagedElement xmi:type="uml:Package" xmi:id="_17_0_ae502ce_1334025624177_44258_15004"
+                                   name="3-Behavior"/>
+                  <packagedElement xmi:type="uml:Package" xmi:id="_17_0_ae502ce_1334025632898_699638_15011"
+                                   name="2-Structure">
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1334025497993_440492_14671"
+                                      name="Component4"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Package" xmi:id="_17_0_ae502ce_1334025676016_240112_15030"
+                                   name="1-Requirements">
+                     <packagedElement xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1334030250140_77626_19900"
+                                      name="Component3 Specification">
+                        <nestedClassifier xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1334030273041_181767_20013"
+                                          name="Functional &amp; Performance Requirements"/>
+                        <nestedClassifier xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1334030264383_276895_19962"
+                                          name="Interface Requirements"/>
+                        <nestedClassifier xmi:type="uml:Class" xmi:id="_17_0_ae502ce_1334030284632_454546_20071"
+                                          name="Physical Requirements"/>
+                     </packagedElement>
+                  </packagedElement>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Dependency" xmi:id="_17_0_ae502ce_1333323056095_683532_12244">
+                  <client xmi:idref="_17_0_ae502ce_1333322596292_460252_11630"/>
+                  <supplier xmi:idref="_17_0_ae502ce_1333322663622_15938_11696"/>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Dependency" xmi:id="_17_0_ae502ce_1333323423725_929867_12960">
+                  <client xmi:idref="_17_0_ae502ce_1333322596292_460252_11630"/>
+                  <supplier xmi:idref="_17_0_ae502ce_1333322384069_727070_11542"/>
+               </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Dependency" xmi:id="_17_0_ae502ce_1333322982323_969810_12228">
+               <client xmi:idref="_17_0_ae502ce_1333322553564_859201_11586"/>
+               <supplier xmi:idref="_17_0_ae502ce_1333322573344_301197_11608"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Dependency" xmi:id="_17_0_ae502ce_1333322987361_625365_12235">
+               <client xmi:idref="_17_0_ae502ce_1333322553564_859201_11586"/>
+               <supplier xmi:idref="_17_0_ae502ce_1333322596292_460252_11630"/>
+            </packagedElement>
+         </packagedElement>
+         <packagedElement xmi:type="uml:Dependency" xmi:id="_17_0_ae502ce_1333322977175_840573_12225">
+            <client xmi:idref="_17_0_ae502ce_1333322526654_337278_11564"/>
+            <supplier xmi:idref="_17_0_ae502ce_1333322553564_859201_11586"/>
+         </packagedElement>
+         <packagedElement xmi:type="uml:Package" xmi:id="_17_0_ae502ce_1336013184637_577825_11624"
+                          name="2-Use Cases">
+            <packagedElement xmi:type="uml:Actor" xmi:id="_17_0_ae502ce_1334112016180_604615_12426"
+                             name="External System1"/>
+            <packagedElement xmi:type="uml:Association" xmi:id="_17_0_ae502ce_1334112325878_118228_12702">
+               <memberEnd xmi:idref="_17_0_ae502ce_1334112325878_545021_12703"/>
+               <memberEnd xmi:idref="_17_0_ae502ce_1334112325878_796095_12704"/>
+               <navigableOwnedEnd xmi:idref="_17_0_ae502ce_1334112325878_545021_12703"/>
+               <navigableOwnedEnd xmi:idref="_17_0_ae502ce_1334112325878_796095_12704"/>
+               <ownedEnd xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1334112325878_545021_12703"
+                         visibility="private"
+                         type="_17_0_ae502ce_1334111954916_436020_12339"
+                         association="_17_0_ae502ce_1334112325878_118228_12702"/>
+               <ownedEnd xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1334112325878_796095_12704"
+                         visibility="private"
+                         type="_17_0_ae502ce_1334112016180_604615_12426"
+                         association="_17_0_ae502ce_1334112325878_118228_12702"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_17_0_ae502ce_1334112334174_15820_12725">
+               <memberEnd xmi:idref="_17_0_ae502ce_1334112334174_165159_12726"/>
+               <memberEnd xmi:idref="_17_0_ae502ce_1334112334174_403676_12727"/>
+               <navigableOwnedEnd xmi:idref="_17_0_ae502ce_1334112334174_165159_12726"/>
+               <navigableOwnedEnd xmi:idref="_17_0_ae502ce_1334112334174_403676_12727"/>
+               <ownedEnd xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1334112334174_165159_12726"
+                         visibility="private"
+                         type="_17_0_ae502ce_1334111976837_585104_12358"
+                         association="_17_0_ae502ce_1334112334174_15820_12725"/>
+               <ownedEnd xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1334112334174_403676_12727"
+                         visibility="private"
+                         type="_17_0_ae502ce_1334112016180_604615_12426"
+                         association="_17_0_ae502ce_1334112334174_15820_12725"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Abstraction" xmi:id="_17_0_ae502ce_1334112281556_770708_12589">
+               <client xmi:idref="_17_0_ae502ce_1334112016180_604615_12426"/>
+               <supplier xmi:idref="_17_0_ae502ce_1333323640574_132474_13123"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Actor" xmi:id="_17_0_ae502ce_1334112004303_6352_12393"
+                             name="User1"/>
+            <packagedElement xmi:type="uml:Association" xmi:id="_17_0_ae502ce_1334112313725_740260_12652">
+               <memberEnd xmi:idref="_17_0_ae502ce_1334112313725_281687_12653"/>
+               <memberEnd xmi:idref="_17_0_ae502ce_1334112313725_289609_12654"/>
+               <navigableOwnedEnd xmi:idref="_17_0_ae502ce_1334112313725_281687_12653"/>
+               <navigableOwnedEnd xmi:idref="_17_0_ae502ce_1334112313725_289609_12654"/>
+               <ownedEnd xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1334112313725_281687_12653"
+                         visibility="private"
+                         type="_17_0_ae502ce_1334111954916_436020_12339"
+                         association="_17_0_ae502ce_1334112313725_740260_12652"/>
+               <ownedEnd xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1334112313725_289609_12654"
+                         visibility="private"
+                         type="_17_0_ae502ce_1334112004303_6352_12393"
+                         association="_17_0_ae502ce_1334112313725_740260_12652"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Abstraction" xmi:id="_17_0_ae502ce_1334112242319_520036_12519">
+               <client xmi:idref="_17_0_ae502ce_1334112004303_6352_12393"/>
+               <supplier xmi:idref="_17_0_ae502ce_1333323628140_85184_13090"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_17_0_ae502ce_1334112320776_8669_12677">
+               <memberEnd xmi:idref="_17_0_ae502ce_1334112320776_236010_12678"/>
+               <memberEnd xmi:idref="_17_0_ae502ce_1334112320776_200777_12679"/>
+               <navigableOwnedEnd xmi:idref="_17_0_ae502ce_1334112320776_236010_12678"/>
+               <navigableOwnedEnd xmi:idref="_17_0_ae502ce_1334112320776_200777_12679"/>
+               <ownedEnd xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1334112320776_236010_12678"
+                         visibility="private"
+                         type="_17_0_ae502ce_1334111976837_585104_12358"
+                         association="_17_0_ae502ce_1334112320776_8669_12677"/>
+               <ownedEnd xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1334112320776_200777_12679"
+                         visibility="private"
+                         type="_17_0_ae502ce_1334112004303_6352_12393"
+                         association="_17_0_ae502ce_1334112320776_8669_12677"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:UseCase" xmi:id="_17_0_ae502ce_1334111954916_436020_12339"
+                             name="Perform Mission1"/>
+            <packagedElement xmi:type="uml:UseCase" xmi:id="_17_0_ae502ce_1334111976837_585104_12358"
+                             name="Perform Mission2"/>
+            <packagedElement xmi:type="uml:Dependency" xmi:id="_17_0_ae502ce_1334113074731_702405_13481">
+               <client xmi:idref="_17_0_ae502ce_1334111902629_85076_12309"/>
+               <supplier xmi:idref="_17_0_ae502ce_1333327438818_984619_12242"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Dependency" xmi:id="_17_0_ae502ce_1334113065886_522192_13469">
+               <client xmi:idref="_17_0_ae502ce_1334111902629_85076_12309"/>
+               <supplier xmi:idref="_17_0_ae502ce_1333327475712_683086_12264"/>
+            </packagedElement>
+         </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_17_0_ae502ce_1333323662788_205638_13152"
+                       name="User Defined Stereotypes">
+         <packagedElement xmi:type="uml:Stereotype" xmi:id="_17_0_ae502ce_1333323768853_133912_13177"
+                          name="system of interest">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_17_0_ae502ce_1333323768853_203816_13179"
+                            name="base_Element"
+                            visibility="private"
+                            association="_17_0_ae502ce_1333323768853_641553_13178">
+               <type href="http://www.omg.org/spec/UML/20131001/UML.xmi#Element"/>
+            </ownedAttribute>
+         </packagedElement>
+         <packagedElement xmi:type="uml:Extension" xmi:id="_17_0_ae502ce_1333323768853_641553_13178">
+            <memberEnd xmi:idref="_17_0_ae502ce_1333323768853_203816_13179"/>
+            <memberEnd xmi:idref="_17_0_ae502ce_1333323768853_942747_13180"/>
+            <navigableOwnedEnd xmi:idref="_17_0_ae502ce_1333323768853_942747_13180"/>
+            <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_17_0_ae502ce_1333323768853_942747_13180"
+                      name="extension_unnamed1"
+                      visibility="private"
+                      aggregation="composite"
+                      type="_17_0_ae502ce_1333323768853_133912_13177"
+                      association="_17_0_ae502ce_1333323768853_641553_13178">
+               <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_17_0_ae502ce_1333323768853_393672_13181"/>
+            </ownedEnd>
+         </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_17_0_ae502ce_1333327545616_863968_12398"
+                       name="Guidelines"/>
+   </uml:Model>
+   <sysml:Block xmi:id="_17_0_ae502ce_1333323590279_101842_13025"
+                base_Class="_17_0_ae502ce_1333323590279_686880_13024"/>
+   <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_17_0_ae502ce_1333323878365_382273_13196"
+                                                                    base_Property="_17_0_ae502ce_1333323878318_924240_13188"/>
+   <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_17_0_ae502ce_1333323882670_831033_13210"
+                                                                    base_Property="_17_0_ae502ce_1333323882624_55451_13202"/>
+   <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_17_0_ae502ce_1333323886758_939662_13224"
+                                                                    base_Property="_17_0_ae502ce_1333323886711_929067_13216"/>
+   <sysml:NestedConnectorEnd xmi:id="_17_0_ae502ce_1333326032710_808859_11707"
+                             base_ConnectorEnd="_17_0_ae502ce_1333326032663_176596_11703"
+                             propertyPath="_17_0_ae502ce_1333323878318_924240_13188"/>
+   <sysml:NestedConnectorEnd xmi:id="_17_0_ae502ce_1333326074299_516825_11740"
+                             base_ConnectorEnd="_17_0_ae502ce_1333326074299_957720_11737"
+                             propertyPath="_17_0_ae502ce_1333323878318_924240_13188"/>
+   <sysml:NestedConnectorEnd xmi:id="_17_0_ae502ce_1333326078714_257531_11752"
+                             base_ConnectorEnd="_17_0_ae502ce_1333326078699_238577_11749"
+                             propertyPath="_17_0_ae502ce_1333323878318_924240_13188"/>
+   <sysml:NestedConnectorEnd xmi:id="_17_0_ae502ce_1333327276672_432443_12201"
+                             base_ConnectorEnd="_17_0_ae502ce_1333327276656_767347_12197"
+                             propertyPath="_17_0_ae502ce_1333323878318_924240_13188"/>
+   <sysml:NestedConnectorEnd xmi:id="_17_0_ae502ce_1333327296655_237828_12213"
+                             base_ConnectorEnd="_17_0_ae502ce_1333327296655_371183_12209"
+                             propertyPath="_17_0_ae502ce_1333323878318_924240_13188"/>
+   <sysml:NestedConnectorEnd xmi:id="_17_0_ae502ce_1333327304986_197273_12225"
+                             base_ConnectorEnd="_17_0_ae502ce_1333327304986_255059_12222"
+                             propertyPath="_17_0_ae502ce_1333323878318_924240_13188"/>
+   <sysml:NestedConnectorEnd xmi:id="_17_0_ae502ce_1333327312302_937958_12237"
+                             base_ConnectorEnd="_17_0_ae502ce_1333327312302_761779_12234"
+                             propertyPath="_17_0_ae502ce_1333323878318_924240_13188"/>
+   <sysml:Block xmi:id="_17_0_ae502ce_1333323628156_740671_13091"
+                base_Class="_17_0_ae502ce_1333323628140_85184_13090"/>
+   <sysml:Block xmi:id="_17_0_ae502ce_1333323640574_420502_13124"
+                base_Class="_17_0_ae502ce_1333323640574_132474_13123"/>
+   <sysml:Block xmi:id="_17_0_ae502ce_1333330278356_809135_12350"
+                base_Class="_17_0_ae502ce_1333330278356_552320_12349"/>
+   <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_17_0_ae502ce_1333330384764_273469_12606"
+                                                                    base_Property="_17_0_ae502ce_1333330384686_829819_12598"/>
+   <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_17_0_ae502ce_1333330387931_92844_12632"
+                                                                    base_Property="_17_0_ae502ce_1333330387900_594983_12624"/>
+   <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_17_0_ae502ce_1333330533323_571882_12782"
+                                                                    base_Property="_17_0_ae502ce_1333330533292_647803_12774"/>
+   <sysml:Block xmi:id="_17_0_ae502ce_1333330292958_753414_12399"
+                base_Class="_17_0_ae502ce_1333330292958_287741_12398"/>
+   <MD_Customization_for_SysML__additional_stereotypes:SharedProperty xmi:id="_17_0_ae502ce_1333330782206_741712_13047"
+                                                                      base_Property="_17_0_ae502ce_1333330782175_380504_13039"/>
+   <MD_Customization_for_SysML__additional_stereotypes:ConstraintProperty xmi:id="_17_0_ae502ce_1333330807681_851783_13125"
+                                                                          base_Property="_17_0_ae502ce_1333330807634_884507_13117"/>
+   <sysml:NestedConnectorEnd xmi:id="_17_0_ae502ce_1334088677325_669622_11496"
+                             base_ConnectorEnd="_17_0_ae502ce_1334088677294_407650_11492"
+                             propertyPath="_17_0_ae502ce_1333330782175_380504_13039 _17_0_ae502ce_1333323878318_924240_13188"/>
+   <sysml:NestedConnectorEnd xmi:id="_17_0_ae502ce_1334088677350_508719_11500"
+                             base_ConnectorEnd="_17_0_ae502ce_1334088677295_570494_11493"
+                             propertyPath="_17_0_ae502ce_1333330807634_884507_13117"/>
+   <sysml:NestedConnectorEnd xmi:id="_17_0_ae502ce_1334088680587_802277_11521"
+                             base_ConnectorEnd="_17_0_ae502ce_1334088680578_113860_11517"
+                             propertyPath="_17_0_ae502ce_1333330782175_380504_13039 _17_0_ae502ce_1333323878318_924240_13188 _17_0_ae502ce_1333759254614_999919_13992"/>
+   <sysml:NestedConnectorEnd xmi:id="_17_0_ae502ce_1334088680590_238219_11526"
+                             base_ConnectorEnd="_17_0_ae502ce_1334088680578_817903_11518"
+                             propertyPath="_17_0_ae502ce_1333330807634_884507_13117"/>
+   <sysml:NestedConnectorEnd xmi:id="_17_0_ae502ce_1334088683821_87289_11547"
+                             base_ConnectorEnd="_17_0_ae502ce_1334088683800_76783_11543"
+                             propertyPath="_17_0_ae502ce_1333330782175_380504_13039 _17_0_ae502ce_1333323878318_924240_13188 _17_0_ae502ce_1333759250901_943874_13940"/>
+   <sysml:NestedConnectorEnd xmi:id="_17_0_ae502ce_1334088683826_913576_11552"
+                             base_ConnectorEnd="_17_0_ae502ce_1334088683800_149054_11544"
+                             propertyPath="_17_0_ae502ce_1333330807634_884507_13117"/>
+   <sysml:ConstraintBlock xmi:id="_17_0_ae502ce_1333330786309_928685_13064"
+                          base_Class="_17_0_ae502ce_1333330786309_500780_13063"/>
+   <MD_Customization_for_SysML__additional_stereotypes:ConstraintParameter xmi:id="_17_0_ae502ce_1333331072273_133910_13274"
+                                                                           base_Port="_17_0_ae502ce_1333331072273_252470_13273"/>
+   <MD_Customization_for_SysML__additional_stereotypes:ConstraintParameter xmi:id="_17_0_ae502ce_1333331084176_518412_13280"
+                                                                           base_Port="_17_0_ae502ce_1333331084176_183555_13279"/>
+   <MD_Customization_for_SysML__additional_stereotypes:ConstraintParameter xmi:id="_17_0_ae502ce_1334087720209_113142_14890"
+                                                                           base_Port="_17_0_ae502ce_1334087720194_289248_14889"/>
+   <sysml:Block xmi:id="_17_0_ae502ce_1333330301413_637185_12442"
+                base_Class="_17_0_ae502ce_1333330301413_226975_12441"/>
+   <sysml:Block xmi:id="_17_0_ae502ce_1333330526163_343873_12724"
+                base_Class="_17_0_ae502ce_1333330526163_972539_12723"/>
+   <sysml:Block xmi:id="_17_0_ae502ce_1333326543767_110794_12022"
+                base_Class="_17_0_ae502ce_1333326543767_272422_12021"/>
+   <sysml:Block xmi:id="_17_0_ae502ce_1333326553361_599648_12055"
+                base_Class="_17_0_ae502ce_1333326553361_438267_12054"/>
+   <sysml:Block xmi:id="_17_0_ae502ce_1333326560662_194051_12088"
+                base_Class="_17_0_ae502ce_1333326560662_73409_12087"/>
+   <sysml:Block xmi:id="_17_0_ae502ce_1333326570599_761335_12121"
+                base_Class="_17_0_ae502ce_1333326570599_865838_12120"/>
+   <sysml:Block xmi:id="_17_0_ae502ce_1334022374884_390288_12103"
+                base_Class="_17_0_ae502ce_1334022374884_655292_12102"/>
+   <sysml:Block xmi:id="_17_0_ae502ce_1334022387800_101357_12155"
+                base_Class="_17_0_ae502ce_1334022387800_439163_12154"/>
+   <sysml:NestedConnectorEnd xmi:id="_17_0_ae502ce_1333326035409_73771_11719"
+                             base_ConnectorEnd="_17_0_ae502ce_1333326035393_305098_11715"
+                             propertyPath="_17_0_ae502ce_1333323878318_924240_13188"/>
+   <User_Defined_Stereotypes:system_of_interest xmi:id="_17_0_ae502ce_1333323613367_623036_13058"
+                                                base_Element="_17_0_ae502ce_1333323613367_143165_13057"/>
+   <sysml:Block xmi:id="_17_0_ae502ce_1333323613367_623036_13058application1"
+                base_Class="_17_0_ae502ce_1333323613367_143165_13057"/>
+   <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_17_0_ae502ce_1333759250963_611256_13948"
+                                                                    base_Property="_17_0_ae502ce_1333759250901_943874_13940"/>
+   <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_17_0_ae502ce_1333759254660_773496_14000"
+                                                                    base_Property="_17_0_ae502ce_1333759254614_999919_13992"/>
+   <MD_Customization_for_SysML__additional_stereotypes:ValueProperty xmi:id="_17_0_ae502ce_1334088046000_309053_15375"
+                                                                     base_Property="_17_0_ae502ce_1334088045969_794847_15374"/>
+   <sysml:NestedConnectorEnd xmi:id="_17_0_ae502ce_1333760062929_232293_15003"
+                             base_ConnectorEnd="_17_0_ae502ce_1333760062913_275740_15000"
+                             propertyPath="_17_0_ae502ce_1333759250901_943874_13940"/>
+   <sysml:NestedConnectorEnd xmi:id="_17_0_ae502ce_1333760055847_453087_14975"
+                             base_ConnectorEnd="_17_0_ae502ce_1333760055847_263196_14972"
+                             propertyPath="_17_0_ae502ce_1333759254614_999919_13992"/>
+   <sysml:NestedConnectorEnd xmi:id="_17_0_ae502ce_1333760080931_963300_15042"
+                             base_ConnectorEnd="_17_0_ae502ce_1333760080916_431027_15038"
+                             propertyPath="_17_0_ae502ce_1333759254614_999919_13992"/>
+   <sysml:NestedConnectorEnd xmi:id="_17_0_ae502ce_1333760084847_660899_15070"
+                             base_ConnectorEnd="_17_0_ae502ce_1333760084831_716191_15066"
+                             propertyPath="_17_0_ae502ce_1333759250901_943874_13940"/>
+   <sysml:NestedConnectorEnd xmi:id="_17_0_ae502ce_1333760175577_731793_15243"
+                             base_ConnectorEnd="_17_0_ae502ce_1333760175561_495661_15239"
+                             propertyPath="_17_0_ae502ce_1333759254614_999919_13992"/>
+   <sysml:NestedConnectorEnd xmi:id="_17_0_ae502ce_1333760175577_136726_15246"
+                             base_ConnectorEnd="_17_0_ae502ce_1333760175561_588639_15240"
+                             propertyPath="_17_0_ae502ce_1333759250901_943874_13940"/>
+   <sysml:Satisfy xmi:id="_17_0_ae502ce_1335960738337_400523_14786"
+                  base_Abstraction="_17_0_ae502ce_1335960738337_697066_14785"/>
+   <sysml:Satisfy xmi:id="_17_0_ae502ce_1335959833361_662802_13939"
+                  base_Abstraction="_17_0_ae502ce_1335959833361_243391_13938"/>
+   <sysml:Satisfy xmi:id="_17_0_ae502ce_1335959868760_28484_14018"
+                  base_Abstraction="_17_0_ae502ce_1335959868760_765617_14017"/>
+   <sysml:Requirement xmi:id="_17_0_ae502ce_1333758338392_64477_12440"
+                      base_Class="_17_0_ae502ce_1333758338392_898185_12439"
+                      Id="1"
+                      Text=" "/>
+   <sysml:Requirement xmi:id="_17_0_ae502ce_1333758432195_499042_12649"
+                      base_Class="_17_0_ae502ce_1333758432195_398161_12648"
+                      Id="1.1"
+                      Text=" "/>
+   <sysml:Requirement xmi:id="_17_0_ae502ce_1333759041395_621307_13322"
+                      base_Class="_17_0_ae502ce_1333759041395_727583_13321"
+                      Id="1.1.1"
+                      Text="The system shall weight less than W "/>
+   <sysml:Requirement xmi:id="_17_0_ae502ce_1333758378203_140463_12571"
+                      base_Class="_17_0_ae502ce_1333758378203_602568_12570"
+                      Id="1.2"
+                      Text=""/>
+   <sysml:Requirement xmi:id="_17_0_ae502ce_1333758740467_326217_12946"
+                      base_Class="_17_0_ae502ce_1333758740467_56510_12945"
+                      Id="1.2.1"
+                      Text="The system shall do X1 within a performance of pi under specified conditions"/>
+   <sysml:Requirement xmi:id="_17_0_ae502ce_1333758852499_599710_13077"
+                      base_Class="_17_0_ae502ce_1333758852499_677411_13076"
+                      Id="1.2.2"
+                      Text="The system shall do X2 "/>
+   <sysml:Requirement xmi:id="_17_0_ae502ce_1333758354507_258485_12505"
+                      base_Class="_17_0_ae502ce_1333758354507_807652_12504"
+                      Id="1.3"
+                      Text=" "/>
+   <sysml:Requirement xmi:id="_17_0_ae502ce_1334029619306_420747_18599"
+                      base_Class="_17_0_ae502ce_1334029619306_320416_18598"
+                      Id="2"
+                      Text=" "/>
+   <MD_Customization_for_Requirements__additional_stereotypes:RequirementTable xmi:id="_17_0_ae502ce_1334085045962_796578_13630application1"
+                                                                               base_Diagram="_17_0_ae502ce_1334085045962_951694_13628"/>
+   <sysml:Requirement xmi:id="_17_0_ae502ce_1334029707322_582934_18797"
+                      base_Class="_17_0_ae502ce_1334029707322_412546_18796"
+                      Id="2.1"
+                      Text=" "/>
+   <sysml:Requirement xmi:id="_17_0_ae502ce_1334029650233_724822_18714"
+                      base_Class="_17_0_ae502ce_1334029650233_172027_18713"
+                      Id="2.2"
+                      Text=" "/>
+   <sysml:Requirement xmi:id="_17_0_ae502ce_1334029642831_934759_18663"
+                      base_Class="_17_0_ae502ce_1334029642831_790492_18662"
+                      Id="2.3"
+                      Text=" "/>
+   <sysml:Block xmi:id="_17_0_ae502ce_1333759228390_137366_13841"
+                base_Class="_17_0_ae502ce_1333759228390_307923_13840"/>
+   <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_17_0_ae502ce_1334025393411_420781_14403"
+                                                                    base_Property="_17_0_ae502ce_1334025393349_977533_14395"/>
+   <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_17_0_ae502ce_1334025398996_405223_14431"
+                                                                    base_Property="_17_0_ae502ce_1334025398949_733257_14423"/>
+   <MD_Customization_for_SysML__additional_stereotypes:ValueProperty xmi:id="_17_0_ae502ce_1334088082754_714472_15435"
+                                                                     base_Property="_17_0_ae502ce_1334088082754_862896_15434"/>
+   <sysml:Allocate xmi:id="_17_0_ae502ce_1334026578603_707486_15792"
+                   base_Abstraction="_17_0_ae502ce_1334026578603_429921_15791"/>
+   <sysml:Allocate xmi:id="_17_0_ae502ce_1334026587136_471618_15833"
+                   base_Abstraction="_17_0_ae502ce_1334026587136_926166_15832"/>
+   <sysml:Requirement xmi:id="_17_0_ae502ce_1334030439690_177450_20359"
+                      base_Class="_17_0_ae502ce_1334030439690_264880_20358"
+                      Id="5"
+                      Text=" "/>
+   <sysml:Requirement xmi:id="_17_0_ae502ce_1334030475586_82217_20526"
+                      base_Class="_17_0_ae502ce_1334030475586_937571_20525"
+                      Id="5.1"
+                      Text=" "/>
+   <sysml:Requirement xmi:id="_17_0_ae502ce_1335960626182_722109_14730"
+                      base_Class="_17_0_ae502ce_1335960626181_791180_14729"
+                      Id="5.1.1"
+                      Text="Component1 shall weigh less than wi pounds. "/>
+   <sysml:Requirement xmi:id="_17_0_ae502ce_1334030462497_288335_20468"
+                      base_Class="_17_0_ae502ce_1334030462497_831299_20467"
+                      Id="5.2"
+                      Text=" "/>
+   <sysml:Requirement xmi:id="_17_0_ae502ce_1334030451999_827621_20417"
+                      base_Class="_17_0_ae502ce_1334030451999_243086_20416"
+                      Id="5.3"
+                      Text=" "/>
+   <sysml:Block xmi:id="_17_0_ae502ce_1334025373864_570526_14294"
+                base_Class="_17_0_ae502ce_1334025373864_828552_14293"/>
+   <sysml:Allocate xmi:id="_17_0_ae502ce_1334026884940_685997_16085"
+                   base_Abstraction="_17_0_ae502ce_1334026884940_896428_16084"/>
+   <sysml:Requirement xmi:id="_17_0_ae502ce_1334033237673_931280_21386"
+                      base_Class="_17_0_ae502ce_1334033237673_689461_21385"
+                      Id="10"
+                      Text=" "/>
+   <sysml:Requirement xmi:id="_17_0_ae502ce_1334033249233_189467_21444"
+                      base_Class="_17_0_ae502ce_1334033249233_159272_21443"
+                      Id="10.1"
+                      Text=" "/>
+   <sysml:Requirement xmi:id="_17_0_ae502ce_1334033258882_224381_21495"
+                      base_Class="_17_0_ae502ce_1334033258882_705302_21494"
+                      Id="10.2"
+                      Text=" "/>
+   <sysml:Requirement xmi:id="_17_0_ae502ce_1334033276244_588057_21553"
+                      base_Class="_17_0_ae502ce_1334033276244_32225_21552"
+                      Id="10.3"
+                      Text=" "/>
+   <sysml:Allocate xmi:id="_17_0_ae502ce_1334027409272_331451_17113"
+                   base_Abstraction="_17_0_ae502ce_1334027409272_740747_17112"/>
+   <sysml:Requirement xmi:id="_17_0_ae502ce_1334029989729_82066_19315"
+                      base_Class="_17_0_ae502ce_1334029989729_111879_19314"
+                      Id="3"
+                      Text=" "/>
+   <sysml:Requirement xmi:id="_17_0_ae502ce_1334030022458_80071_19435"
+                      base_Class="_17_0_ae502ce_1334030022458_682078_19434"
+                      Id="3.1"
+                      Text=" "/>
+   <sysml:Requirement xmi:id="_17_0_ae502ce_1334030045717_322182_19508"
+                      base_Class="_17_0_ae502ce_1334030045717_278226_19507"
+                      Id="3.2"
+                      Text=" "/>
+   <sysml:Requirement xmi:id="_17_0_ae502ce_1334030006483_956030_19373"
+                      base_Class="_17_0_ae502ce_1334030006483_515806_19372"
+                      Id="3.3"
+                      Text=" "/>
+   <sysml:Block xmi:id="_17_0_ae502ce_1333759239544_742772_13887"
+                base_Class="_17_0_ae502ce_1333759239544_836462_13886"/>
+   <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_17_0_ae502ce_1334025507010_768651_14735"
+                                                                    base_Property="_17_0_ae502ce_1334025506964_522414_14727"/>
+   <sysml:Requirement xmi:id="_17_0_ae502ce_1333758503721_680391_12794"
+                      base_Class="_17_0_ae502ce_1333758503721_778875_12793"
+                      Id="1.3.1"
+                      Text="The system requires 110 VAC power."/>
+   <MD_Customization_for_SysML__additional_stereotypes:ValueProperty xmi:id="_17_0_ae502ce_1334088116528_563304_15468"
+                                                                     base_Property="_17_0_ae502ce_1334088116512_710093_15467"/>
+   <sysml:Allocate xmi:id="_17_0_ae502ce_1334026686492_914335_15924"
+                   base_Abstraction="_17_0_ae502ce_1334026686492_560663_15923"/>
+   <sysml:Allocate xmi:id="_17_0_ae502ce_1334026689862_10613_15938"
+                   base_Abstraction="_17_0_ae502ce_1334026689862_855211_15937"/>
+   <sysml:Block xmi:id="_17_0_ae502ce_1334025490474_281_14629"
+                base_Class="_17_0_ae502ce_1334025490474_483801_14628"/>
+   <sysml:Requirement xmi:id="_17_0_ae502ce_1334030542526_852227_20702"
+                      base_Class="_17_0_ae502ce_1334030542526_523211_20701"
+                      Id="9"
+                      Text=" "/>
+   <sysml:Requirement xmi:id="_17_0_ae502ce_1334030556971_878664_20764"
+                      base_Class="_17_0_ae502ce_1334030556971_947035_20763"
+                      Id="9.1"
+                      Text=" "/>
+   <sysml:Requirement xmi:id="_17_0_ae502ce_1334030570918_37785_20826"
+                      base_Class="_17_0_ae502ce_1334030570918_362990_20825"
+                      Id="9.2"
+                      Text=" "/>
+   <sysml:Requirement xmi:id="_17_0_ae502ce_1334030586861_447987_20888"
+                      base_Class="_17_0_ae502ce_1334030586861_922760_20887"
+                      Id="9.3"
+                      Text=" "/>
+   <sysml:Block xmi:id="_17_0_ae502ce_1334025497993_978919_14672"
+                base_Class="_17_0_ae502ce_1334025497993_440492_14671"/>
+   <sysml:Requirement xmi:id="_17_0_ae502ce_1334030250140_784452_19901"
+                      base_Class="_17_0_ae502ce_1334030250140_77626_19900"
+                      Id="4"
+                      Text=" "/>
+   <sysml:Requirement xmi:id="_17_0_ae502ce_1334030273041_22674_20014"
+                      base_Class="_17_0_ae502ce_1334030273041_181767_20013"
+                      Id="4.1"
+                      Text=" "/>
+   <sysml:Requirement xmi:id="_17_0_ae502ce_1334030264383_701882_19963"
+                      base_Class="_17_0_ae502ce_1334030264383_276895_19962"
+                      Id="4.2"
+                      Text=" "/>
+   <sysml:Requirement xmi:id="_17_0_ae502ce_1334030284632_449597_20072"
+                      base_Class="_17_0_ae502ce_1334030284632_454546_20071"
+                      Id="4.3"
+                      Text=" "/>
+   <sysml:Allocate xmi:id="_17_0_ae502ce_1334112281556_392054_12590"
+                   base_Abstraction="_17_0_ae502ce_1334112281556_770708_12589"/>
+   <sysml:Allocate xmi:id="_17_0_ae502ce_1334112242319_256725_12520"
+                   base_Abstraction="_17_0_ae502ce_1334112242319_520036_12519"/>
+   <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_17_0_ae502ce_1334025509881_376853_14763"
+                                                                    base_Property="_17_0_ae502ce_1334025509834_680819_14755"/>
+   <sysml:Block xmi:id="_17_0_ae502ce_1334025382538_768405_14337"
+                base_Class="_17_0_ae502ce_1334025382538_617452_14336"/>
+</xmi:XMI>

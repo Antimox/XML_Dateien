@@ -1,0 +1,2314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmlns:uml="http://www.omg.org/spec/UML/20131001"
+         xmlns:MD_Customization_for_SysML__additional_stereotypes="http://www.magicdraw.com/spec/Customization/180/SysML"
+         xmlns:StandardProfile="http://www.omg.org/spec/UML/20131001/StandardProfile"
+         xmlns:xmi="http://www.omg.org/spec/XMI/20131001"
+         xmlns:MD_Customization_for_Requirements__additional_stereotypes="http://www.magicdraw.com/spec/Customization/180/Requirements"
+         xmlns:sysml="http://www.omg.org/spec/SysML/20150709/SysML">
+   <xmi:documentation xmi:type="xmi:Documentation">
+      <xmi:exporter>MagicDraw Clean XMI Exporter</xmi:exporter>
+      <xmi:exporterVersion>19.0 v9</xmi:exporterVersion>
+   </xmi:documentation>
+   <xmi:documentation xmi:type="xmi:Documentation">
+      <xmi:exporter>MagicDraw Clean XMI Exporter</xmi:exporter>
+      <xmi:exporterVersion>19.0 v9</xmi:exporterVersion>
+   </xmi:documentation>
+   <uml:Model xmi:type="uml:Model" xmi:id="eee_1045467100313_135436_1" name="Data">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_18_1beta_8c90288_1415101994820_370998_4336"
+                    body="Author:No Magic, Inc..&#xA;Created:12/16/14 6:08 PM.&#xA;Title:Layout templates sample.&#xA;Comment:.&#xA;">
+         <annotatedElement xmi:idref="eee_1045467100313_135436_1"/>
+      </ownedComment>
+      <packagedElement xmi:type="uml:Package" xmi:id="_18_5beta_9250292_1476101828524_147215_27475"
+                       name="Images">
+         <ownedComment xmi:type="uml:Comment" xmi:id="_18_5beta_9250292_1476102551812_476496_30040"
+                       body="Keyboard"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_18_1_9250292_1425295009819_785828_14622"
+                       name="Structure">
+         <packagedElement xmi:type="uml:Package" xmi:id="_18_1_9250292_1422354304073_216727_14416"
+                          name="Ports">
+            <packagedElement xmi:type="uml:Package" xmi:id="_18_1_9250292_1425285391077_401598_13365"
+                             name="Audio connections">
+               <packagedElement xmi:type="uml:Class" xmi:id="_18_1_9250292_1418749019092_780081_14431"
+                                name="3.5mm Speakers Jack">
+                  <generalization xmi:type="uml:Generalization" xmi:id="_18_1_9250292_1425299742497_378682_16085"
+                                  general="_18_1_9250292_1425299742446_665739_16083"/>
+                  <ownedAttribute xmi:type="uml:Property" xmi:id="_18_1_9250292_1418749054612_39513_14536"
+                                  name="signal"/>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Class" xmi:id="_18_1_9250292_1425299110736_273581_15845"
+                                name="Mic">
+                  <ownedAttribute xmi:type="uml:Property" xmi:id="_18_1_9250292_1425299137568_166116_15847"
+                                  name="signal"/>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Class" xmi:id="_18_1_9250292_1425299416018_623637_15853"
+                                name="3.5mm Mic Jack">
+                  <generalization xmi:type="uml:Generalization" xmi:id="_18_1_9250292_1425299756989_703431_16089"
+                                  general="_18_1_9250292_1425299110736_273581_15845"/>
+                  <ownedAttribute xmi:type="uml:Property" xmi:id="_18_1_9250292_1425299500188_784601_16012"
+                                  name="signal"/>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Class" xmi:id="_18_1_9250292_1425299742446_665739_16083"
+                                name="Speakers">
+                  <ownedAttribute xmi:type="uml:Property" xmi:id="_18_1_9250292_1425300686518_496904_16094"
+                                  name="signal"/>
+               </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_18_1_9250292_1425285426093_942641_13380"
+                             name="Video connections">
+               <packagedElement xmi:type="uml:Class" xmi:id="_18_1_9250292_1425285470264_261392_13395"
+                                name="DisplayPort"/>
+               <packagedElement xmi:type="uml:Class" xmi:id="_18_1_9250292_1425285485448_142228_13400"
+                                name="DVI"/>
+               <packagedElement xmi:type="uml:Package" xmi:id="_18_5beta_9250292_1476439609024_852409_30018"
+                                name="HDMI">
+                  <packagedElement xmi:type="uml:Class" xmi:id="_18_5beta_9250292_1475077586369_328888_28734"
+                                   name="TMDS Data0−"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_18_5beta_9250292_1475077586374_2723_28738"
+                                   name="TMDS Clock Shield"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_18_5beta_9250292_1475077586361_205748_28728"
+                                   name="TMDS Data1−"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_18_5beta_9250292_1475077586377_625953_28740"
+                                   name="TMDS Clock−"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_18_5beta_9250292_1475077586356_460259_28724"
+                                   name="TMDS Data1+"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_18_5beta_9250292_1475077705555_829423_28806"
+                                   name="TMDS Data2+"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_18_5beta_9250292_1475078187531_969849_29266"
+                                   name="Hot Plug Detect"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_18_5beta_9250292_1475077586353_253364_28722"
+                                   name="TMDS Data2−"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_18_5beta_9250292_1475077586364_308106_28730"
+                                   name="TMDS Data0+"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_18_5beta_9250292_1475077586358_951867_28726"
+                                   name="TMDS Data1 Shield"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_18_5beta_9250292_1475077586367_864986_28732"
+                                   name="TMDS Data0 Shield"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_18_5beta_9250292_1475078187523_71881_29260"
+                                   name="No Charge"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_18_1_9250292_1418746526798_737926_12799"
+                                   name="HDMI">
+                     <ownedAttribute xmi:type="uml:Property" xmi:id="_18_1_9250292_1418748732642_82412_14403"
+                                     name="data"/>
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_18_5beta_9250292_1475073834793_995710_28290"
+                                     name="tMDS Data1 Shield"
+                                     visibility="public"
+                                     aggregation="composite"
+                                     type="_18_5beta_9250292_1475077586358_951867_28726"
+                                     association="_18_5beta_9250292_1475410742545_148981_29237"/>
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_18_5beta_9250292_1475073895595_556719_28312"
+                                     name="tMDS Data2−"
+                                     visibility="public"
+                                     aggregation="composite"
+                                     type="_18_5beta_9250292_1475077586353_253364_28722"
+                                     association="_18_5beta_9250292_1475410742560_833478_29291"/>
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_18_5beta_9250292_1475073918665_307876_28334"
+                                     visibility="public"
+                                     aggregation="composite"
+                                     type="_18_5beta_9250292_1475077705555_829423_28806"
+                                     association="_18_5beta_9250292_1475410742550_584385_29255"/>
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_18_5beta_9250292_1475073936977_31417_28358"
+                                     name="p3 : p2"
+                                     visibility="public"
+                                     aggregation="composite"
+                                     type="_18_5beta_9250292_1475077586318_596001_28720"
+                                     association="_18_5beta_9250292_1475410742551_764286_29258"/>
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_18_5beta_9250292_1475074028526_513091_28382"
+                                     name="p3 : p2"
+                                     visibility="public"
+                                     aggregation="composite"
+                                     type="_18_5beta_9250292_1475077586356_460259_28724"
+                                     association="_18_5beta_9250292_1475410742553_769022_29267"/>
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_18_5beta_9250292_1475074042742_584484_28404"
+                                     name="p3 : p2"
+                                     visibility="public"
+                                     aggregation="composite"
+                                     type="_18_5beta_9250292_1475077586361_205748_28728"
+                                     association="_18_5beta_9250292_1475410742559_452791_29288"/>
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_18_5beta_9250292_1475074050701_771337_28426"
+                                     name="p3 : p2"
+                                     visibility="public"
+                                     aggregation="composite"
+                                     type="_18_5beta_9250292_1475077586367_864986_28732"
+                                     association="_18_5beta_9250292_1475410742555_396850_29273"/>
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_18_5beta_9250292_1475077643342_273011_28769"
+                                     name="tMDS Clock−"
+                                     visibility="public"
+                                     aggregation="composite"
+                                     type="_18_5beta_9250292_1475077586377_625953_28740"
+                                     association="_18_5beta_9250292_1475410742557_869316_29279"/>
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_18_5beta_9250292_1475077645668_649713_28789"
+                                     name="tMDS Clock+"
+                                     visibility="public"
+                                     aggregation="composite"
+                                     type="_18_5beta_9250292_1475077586372_74265_28736"
+                                     association="_18_5beta_9250292_1475410742553_492408_29264"/>
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_18_5beta_9250292_1475077742947_435794_28811"
+                                     name="tMDS Clock Shield"
+                                     visibility="public"
+                                     aggregation="composite"
+                                     type="_18_5beta_9250292_1475077586374_2723_28738"
+                                     association="_18_5beta_9250292_1475410742546_304677_29240"/>
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_18_5beta_9250292_1475077762897_92907_28831"
+                                     name="CEC"
+                                     visibility="public"
+                                     aggregation="composite"
+                                     type="_18_5beta_9250292_1475078187520_505951_29258"
+                                     association="_18_5beta_9250292_1475410742557_592013_29282"/>
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_18_5beta_9250292_1475077764757_957029_28851"
+                                     name="tMDS Data0−"
+                                     visibility="public"
+                                     aggregation="composite"
+                                     type="_18_5beta_9250292_1475077586369_328888_28734"
+                                     association="_18_5beta_9250292_1475410742547_46850_29243"/>
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_18_5beta_9250292_1475077766859_351992_28871"
+                                     name="tMDS Data0+"
+                                     visibility="public"
+                                     aggregation="composite"
+                                     type="_18_5beta_9250292_1475077586364_308106_28730"
+                                     association="_18_5beta_9250292_1475410742549_659563_29252"/>
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_18_5beta_9250292_1475077890644_376303_29224"
+                                     name="dDC/CEC Ground"
+                                     visibility="public"
+                                     aggregation="composite"
+                                     type="_18_5beta_9250292_1475078187529_415601_29264"
+                                     association="_18_5beta_9250292_1475410742542_72297_29228"/>
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_18_5beta_9250292_1475078289734_499505_27574"
+                                     name="DDC"
+                                     visibility="public"
+                                     aggregation="composite"
+                                     type="_18_5beta_9250292_1475078187526_595617_29262"
+                                     association="_18_5beta_9250292_1475410742554_762321_29270"/>
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_18_5beta_9250292_1475078352837_647826_27956"
+                                     name="hot Plug Detect"
+                                     visibility="public"
+                                     aggregation="composite"
+                                     type="_18_5beta_9250292_1475078187531_969849_29266"
+                                     association="_18_5beta_9250292_1475410742544_659312_29231"/>
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_18_5beta_9250292_1475078363649_694203_27977"
+                                     name="no Charge"
+                                     visibility="public"
+                                     aggregation="composite"
+                                     type="_18_5beta_9250292_1475078187523_71881_29260"
+                                     association="_18_5beta_9250292_1475410742548_882978_29249"/>
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_18_5beta_9250292_1475078404982_610_28002"
+                                     name="+5V"
+                                     visibility="public"
+                                     aggregation="composite"
+                                     type="_18_5beta_9250292_1475076155134_836344_28610"
+                                     association="_18_5beta_9250292_1475410742556_22555_29276"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_18_5beta_9250292_1475077586318_596001_28720"
+                                   name="TMDS Data2 Shield"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_18_5beta_9250292_1475077586372_74265_28736"
+                                   name="TMDS Clock+"/>
+                  <packagedElement xmi:type="uml:Association" xmi:id="_18_5beta_9250292_1475410742542_72297_29228">
+                     <memberEnd xmi:idref="_18_5beta_9250292_1475410742542_528512_29229"/>
+                     <memberEnd xmi:idref="_18_5beta_9250292_1475077890644_376303_29224"/>
+                     <ownedEnd xmi:type="uml:Property" xmi:id="_18_5beta_9250292_1475410742542_528512_29229"
+                               visibility="private"
+                               type="_18_1_9250292_1418746526798_737926_12799"
+                               association="_18_5beta_9250292_1475410742542_72297_29228"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Association"
+                                   xmi:id="_18_5beta_9250292_1475410742544_659312_29231">
+                     <memberEnd xmi:idref="_18_5beta_9250292_1475410742544_897395_29232"/>
+                     <memberEnd xmi:idref="_18_5beta_9250292_1475078352837_647826_27956"/>
+                     <ownedEnd xmi:type="uml:Property" xmi:id="_18_5beta_9250292_1475410742544_897395_29232"
+                               visibility="private"
+                               type="_18_1_9250292_1418746526798_737926_12799"
+                               association="_18_5beta_9250292_1475410742544_659312_29231"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Association"
+                                   xmi:id="_18_5beta_9250292_1475410742548_882978_29249">
+                     <memberEnd xmi:idref="_18_5beta_9250292_1475410742548_697760_29250"/>
+                     <memberEnd xmi:idref="_18_5beta_9250292_1475078363649_694203_27977"/>
+                     <ownedEnd xmi:type="uml:Property" xmi:id="_18_5beta_9250292_1475410742548_697760_29250"
+                               visibility="private"
+                               type="_18_1_9250292_1418746526798_737926_12799"
+                               association="_18_5beta_9250292_1475410742548_882978_29249"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Association"
+                                   xmi:id="_18_5beta_9250292_1475410742553_492408_29264">
+                     <memberEnd xmi:idref="_18_5beta_9250292_1475410742553_579760_29265"/>
+                     <memberEnd xmi:idref="_18_5beta_9250292_1475077645668_649713_28789"/>
+                     <ownedEnd xmi:type="uml:Property" xmi:id="_18_5beta_9250292_1475410742553_579760_29265"
+                               visibility="private"
+                               type="_18_1_9250292_1418746526798_737926_12799"
+                               association="_18_5beta_9250292_1475410742553_492408_29264"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Association"
+                                   xmi:id="_18_5beta_9250292_1475410742554_762321_29270">
+                     <memberEnd xmi:idref="_18_5beta_9250292_1475410742554_722587_29271"/>
+                     <memberEnd xmi:idref="_18_5beta_9250292_1475078289734_499505_27574"/>
+                     <ownedEnd xmi:type="uml:Property" xmi:id="_18_5beta_9250292_1475410742554_722587_29271"
+                               visibility="private"
+                               type="_18_1_9250292_1418746526798_737926_12799"
+                               association="_18_5beta_9250292_1475410742554_762321_29270"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Association"
+                                   xmi:id="_18_5beta_9250292_1475410742545_148981_29237">
+                     <memberEnd xmi:idref="_18_5beta_9250292_1475410742545_125622_29238"/>
+                     <memberEnd xmi:idref="_18_5beta_9250292_1475073834793_995710_28290"/>
+                     <ownedEnd xmi:type="uml:Property" xmi:id="_18_5beta_9250292_1475410742545_125622_29238"
+                               visibility="private"
+                               type="_18_1_9250292_1418746526798_737926_12799"
+                               association="_18_5beta_9250292_1475410742545_148981_29237"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Association"
+                                   xmi:id="_18_5beta_9250292_1475410742559_452791_29288">
+                     <memberEnd xmi:idref="_18_5beta_9250292_1475410742559_622745_29289"/>
+                     <memberEnd xmi:idref="_18_5beta_9250292_1475074042742_584484_28404"/>
+                     <ownedEnd xmi:type="uml:Property" xmi:id="_18_5beta_9250292_1475410742559_622745_29289"
+                               visibility="private"
+                               type="_18_1_9250292_1418746526798_737926_12799"
+                               association="_18_5beta_9250292_1475410742559_452791_29288"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Association"
+                                   xmi:id="_18_5beta_9250292_1475410742560_833478_29291">
+                     <memberEnd xmi:idref="_18_5beta_9250292_1475410742560_971049_29292"/>
+                     <memberEnd xmi:idref="_18_5beta_9250292_1475073895595_556719_28312"/>
+                     <ownedEnd xmi:type="uml:Property" xmi:id="_18_5beta_9250292_1475410742560_971049_29292"
+                               visibility="private"
+                               type="_18_1_9250292_1418746526798_737926_12799"
+                               association="_18_5beta_9250292_1475410742560_833478_29291"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Association"
+                                   xmi:id="_18_5beta_9250292_1475410742557_592013_29282">
+                     <memberEnd xmi:idref="_18_5beta_9250292_1475410742557_962648_29283"/>
+                     <memberEnd xmi:idref="_18_5beta_9250292_1475077762897_92907_28831"/>
+                     <ownedEnd xmi:type="uml:Property" xmi:id="_18_5beta_9250292_1475410742557_962648_29283"
+                               visibility="private"
+                               type="_18_1_9250292_1418746526798_737926_12799"
+                               association="_18_5beta_9250292_1475410742557_592013_29282"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Association"
+                                   xmi:id="_18_5beta_9250292_1475410742546_304677_29240">
+                     <memberEnd xmi:idref="_18_5beta_9250292_1475410742546_268198_29241"/>
+                     <memberEnd xmi:idref="_18_5beta_9250292_1475077742947_435794_28811"/>
+                     <ownedEnd xmi:type="uml:Property" xmi:id="_18_5beta_9250292_1475410742546_268198_29241"
+                               visibility="private"
+                               type="_18_1_9250292_1418746526798_737926_12799"
+                               association="_18_5beta_9250292_1475410742546_304677_29240"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Association"
+                                   xmi:id="_18_5beta_9250292_1475410742553_769022_29267">
+                     <memberEnd xmi:idref="_18_5beta_9250292_1475410742554_73391_29268"/>
+                     <memberEnd xmi:idref="_18_5beta_9250292_1475074028526_513091_28382"/>
+                     <ownedEnd xmi:type="uml:Property" xmi:id="_18_5beta_9250292_1475410742554_73391_29268"
+                               visibility="private"
+                               type="_18_1_9250292_1418746526798_737926_12799"
+                               association="_18_5beta_9250292_1475410742553_769022_29267"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Association"
+                                   xmi:id="_18_5beta_9250292_1475410742555_396850_29273">
+                     <memberEnd xmi:idref="_18_5beta_9250292_1475410742555_913041_29274"/>
+                     <memberEnd xmi:idref="_18_5beta_9250292_1475074050701_771337_28426"/>
+                     <ownedEnd xmi:type="uml:Property" xmi:id="_18_5beta_9250292_1475410742555_913041_29274"
+                               visibility="private"
+                               type="_18_1_9250292_1418746526798_737926_12799"
+                               association="_18_5beta_9250292_1475410742555_396850_29273"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Association" xmi:id="_18_5beta_9250292_1475410742547_46850_29243">
+                     <memberEnd xmi:idref="_18_5beta_9250292_1475410742547_557623_29244"/>
+                     <memberEnd xmi:idref="_18_5beta_9250292_1475077764757_957029_28851"/>
+                     <ownedEnd xmi:type="uml:Property" xmi:id="_18_5beta_9250292_1475410742547_557623_29244"
+                               visibility="private"
+                               type="_18_1_9250292_1418746526798_737926_12799"
+                               association="_18_5beta_9250292_1475410742547_46850_29243"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Association"
+                                   xmi:id="_18_5beta_9250292_1475410742549_659563_29252">
+                     <memberEnd xmi:idref="_18_5beta_9250292_1475410742549_632006_29253"/>
+                     <memberEnd xmi:idref="_18_5beta_9250292_1475077766859_351992_28871"/>
+                     <ownedEnd xmi:type="uml:Property" xmi:id="_18_5beta_9250292_1475410742549_632006_29253"
+                               visibility="private"
+                               type="_18_1_9250292_1418746526798_737926_12799"
+                               association="_18_5beta_9250292_1475410742549_659563_29252"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Association" xmi:id="_18_5beta_9250292_1475410742556_22555_29276">
+                     <memberEnd xmi:idref="_18_5beta_9250292_1475410742556_549225_29277"/>
+                     <memberEnd xmi:idref="_18_5beta_9250292_1475078404982_610_28002"/>
+                     <ownedEnd xmi:type="uml:Property" xmi:id="_18_5beta_9250292_1475410742556_549225_29277"
+                               visibility="private"
+                               type="_18_1_9250292_1418746526798_737926_12799"
+                               association="_18_5beta_9250292_1475410742556_22555_29276"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Association"
+                                   xmi:id="_18_5beta_9250292_1475410742550_584385_29255">
+                     <memberEnd xmi:idref="_18_5beta_9250292_1475410742550_62671_29256"/>
+                     <memberEnd xmi:idref="_18_5beta_9250292_1475073918665_307876_28334"/>
+                     <ownedEnd xmi:type="uml:Property" xmi:id="_18_5beta_9250292_1475410742550_62671_29256"
+                               visibility="private"
+                               type="_18_1_9250292_1418746526798_737926_12799"
+                               association="_18_5beta_9250292_1475410742550_584385_29255"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Association"
+                                   xmi:id="_18_5beta_9250292_1475410742557_869316_29279">
+                     <memberEnd xmi:idref="_18_5beta_9250292_1475410742557_712157_29280"/>
+                     <memberEnd xmi:idref="_18_5beta_9250292_1475077643342_273011_28769"/>
+                     <ownedEnd xmi:type="uml:Property" xmi:id="_18_5beta_9250292_1475410742557_712157_29280"
+                               visibility="private"
+                               type="_18_1_9250292_1418746526798_737926_12799"
+                               association="_18_5beta_9250292_1475410742557_869316_29279"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Association"
+                                   xmi:id="_18_5beta_9250292_1475410742551_764286_29258">
+                     <memberEnd xmi:idref="_18_5beta_9250292_1475410742551_458560_29259"/>
+                     <memberEnd xmi:idref="_18_5beta_9250292_1475073936977_31417_28358"/>
+                     <ownedEnd xmi:type="uml:Property" xmi:id="_18_5beta_9250292_1475410742551_458560_29259"
+                               visibility="private"
+                               type="_18_1_9250292_1418746526798_737926_12799"
+                               association="_18_5beta_9250292_1475410742551_764286_29258"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_18_5beta_9250292_1475076155134_836344_28610"
+                                   name="+5V"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_18_5beta_9250292_1475078187529_415601_29264"
+                                   name="DDC/CEC Ground"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_18_5beta_9250292_1475078187520_505951_29258"
+                                   name="CEC"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_18_5beta_9250292_1475078187526_595617_29262"
+                                   name="DDC"/>
+               </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_18_1_9250292_1425287325223_113274_13266"
+                             name="Network connections">
+               <packagedElement xmi:type="uml:Package" xmi:id="_18_1_9250292_1425287351268_664131_13275"
+                                name="Wireless connections">
+                  <packagedElement xmi:type="uml:Class" xmi:id="_18_1_9250292_1425287564435_827894_13293"
+                                   name="Wi-Fi"/>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_18_1_9250292_1418747647030_953499_14130"
+                                   name="Bluetooth"/>
+                  <packagedElement xmi:type="uml:Interface" xmi:id="_18_1_9250292_1425457660635_255625_16429"
+                                   name="IrDA"/>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Package" xmi:id="_18_1_9250292_1425287531018_473957_13282"
+                                name="Wired connections">
+                  <packagedElement xmi:type="uml:Class" xmi:id="_18_1_9250292_1418747604025_833523_14084"
+                                   name="LAN">
+                     <ownedAttribute xmi:type="uml:Property" xmi:id="_18_1_9250292_1418749116932_772748_14541"
+                                     name="data"/>
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_18_1_9250292_1420188075131_985238_14604" name="G/"
+                                     visibility="public"
+                                     aggregation="composite"
+                                     type="_18_5beta_9250292_1475639275397_421708_32464"/>
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_18_1_9250292_1420188103329_75621_14694" name="G"
+                                     visibility="public"
+                                     aggregation="composite"
+                                     type="_18_5beta_9250292_1475639275440_995772_32466"/>
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_18_1_9250292_1420188112209_128673_14780" name="O/"
+                                     visibility="public"
+                                     aggregation="composite"
+                                     type="_18_5beta_9250292_1475639275442_629946_32468"/>
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_18_1_9250292_1420188404338_605_15148" name="B"
+                                     visibility="public"
+                                     aggregation="composite"
+                                     type="_18_5beta_9250292_1475639275445_398730_32470"/>
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_18_1_9250292_1420188425098_725439_15252" name="B/"
+                                     visibility="public"
+                                     aggregation="composite"
+                                     type="_18_5beta_9250292_1475639275450_781993_32472"/>
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_18_1_9250292_1420188450608_461089_15358" name="O"
+                                     visibility="public"
+                                     aggregation="composite"
+                                     type="_18_5beta_9250292_1475639275454_779208_32474"/>
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_18_1_9250292_1420188496807_628422_15484"
+                                     name="Br/"
+                                     visibility="public"
+                                     aggregation="composite"
+                                     type="_18_5beta_9250292_1475639275457_659692_32476"/>
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_18_1_9250292_1420188526767_30071_15586" name="Br"
+                                     visibility="public"
+                                     aggregation="composite"
+                                     type="_18_5beta_9250292_1475639275462_464320_32478"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_18_5beta_9250292_1475639275450_781993_32472"
+                                   name="BI-_D3">
+                     <ownedComment xmi:type="uml:Comment" xmi:id="_18_5beta_9250292_1475639304764_3574_32523"
+                                   body="Bi-directional-">
+                        <annotatedElement xmi:idref="_18_5beta_9250292_1475639275450_781993_32472"/>
+                     </ownedComment>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_18_5beta_9250292_1475639275445_398730_32470"
+                                   name="BI+_D3">
+                     <ownedComment xmi:type="uml:Comment" xmi:id="_18_5beta_9250292_1475639304764_835853_32522"
+                                   body="Bi-directional+">
+                        <annotatedElement xmi:idref="_18_5beta_9250292_1475639275445_398730_32470"/>
+                     </ownedComment>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_18_5beta_9250292_1475639275457_659692_32476"
+                                   name="BI+_D4">
+                     <ownedComment xmi:type="uml:Comment" xmi:id="_18_5beta_9250292_1475639304765_382774_32525"
+                                   body="Bi-directional+">
+                        <annotatedElement xmi:idref="_18_5beta_9250292_1475639275457_659692_32476"/>
+                     </ownedComment>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_18_5beta_9250292_1475639275462_464320_32478"
+                                   name="BI-_D4">
+                     <ownedComment xmi:type="uml:Comment" xmi:id="_18_5beta_9250292_1475639304766_40609_32526"
+                                   body="Bi-directional-">
+                        <annotatedElement xmi:idref="_18_5beta_9250292_1475639275462_464320_32478"/>
+                     </ownedComment>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_18_5beta_9250292_1475639275442_629946_32468"
+                                   name="RX+_D2">
+                     <ownedComment xmi:type="uml:Comment" xmi:id="_18_5beta_9250292_1475639304763_944438_32521"
+                                   body="Receive Data+">
+                        <annotatedElement xmi:idref="_18_5beta_9250292_1475639275442_629946_32468"/>
+                     </ownedComment>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_18_5beta_9250292_1475639275397_421708_32464"
+                                   name="TX+_D1">
+                     <ownedComment xmi:type="uml:Comment" xmi:id="_18_5beta_9250292_1475639304762_423601_32519"
+                                   body="Transmit Data+">
+                        <annotatedElement xmi:idref="_18_5beta_9250292_1475639275397_421708_32464"/>
+                     </ownedComment>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_18_5beta_9250292_1475639275454_779208_32474"
+                                   name="RX-_D2">
+                     <ownedComment xmi:type="uml:Comment" xmi:id="_18_5beta_9250292_1475639304765_133953_32524"
+                                   body="Receive Data-">
+                        <annotatedElement xmi:idref="_18_5beta_9250292_1475639275454_779208_32474"/>
+                     </ownedComment>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_18_5beta_9250292_1475639275440_995772_32466"
+                                   name="TX-_D1">
+                     <ownedComment xmi:type="uml:Comment" xmi:id="_18_5beta_9250292_1475639304763_327550_32520"
+                                   body="Transmit Data-">
+                        <annotatedElement xmi:idref="_18_5beta_9250292_1475639275440_995772_32466"/>
+                     </ownedComment>
+                  </packagedElement>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Class" xmi:id="_18_1_9250292_1418910477418_440928_13352"
+                                name="Optical Socket">
+                  <ownedAttribute xmi:type="uml:Property" xmi:id="_18_1_9250292_1418910955257_623494_13602"
+                                  name="optical signal"/>
+               </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_18_1_9250292_1425287603084_557325_13312"
+                             name="Power connections">
+               <packagedElement xmi:type="uml:Class" xmi:id="_18_1_9250292_1418908313017_670226_13003"
+                                name="Power">
+                  <ownedAttribute xmi:type="uml:Property" xmi:id="_18_1_9250292_1418908694543_871755_13070"
+                                  name="electricity"/>
+               </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_18_1_9250292_1425295076950_495394_14895"
+                             name="Data Communication">
+               <packagedElement xmi:type="uml:Class" xmi:id="_18_1_9250292_1418747291128_450137_13829"
+                                name="Female USB">
+                  <ownedAttribute xmi:type="uml:Property" xmi:id="_18_1_9250292_1418748707242_547217_14393"
+                                  name="data"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_5beta_9250292_1475076107506_708402_28549"
+                                  name="data -"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  type="_18_5beta_9250292_1475076130832_720927_28566"
+                                  association="_18_5beta_9250292_1475410742552_90934_29261"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_5beta_9250292_1475076134969_150382_28571"
+                                  name="data 2 +"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  type="_18_5beta_9250292_1475076140509_361812_28588"
+                                  association="_18_5beta_9250292_1475410742558_312987_29285"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_5beta_9250292_1475076151909_679355_28593"
+                                  name="+5V"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  type="_18_5beta_9250292_1475076155134_836344_28610"
+                                  association="_18_5beta_9250292_1475410742548_763387_29246"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_5beta_9250292_1475076159314_683951_28615"
+                                  name="GND"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  type="_18_5beta_9250292_1475076167325_482279_28632"
+                                  association="_18_5beta_9250292_1475410742561_575513_29294"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_5beta_9250292_1475076170314_528460_28637"
+                                  name="S-GND"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  type="_18_5beta_9250292_1475076175121_318590_28654"
+                                  association="_18_5beta_9250292_1475410742544_610506_29234"/>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Class" xmi:id="_18_5beta_9250292_1475076130832_720927_28566"
+                                name="Data -"/>
+               <packagedElement xmi:type="uml:Class" xmi:id="_18_5beta_9250292_1475076140509_361812_28588"
+                                name="Data 2 +"/>
+               <packagedElement xmi:type="uml:Class" xmi:id="_18_5beta_9250292_1475076167325_482279_28632"
+                                name="GND"/>
+               <packagedElement xmi:type="uml:Class" xmi:id="_18_5beta_9250292_1475076175121_318590_28654"
+                                name="S-GND"/>
+               <packagedElement xmi:type="uml:Class" xmi:id="_18_5beta_9250292_1475409891596_106565_28411"
+                                name="Male USB">
+                  <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5beta_9250292_1475409891597_785621_28412"
+                                  name="data"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_5beta_9250292_1475409891598_498667_28413"
+                                  name="p1"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  type="_18_5beta_9250292_1475076130832_720927_28566"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_5beta_9250292_1475409891599_444452_28414"
+                                  name="p2"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  type="_18_5beta_9250292_1475076140509_361812_28588"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_5beta_9250292_1475409891599_511127_28415"
+                                  name="p3"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  type="_18_5beta_9250292_1475076155134_836344_28610"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_5beta_9250292_1475409891600_571087_28416"
+                                  name="p4"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  type="_18_5beta_9250292_1475076167325_482279_28632"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_5beta_9250292_1475409891600_803350_28417"
+                                  name="p5"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  type="_18_5beta_9250292_1475076175121_318590_28654"/>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Association"
+                                xmi:id="_18_5beta_9250292_1475410742544_610506_29234">
+                  <memberEnd xmi:idref="_18_5beta_9250292_1475410742545_897215_29235"/>
+                  <memberEnd xmi:idref="_18_5beta_9250292_1475076170314_528460_28637"/>
+                  <ownedEnd xmi:type="uml:Property" xmi:id="_18_5beta_9250292_1475410742545_897215_29235"
+                            visibility="private"
+                            type="_18_1_9250292_1418747291128_450137_13829"
+                            association="_18_5beta_9250292_1475410742544_610506_29234"/>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Association"
+                                xmi:id="_18_5beta_9250292_1475410742548_763387_29246">
+                  <memberEnd xmi:idref="_18_5beta_9250292_1475410742548_469658_29247"/>
+                  <memberEnd xmi:idref="_18_5beta_9250292_1475076151909_679355_28593"/>
+                  <ownedEnd xmi:type="uml:Property" xmi:id="_18_5beta_9250292_1475410742548_469658_29247"
+                            visibility="private"
+                            type="_18_1_9250292_1418747291128_450137_13829"
+                            association="_18_5beta_9250292_1475410742548_763387_29246"/>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Association" xmi:id="_18_5beta_9250292_1475410742552_90934_29261">
+                  <memberEnd xmi:idref="_18_5beta_9250292_1475410742552_175853_29262"/>
+                  <memberEnd xmi:idref="_18_5beta_9250292_1475076107506_708402_28549"/>
+                  <ownedEnd xmi:type="uml:Property" xmi:id="_18_5beta_9250292_1475410742552_175853_29262"
+                            visibility="private"
+                            type="_18_1_9250292_1418747291128_450137_13829"
+                            association="_18_5beta_9250292_1475410742552_90934_29261"/>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Association"
+                                xmi:id="_18_5beta_9250292_1475410742558_312987_29285">
+                  <memberEnd xmi:idref="_18_5beta_9250292_1475410742558_797879_29286"/>
+                  <memberEnd xmi:idref="_18_5beta_9250292_1475076134969_150382_28571"/>
+                  <ownedEnd xmi:type="uml:Property" xmi:id="_18_5beta_9250292_1475410742558_797879_29286"
+                            visibility="private"
+                            type="_18_1_9250292_1418747291128_450137_13829"
+                            association="_18_5beta_9250292_1475410742558_312987_29285"/>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Association"
+                                xmi:id="_18_5beta_9250292_1475410742561_575513_29294">
+                  <memberEnd xmi:idref="_18_5beta_9250292_1475410742561_217097_29295"/>
+                  <memberEnd xmi:idref="_18_5beta_9250292_1475076159314_683951_28615"/>
+                  <ownedEnd xmi:type="uml:Property" xmi:id="_18_5beta_9250292_1475410742561_217097_29295"
+                            visibility="private"
+                            type="_18_1_9250292_1418747291128_450137_13829"
+                            association="_18_5beta_9250292_1475410742561_575513_29294"/>
+               </packagedElement>
+            </packagedElement>
+         </packagedElement>
+         <packagedElement xmi:type="uml:Package" xmi:id="_18_1_9250292_1422354348506_205471_14445"
+                          name="Home">
+            <packageImport xmi:type="uml:PackageImport" xmi:id="_18_1_9250292_1425377442763_949737_20216"
+                           importedPackage="_18_1_9250292_1425287325223_113274_13266"/>
+            <packageImport xmi:type="uml:PackageImport" xmi:id="_18_1_9250292_1425377445948_161929_20222"
+                           importedPackage="_18_1_9250292_1425287603084_557325_13312"/>
+            <packageImport xmi:type="uml:PackageImport" xmi:id="_18_1_9250292_1425377456365_709125_20228"
+                           importedPackage="_18_1_9250292_1425285391077_401598_13365"/>
+            <packageImport xmi:type="uml:PackageImport" xmi:id="_18_1_9250292_1425377461028_304350_20234"
+                           importedPackage="_18_1_9250292_1425285426093_942641_13380"/>
+            <packagedElement xmi:type="uml:Package" xmi:id="_18_1_9250292_1425285326953_933494_13351"
+                             name="TV System">
+               <packageImport xmi:type="uml:PackageImport" xmi:id="_18_1_9250292_1425377998267_471656_20570"
+                              importedPackage="_18_1_9250292_1425287325223_113274_13266"/>
+               <packageImport xmi:type="uml:PackageImport" xmi:id="_18_1_9250292_1425378000599_597374_20576"
+                              importedPackage="_18_1_9250292_1425287603084_557325_13312"/>
+               <packageImport xmi:type="uml:PackageImport" xmi:id="_18_1_9250292_1425378002928_110394_20582"
+                              importedPackage="_18_1_9250292_1425285391077_401598_13365"/>
+               <packageImport xmi:type="uml:PackageImport" xmi:id="_18_1_9250292_1425378005215_995_20588"
+                              importedPackage="_18_1_9250292_1425285426093_942641_13380"/>
+               <packagedElement xmi:type="uml:Class" xmi:id="_18_1_9250292_1418749980543_448807_14568"
+                                name="TV Tuner">
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_1_9250292_1418750014043_920934_14577"
+                                  name="internet"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  type="_18_1_9250292_1418747604025_833523_14084"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_1_9250292_1418750108643_976038_14651"
+                                  name="hdmi"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  type="_18_1_9250292_1418746526798_737926_12799"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_1_9250292_1418750149348_346342_14791"
+                                  name="power in"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  type="_18_1_9250292_1418908313017_670226_13003"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_5beta_9250292_1476441065209_497507_28678"
+                                  name="p1"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  type="_18_1_9250292_1418747291128_450137_13829"/>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Class" xmi:id="_18_1_9250292_1418746150486_449315_12750"
+                                name="TV">
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_1_9250292_1418747153068_84261_13669"
+                                  name="hdmi"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  isConjugated="true"
+                                  type="_18_1_9250292_1418746526798_737926_12799"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_1_9250292_1418747219785_194358_13751"
+                                  name="vga"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  isConjugated="true"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_1_9250292_1418749003187_502399_14411"
+                                  name="plug out"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  type="_18_1_9250292_1425299742446_665739_16083"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_1_9250292_1418921630437_173341_14606"
+                                  name="power in"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  type="_18_1_9250292_1418908313017_670226_13003"/>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Class" xmi:id="_18_1_9250292_1425288372999_917834_13406"
+                                name="TV System">
+                  <ownedAttribute xmi:type="uml:Property" xmi:id="_18_1_9250292_1425288417579_675704_13619"
+                                  visibility="private"
+                                  aggregation="composite"
+                                  type="_18_1_9250292_1418749980543_448807_14568"
+                                  association="_18_1_9250292_1425288417578_947837_13618"/>
+                  <ownedAttribute xmi:type="uml:Property" xmi:id="_18_1_9250292_1425288419264_631126_13651"
+                                  visibility="private"
+                                  isLeaf="true"
+                                  aggregation="composite"
+                                  type="_18_1_9250292_1418746150486_449315_12750"
+                                  association="_18_1_9250292_1425288419263_721612_13650"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_1_9250292_1425288705812_408376_14165"
+                                  name="socket 1"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  type="_18_1_9250292_1418908313017_670226_13003"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_1_9250292_1425288876145_700252_14249"
+                                  name="socket 2"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  type="_18_1_9250292_1418908313017_670226_13003"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_1_9250292_1425289031350_764306_14343"
+                                  name="LAN socket"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  type="_18_1_9250292_1418747604025_833523_14084"/>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_1_9250292_1425288894690_62029_14280"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd" xmi:id="_18_1_9250292_1425288894690_361011_14281"
+                          role="_18_1_9250292_1425288876145_700252_14249"/>
+                     <end xmi:type="uml:ConnectorEnd" xmi:id="_18_1_9250292_1425288894690_448328_14282"
+                          partWithPort="_18_1_9250292_1425288419264_631126_13651"
+                          role="_18_1_9250292_1418921630437_173341_14606"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476442699476_19905_28082"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476442699476_930508_28083"
+                          partWithPort="_18_1_9250292_1418747153068_84261_13669"
+                          role="_18_5beta_9250292_1475073834793_995710_28290"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476442699476_247472_28084"
+                          partWithPort="_18_1_9250292_1418750108643_976038_14651"
+                          role="_18_5beta_9250292_1475073834793_995710_28290"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476443266276_265849_29774"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443266276_270892_29775"
+                          partWithPort="_18_1_9250292_1418747153068_84261_13669"
+                          role="_18_5beta_9250292_1475078352837_647826_27956"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443266276_354190_29776"
+                          partWithPort="_18_1_9250292_1418750108643_976038_14651"
+                          role="_18_5beta_9250292_1475078352837_647826_27956"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476443266282_401324_29777"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443266282_985563_29778"
+                          partWithPort="_18_1_9250292_1418750108643_976038_14651"
+                          role="_18_5beta_9250292_1475077762897_92907_28831"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443266282_121580_29779"
+                          partWithPort="_18_1_9250292_1418747153068_84261_13669"
+                          role="_18_5beta_9250292_1475077762897_92907_28831"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476443266288_411878_29780"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443266288_490323_29781"
+                          partWithPort="_18_1_9250292_1418747153068_84261_13669"
+                          role="_18_5beta_9250292_1475078363649_694203_27977"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443266288_23694_29782"
+                          partWithPort="_18_1_9250292_1418750108643_976038_14651"
+                          role="_18_5beta_9250292_1475078363649_694203_27977"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476443266293_792922_29783"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443266293_46855_29784"
+                          partWithPort="_18_1_9250292_1418747153068_84261_13669"
+                          role="_18_5beta_9250292_1475077766859_351992_28871"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443266293_679826_29785"
+                          partWithPort="_18_1_9250292_1418750108643_976038_14651"
+                          role="_18_5beta_9250292_1475077766859_351992_28871"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476443266298_286276_29786"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443266298_53847_29787"
+                          partWithPort="_18_1_9250292_1418747153068_84261_13669"
+                          role="_18_5beta_9250292_1475073918665_307876_28334"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443266298_530903_29788"
+                          partWithPort="_18_1_9250292_1418750108643_976038_14651"
+                          role="_18_5beta_9250292_1475073918665_307876_28334"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476443266303_563579_29789"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443266303_656703_29790"
+                          partWithPort="_18_1_9250292_1418747153068_84261_13669"
+                          role="_18_5beta_9250292_1475073895595_556719_28312"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443266303_469763_29791"
+                          partWithPort="_18_1_9250292_1418750108643_976038_14651"
+                          role="_18_5beta_9250292_1475073895595_556719_28312"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476443266308_495896_29792"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443266308_105513_29793"
+                          partWithPort="_18_1_9250292_1418750108643_976038_14651"
+                          role="_18_5beta_9250292_1475078404982_610_28002"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443266309_650093_29794"
+                          partWithPort="_18_1_9250292_1418747153068_84261_13669"
+                          role="_18_5beta_9250292_1475078404982_610_28002"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476443266314_971123_29795"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443266314_348088_29796"
+                          partWithPort="_18_1_9250292_1418750108643_976038_14651"
+                          role="_18_5beta_9250292_1475077742947_435794_28811"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443266314_401789_29797"
+                          partWithPort="_18_1_9250292_1418747153068_84261_13669"
+                          role="_18_5beta_9250292_1475077742947_435794_28811"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476443266319_436568_29798"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443266319_574330_29799"
+                          partWithPort="_18_1_9250292_1418750108643_976038_14651"
+                          role="_18_5beta_9250292_1475074028526_513091_28382"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443266319_660702_29800"
+                          partWithPort="_18_1_9250292_1418747153068_84261_13669"
+                          role="_18_5beta_9250292_1475074028526_513091_28382"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476443266324_620208_29801"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443266324_573559_29802"
+                          partWithPort="_18_1_9250292_1418750108643_976038_14651"
+                          role="_18_5beta_9250292_1475077890644_376303_29224"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443266324_670529_29803"
+                          partWithPort="_18_1_9250292_1418747153068_84261_13669"
+                          role="_18_5beta_9250292_1475077890644_376303_29224"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476443266328_6522_29804"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443266328_548679_29805"
+                          partWithPort="_18_1_9250292_1418750108643_976038_14651"
+                          role="_18_5beta_9250292_1475073936977_31417_28358"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443266328_850740_29806"
+                          partWithPort="_18_1_9250292_1418747153068_84261_13669"
+                          role="_18_5beta_9250292_1475073936977_31417_28358"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476443266340_495914_29810"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443266340_329340_29811"
+                          partWithPort="_18_1_9250292_1418747153068_84261_13669"
+                          role="_18_5beta_9250292_1475077643342_273011_28769"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443266340_599080_29812"
+                          partWithPort="_18_1_9250292_1418750108643_976038_14651"
+                          role="_18_5beta_9250292_1475077643342_273011_28769"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476443266345_327668_29813"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443266345_616136_29814"
+                          partWithPort="_18_1_9250292_1418750108643_976038_14651"
+                          role="_18_5beta_9250292_1475077764757_957029_28851"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443266345_114890_29815"
+                          partWithPort="_18_1_9250292_1418747153068_84261_13669"
+                          role="_18_5beta_9250292_1475077764757_957029_28851"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476443266350_512335_29816"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443266350_203742_29817"
+                          partWithPort="_18_1_9250292_1418750108643_976038_14651"
+                          role="_18_5beta_9250292_1475078289734_499505_27574"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443266350_155612_29818"
+                          partWithPort="_18_1_9250292_1418747153068_84261_13669"
+                          role="_18_5beta_9250292_1475078289734_499505_27574"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476443266355_617271_29819"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443266355_422295_29820"
+                          partWithPort="_18_1_9250292_1418750108643_976038_14651"
+                          role="_18_5beta_9250292_1475074042742_584484_28404"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443266355_402904_29821"
+                          partWithPort="_18_1_9250292_1418747153068_84261_13669"
+                          role="_18_5beta_9250292_1475074042742_584484_28404"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476443266361_840371_29822"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443266361_818612_29823"
+                          partWithPort="_18_1_9250292_1418747153068_84261_13669"
+                          role="_18_5beta_9250292_1475077645668_649713_28789"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443266361_199399_29824"
+                          partWithPort="_18_1_9250292_1418750108643_976038_14651"
+                          role="_18_5beta_9250292_1475077645668_649713_28789"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476443266367_212894_29825"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443266367_549432_29826"
+                          partWithPort="_18_1_9250292_1418750108643_976038_14651"
+                          role="_18_5beta_9250292_1475074050701_771337_28426"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443266367_738032_29827"
+                          partWithPort="_18_1_9250292_1418747153068_84261_13669"
+                          role="_18_5beta_9250292_1475074050701_771337_28426"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476443615134_228274_32521"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443615134_784470_32522"
+                          partWithPort="_18_1_9250292_1418750014043_920934_14577"
+                          role="_18_1_9250292_1420188526767_30071_15586"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443615134_766245_32523"
+                          partWithPort="_18_1_9250292_1425289031350_764306_14343"
+                          role="_18_1_9250292_1420188526767_30071_15586"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476443617839_55362_32537"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443617839_452096_32538"
+                          partWithPort="_18_1_9250292_1418750014043_920934_14577"
+                          role="_18_1_9250292_1420188496807_628422_15484"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443617839_70462_32539"
+                          partWithPort="_18_1_9250292_1425289031350_764306_14343"
+                          role="_18_1_9250292_1420188496807_628422_15484"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476443620728_389996_32553"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443620729_689984_32554"
+                          partWithPort="_18_1_9250292_1418750014043_920934_14577"
+                          role="_18_1_9250292_1420188450608_461089_15358"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443620729_523303_32555"
+                          partWithPort="_18_1_9250292_1425289031350_764306_14343"
+                          role="_18_1_9250292_1420188450608_461089_15358"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476443627359_541664_32571"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443627359_644421_32572"
+                          partWithPort="_18_1_9250292_1418750014043_920934_14577"
+                          role="_18_1_9250292_1420188425098_725439_15252"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443627359_556247_32573"
+                          partWithPort="_18_1_9250292_1425289031350_764306_14343"
+                          role="_18_1_9250292_1420188425098_725439_15252"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476443628987_484240_32587"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443628987_152621_32588"
+                          partWithPort="_18_1_9250292_1425289031350_764306_14343"
+                          role="_18_1_9250292_1420188404338_605_15148"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443628987_380439_32589"
+                          partWithPort="_18_1_9250292_1418750014043_920934_14577"
+                          role="_18_1_9250292_1420188404338_605_15148"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476443630742_302926_32603"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443630743_490521_32604"
+                          partWithPort="_18_1_9250292_1418750014043_920934_14577"
+                          role="_18_1_9250292_1420188112209_128673_14780"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443630743_932152_32605"
+                          partWithPort="_18_1_9250292_1425289031350_764306_14343"
+                          role="_18_1_9250292_1420188112209_128673_14780"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476443632617_729371_32619"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443632618_74575_32620"
+                          partWithPort="_18_1_9250292_1425289031350_764306_14343"
+                          role="_18_1_9250292_1420188103329_75621_14694"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443632618_360472_32621"
+                          partWithPort="_18_1_9250292_1418750014043_920934_14577"
+                          role="_18_1_9250292_1420188103329_75621_14694"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476443634492_496687_32635"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443634492_720602_32636"
+                          partWithPort="_18_1_9250292_1418750014043_920934_14577"
+                          role="_18_1_9250292_1420188075131_985238_14604"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476443634492_611268_32637"
+                          partWithPort="_18_1_9250292_1425289031350_764306_14343"
+                          role="_18_1_9250292_1420188075131_985238_14604"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1477540336104_270124_28295"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1477540336104_737602_28296"
+                          partWithPort="_18_1_9250292_1425288417579_675704_13619"
+                          role="_18_1_9250292_1418750149348_346342_14791"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1477540336104_316673_28297"
+                          role="_18_1_9250292_1425288876145_700252_14249"/>
+                  </ownedConnector>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Association" xmi:id="_18_1_9250292_1425288417578_947837_13618">
+                  <memberEnd xmi:idref="_18_1_9250292_1425288417579_675704_13619"/>
+                  <memberEnd xmi:idref="_18_1_9250292_1425288417579_548844_13620"/>
+                  <ownedEnd xmi:type="uml:Property" xmi:id="_18_1_9250292_1425288417579_548844_13620"
+                            visibility="private"
+                            type="_18_1_9250292_1425288372999_917834_13406"
+                            association="_18_1_9250292_1425288417578_947837_13618"/>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Association" xmi:id="_18_1_9250292_1425288419263_721612_13650">
+                  <memberEnd xmi:idref="_18_1_9250292_1425288419264_631126_13651"/>
+                  <memberEnd xmi:idref="_18_1_9250292_1425288419264_616028_13652"/>
+                  <ownedEnd xmi:type="uml:Property" xmi:id="_18_1_9250292_1425288419264_616028_13652"
+                            visibility="private"
+                            type="_18_1_9250292_1425288372999_917834_13406"
+                            association="_18_1_9250292_1425288419263_721612_13650"/>
+               </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_18_1_9250292_1425285343066_740761_13358"
+                             name="Computer System">
+               <packageImport xmi:type="uml:PackageImport" xmi:id="_18_1_9250292_1425303550492_728542_17641"
+                              importedPackage="_18_1_9250292_1425295076950_495394_14895"/>
+               <packageImport xmi:type="uml:PackageImport" xmi:id="_18_1_9250292_1425377759319_958164_20413"
+                              importedPackage="_18_1_9250292_1425295076950_495394_14895"/>
+               <packageImport xmi:type="uml:PackageImport" xmi:id="_18_1_9250292_1425377838954_933648_20551"
+                              importedPackage="_18_1_9250292_1422354304073_216727_14416"/>
+               <packageImport xmi:type="uml:PackageImport" xmi:id="_18_1_9250292_1425456008253_503_16207"
+                              importedPackage="_18_1_9250292_1425295076950_495394_14895"/>
+               <packageImport xmi:type="uml:PackageImport" xmi:id="_18_1_9250292_1425456220405_333461_16280"
+                              importedPackage="_18_1_9250292_1425298669350_984314_15822"/>
+               <packagedElement xmi:type="uml:Class" xmi:id="_18_1_9250292_1418746134034_286649_12610"
+                                name="PC">
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_1_9250292_1418747117324_362899_13645"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  type="_18_1_9250292_1418746526798_737926_12799"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_1_9250292_1418747273228_786715_13809"
+                                  name="usb1"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  type="_18_1_9250292_1418747291128_450137_13829"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_1_9250292_1418908349847_206176_13049"
+                                  name="power in"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  type="_18_1_9250292_1418908313017_670226_13003"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_1_9250292_1418910053135_629137_13262"
+                                  name="lan port"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  type="_18_1_9250292_1418747604025_833523_14084"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_5beta_9250292_1475638540089_472884_30852"
+                                  name="usb2"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  type="_18_1_9250292_1418747291128_450137_13829"/>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Class" xmi:id="_18_1_9250292_1418907640373_595525_12752"
+                                name="Router">
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_1_9250292_1418908214320_362650_12983"
+                                  name="power"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  type="_18_1_9250292_1418908313017_670226_13003"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_1_9250292_1418909833294_293506_13203"
+                                  name="1st lan port"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  isConjugated="true"
+                                  type="_18_1_9250292_1418747604025_833523_14084"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_1_9250292_1418909981818_251276_13238"
+                                  name="2nd lan port"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  isConjugated="true"
+                                  type="_18_1_9250292_1418747604025_833523_14084"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_1_9250292_1418910859885_270713_13582"
+                                  name="3rd lan port"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  isConjugated="true"
+                                  type="_18_1_9250292_1418747604025_833523_14084"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_1_9250292_1425305577250_592247_18138"
+                                  name="WAN"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  type="_18_1_9250292_1418747604025_833523_14084"/>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Class" xmi:id="_18_1_9250292_1425305608830_488446_18152"
+                                name="Modem">
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_1_9250292_1425305635124_337341_18216"
+                                  name="WAN"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  type="_18_1_9250292_1418747604025_833523_14084"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_1_9250292_1425305731151_409879_18250"
+                                  name="optic"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  type="_18_1_9250292_1418910477418_440928_13352"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_1_9250292_1425378384093_568343_20596"
+                                  name="power"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  type="_18_1_9250292_1418908313017_670226_13003"/>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Package" xmi:id="_18_1_9250292_1425298669350_984314_15822"
+                                name="Input Devices">
+                  <packagedElement xmi:type="uml:Class" xmi:id="_18_1_9250292_1425298689871_586322_15824"
+                                   name="Keyboard">
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_18_5beta_9250292_1475409885609_218949_28394"
+                                     name="p1"
+                                     visibility="public"
+                                     aggregation="composite"
+                                     type="_18_5beta_9250292_1475409891596_106565_28411"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_18_1_9250292_1425298709352_374833_15826"
+                                   name="Mouse">
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_18_1_9250292_1425298906624_67194_15843" name="usb"
+                                     visibility="public"
+                                     aggregation="composite"
+                                     type="_18_5beta_9250292_1475409891596_106565_28411"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_18_1_9250292_1418746147869_264132_12704"
+                                   name="USB flash drive">
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_18_1_9250292_1418747311058_314846_13879"
+                                     name="usb"
+                                     visibility="public"
+                                     aggregation="composite"
+                                     isConjugated="true"
+                                     type="_18_1_9250292_1418747291128_450137_13829"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_18_1_9250292_1425298758003_73788_15834"
+                                   name="Microphone">
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_18_1_9250292_1425299243636_549144_15851" name="p1"
+                                     visibility="public"
+                                     aggregation="composite"
+                                     type="_18_1_9250292_1425299416018_623637_15853"/>
+                  </packagedElement>
+                  <packagedElement xmi:type="uml:Class" xmi:id="_18_1_9250292_1425298795876_153145_15839"
+                                   name="Webcam">
+                     <ownedAttribute xmi:type="uml:Port" xmi:id="_18_1_9250292_1425304149746_381573_17659"
+                                     name="usb"
+                                     visibility="public"
+                                     aggregation="composite"
+                                     isConjugated="true"
+                                     type="_18_1_9250292_1418747291128_450137_13829"/>
+                  </packagedElement>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Class" xmi:id="_18_1_9250292_1418746587085_906245_12902"
+                                name="Computer System">
+                  <ownedComment xmi:type="uml:Comment" xmi:id="_18_1_9250292_1420192986850_395441_15783"
+                                body="&lt;html&gt;&#xA;  &lt;head&gt;&#xA;&#x9;&#x9;&lt;style&gt;&#xA;&#x9;&#x9;&#x9;p {padding:0px; margin:0px;}&#xA;&#x9;&#x9;&lt;/style&gt;&#xA;&#x9;&lt;/head&gt;&#xA;  &lt;body&gt;&#xA;    &lt;p&gt;&#xA;&amp;#160;&#xA;&#xA;    &lt;/p&gt;&#xA;&#xA;&lt;/body&gt;&#xA;&lt;/html&gt;">
+                     <annotatedElement xmi:idref="_18_1_9250292_1418746587085_906245_12902"/>
+                  </ownedComment>
+                  <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5beta_9250292_1475125727673_121368_28129"
+                                  visibility="private"
+                                  aggregation="composite"
+                                  type="_18_1_9250292_1418746134034_286649_12610"/>
+                  <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5beta_9250292_1475409683088_963086_27772"
+                                  visibility="private"
+                                  aggregation="composite"
+                                  type="_18_1_9250292_1425298689871_586322_15824"/>
+                  <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5beta_9250292_1475411412508_939440_30856"
+                                  visibility="private"
+                                  aggregation="composite"
+                                  type="_18_1_9250292_1418746150486_449315_12750"/>
+                  <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5beta_9250292_1475638797100_664177_31494"
+                                  visibility="private"
+                                  aggregation="composite"
+                                  type="_18_1_9250292_1418907640373_595525_12752"/>
+                  <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5beta_9250292_1475638819487_302971_31591"
+                                  visibility="private"
+                                  aggregation="composite"
+                                  type="_18_1_9250292_1425305608830_488446_18152"/>
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_5beta_9250292_1475640182783_803262_33224"
+                                  name="p1"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  type="_18_1_9250292_1418747604025_833523_14084"/>
+                  <ownedAttribute xmi:type="uml:Property" xmi:id="_18_5beta_9250292_1475641222571_682402_38331"
+                                  visibility="private"
+                                  aggregation="composite"
+                                  type="_18_1_9250292_1425298709352_374833_15826"/>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1475640889003_475639_37248"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1475640889003_389016_37249"
+                          partWithPort="_18_5beta_9250292_1475640182783_803262_33224"
+                          role="_18_1_9250292_1420188075131_985238_14604"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1475640889003_885950_37250"
+                          partWithPort="_18_1_9250292_1418910053135_629137_13262"
+                          role="_18_1_9250292_1420188075131_985238_14604"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1475640892202_34960_37272"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1475640892202_926516_37273"
+                          partWithPort="_18_5beta_9250292_1475640182783_803262_33224"
+                          role="_18_1_9250292_1420188103329_75621_14694"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1475640892202_372413_37274"
+                          partWithPort="_18_1_9250292_1418910053135_629137_13262"
+                          role="_18_1_9250292_1420188103329_75621_14694"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1475640896807_343903_37298"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1475640896807_617307_37299"
+                          partWithPort="_18_5beta_9250292_1475640182783_803262_33224"
+                          role="_18_1_9250292_1420188112209_128673_14780"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1475640896807_161846_37300"
+                          partWithPort="_18_1_9250292_1418910053135_629137_13262"
+                          role="_18_1_9250292_1420188112209_128673_14780"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1475640900005_785676_37322"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd" xmi:id="_18_5beta_9250292_1475640900005_7463_37323"
+                          partWithPort="_18_5beta_9250292_1475640182783_803262_33224"
+                          role="_18_1_9250292_1420188404338_605_15148"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1475640900005_552926_37324"
+                          partWithPort="_18_1_9250292_1418910053135_629137_13262"
+                          role="_18_1_9250292_1420188404338_605_15148"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1475640902759_907869_37346"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1475640902759_990125_37347"
+                          partWithPort="_18_5beta_9250292_1475640182783_803262_33224"
+                          role="_18_1_9250292_1420188425098_725439_15252"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1475640902759_13590_37348"
+                          partWithPort="_18_1_9250292_1418910053135_629137_13262"
+                          role="_18_1_9250292_1420188425098_725439_15252"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1475640905998_72164_37370"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1475640905999_594337_37371"
+                          partWithPort="_18_5beta_9250292_1475640182783_803262_33224"
+                          role="_18_1_9250292_1420188450608_461089_15358"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1475640905999_242452_37372"
+                          partWithPort="_18_1_9250292_1418910053135_629137_13262"
+                          role="_18_1_9250292_1420188450608_461089_15358"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1475640909289_401773_37394"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1475640909289_501526_37395"
+                          partWithPort="_18_5beta_9250292_1475640182783_803262_33224"
+                          role="_18_1_9250292_1420188496807_628422_15484"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1475640909289_190728_37396"
+                          partWithPort="_18_1_9250292_1418910053135_629137_13262"
+                          role="_18_1_9250292_1420188496807_628422_15484"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1475640912958_241568_37420"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1475640912958_682965_37421"
+                          partWithPort="_18_5beta_9250292_1475640182783_803262_33224"
+                          role="_18_1_9250292_1420188526767_30071_15586"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1475640912958_524108_37422"
+                          partWithPort="_18_1_9250292_1418910053135_629137_13262"
+                          role="_18_1_9250292_1420188526767_30071_15586"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1475641330043_193258_39044"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1475641330044_855597_39045"
+                          partWithPort="_18_5beta_9250292_1475409885609_218949_28394"
+                          role="_18_5beta_9250292_1475409891599_511127_28415"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1475641330044_523689_39046"
+                          partWithPort="_18_5beta_9250292_1475638540089_472884_30852"
+                          role="_18_5beta_9250292_1475076151909_679355_28593"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1475641333730_701369_39071"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1475641333731_549429_39072"
+                          partWithPort="_18_5beta_9250292_1475409885609_218949_28394"
+                          role="_18_5beta_9250292_1475409891598_498667_28413"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1475641333731_514333_39073"
+                          partWithPort="_18_5beta_9250292_1475638540089_472884_30852"
+                          role="_18_5beta_9250292_1475076107506_708402_28549"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1475641336205_967288_39096"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1475641336206_922154_39097"
+                          partWithPort="_18_5beta_9250292_1475409885609_218949_28394"
+                          role="_18_5beta_9250292_1475409891599_444452_28414"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1475641336206_873708_39098"
+                          partWithPort="_18_5beta_9250292_1475638540089_472884_30852"
+                          role="_18_5beta_9250292_1475076134969_150382_28571"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1475641339181_771983_39121"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1475641339181_882020_39122"
+                          partWithPort="_18_5beta_9250292_1475409885609_218949_28394"
+                          role="_18_5beta_9250292_1475409891600_803350_28417"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1475641339181_817025_39123"
+                          partWithPort="_18_5beta_9250292_1475638540089_472884_30852"
+                          role="_18_5beta_9250292_1475076170314_528460_28637"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1475641341979_190836_39146"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1475641341979_914701_39147"
+                          partWithPort="_18_5beta_9250292_1475409885609_218949_28394"
+                          role="_18_5beta_9250292_1475409891600_571087_28416"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1475641341979_399132_39148"
+                          partWithPort="_18_5beta_9250292_1475638540089_472884_30852"
+                          role="_18_5beta_9250292_1475076159314_683951_28615"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1475645190421_509400_40946"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1475645190421_573416_40947"
+                          partWithPort="_18_1_9250292_1425298906624_67194_15843"
+                          role="_18_5beta_9250292_1475409891599_511127_28415"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1475645190421_639774_40948"
+                          partWithPort="_18_1_9250292_1418747273228_786715_13809"
+                          role="_18_5beta_9250292_1475076151909_679355_28593"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1475645193928_238192_40971"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1475645193928_170939_40972"
+                          partWithPort="_18_1_9250292_1425298906624_67194_15843"
+                          role="_18_5beta_9250292_1475409891598_498667_28413"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1475645193929_938868_40973"
+                          partWithPort="_18_1_9250292_1418747273228_786715_13809"
+                          role="_18_5beta_9250292_1475076107506_708402_28549"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1475645203962_790389_41002"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1475645203962_481094_41003"
+                          partWithPort="_18_1_9250292_1425298906624_67194_15843"
+                          role="_18_5beta_9250292_1475409891599_444452_28414"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1475645203962_702249_41004"
+                          partWithPort="_18_1_9250292_1418747273228_786715_13809"
+                          role="_18_5beta_9250292_1475076134969_150382_28571"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1475645246094_826576_41143"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1475645246094_656250_41144"
+                          partWithPort="_18_1_9250292_1425298906624_67194_15843"
+                          role="_18_5beta_9250292_1475409891600_803350_28417"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1475645246094_834849_41145"
+                          partWithPort="_18_1_9250292_1418747273228_786715_13809"
+                          role="_18_5beta_9250292_1475076170314_528460_28637"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1475645248362_501426_41168"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1475645248362_427913_41169"
+                          partWithPort="_18_1_9250292_1425298906624_67194_15843"
+                          role="_18_5beta_9250292_1475409891600_571087_28416"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1475645248362_97472_41170"
+                          partWithPort="_18_1_9250292_1418747273228_786715_13809"
+                          role="_18_5beta_9250292_1475076159314_683951_28615"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476438308481_594208_28483"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476438308481_732534_28484"
+                          partWithPort="_18_1_9250292_1418747153068_84261_13669"
+                          role="_18_5beta_9250292_1475078352837_647826_27956"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476438308481_591441_28485"
+                          partWithPort="_18_1_9250292_1418747117324_362899_13645"
+                          role="_18_5beta_9250292_1475078352837_647826_27956"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476438308487_248612_28486"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476438308487_176660_28487"
+                          partWithPort="_18_1_9250292_1418747117324_362899_13645"
+                          role="_18_5beta_9250292_1475078363649_694203_27977"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476438308487_710797_28488"
+                          partWithPort="_18_1_9250292_1418747153068_84261_13669"
+                          role="_18_5beta_9250292_1475078363649_694203_27977"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476438308492_219477_28489"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476438308492_99191_28490"
+                          partWithPort="_18_1_9250292_1418747117324_362899_13645"
+                          role="_18_5beta_9250292_1475073895595_556719_28312"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476438308492_235154_28491"
+                          partWithPort="_18_1_9250292_1418747153068_84261_13669"
+                          role="_18_5beta_9250292_1475073895595_556719_28312"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476438308496_203640_28492"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476438308496_290365_28493"
+                          partWithPort="_18_1_9250292_1418747153068_84261_13669"
+                          role="_18_5beta_9250292_1475077890644_376303_29224"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476438308497_591751_28494"
+                          partWithPort="_18_1_9250292_1418747117324_362899_13645"
+                          role="_18_5beta_9250292_1475077890644_376303_29224"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476438308501_858332_28495"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476438308501_15326_28496"
+                          partWithPort="_18_1_9250292_1418747117324_362899_13645"
+                          role="_18_5beta_9250292_1475077643342_273011_28769"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476438308501_156575_28497"
+                          partWithPort="_18_1_9250292_1418747153068_84261_13669"
+                          role="_18_5beta_9250292_1475077643342_273011_28769"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476438308506_808258_28498"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476438308506_328470_28499"
+                          partWithPort="_18_1_9250292_1418747117324_362899_13645"
+                          role="_18_5beta_9250292_1475073918665_307876_28334"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476438308506_385577_28500"
+                          partWithPort="_18_1_9250292_1418747153068_84261_13669"
+                          role="_18_5beta_9250292_1475073918665_307876_28334"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476438308511_287251_28501"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd" xmi:id="_18_5beta_9250292_1476438308511_9069_28502"
+                          partWithPort="_18_1_9250292_1418747153068_84261_13669"
+                          role="_18_5beta_9250292_1475073936977_31417_28358"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476438308511_558659_28503"
+                          partWithPort="_18_1_9250292_1418747117324_362899_13645"
+                          role="_18_5beta_9250292_1475073936977_31417_28358"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476438308516_259416_28504"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476438308516_107354_28505"
+                          partWithPort="_18_1_9250292_1418747153068_84261_13669"
+                          role="_18_5beta_9250292_1475077762897_92907_28831"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476438308516_133525_28506"
+                          partWithPort="_18_1_9250292_1418747117324_362899_13645"
+                          role="_18_5beta_9250292_1475077762897_92907_28831"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476438308520_874566_28507"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476438308520_869539_28508"
+                          partWithPort="_18_1_9250292_1418747153068_84261_13669"
+                          role="_18_5beta_9250292_1475078289734_499505_27574"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476438308520_692510_28509"
+                          partWithPort="_18_1_9250292_1418747117324_362899_13645"
+                          role="_18_5beta_9250292_1475078289734_499505_27574"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476438308525_757618_28510"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476438308525_868351_28511"
+                          partWithPort="_18_1_9250292_1418747117324_362899_13645"
+                          role="_18_5beta_9250292_1475077766859_351992_28871"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476438308525_604127_28512"
+                          partWithPort="_18_1_9250292_1418747153068_84261_13669"
+                          role="_18_5beta_9250292_1475077766859_351992_28871"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476438308530_180432_28513"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476438308530_728223_28514"
+                          partWithPort="_18_1_9250292_1418747117324_362899_13645"
+                          role="_18_5beta_9250292_1475077764757_957029_28851"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476438308530_326710_28515"
+                          partWithPort="_18_1_9250292_1418747153068_84261_13669"
+                          role="_18_5beta_9250292_1475077764757_957029_28851"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476438308534_446516_28516"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476438308534_174835_28517"
+                          partWithPort="_18_1_9250292_1418747153068_84261_13669"
+                          role="_18_5beta_9250292_1475074028526_513091_28382"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476438308534_772527_28518"
+                          partWithPort="_18_1_9250292_1418747117324_362899_13645"
+                          role="_18_5beta_9250292_1475074028526_513091_28382"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476438308539_40714_28519"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476438308539_367852_28520"
+                          partWithPort="_18_1_9250292_1418747117324_362899_13645"
+                          role="_18_5beta_9250292_1475078404982_610_28002"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476438308540_864031_28521"
+                          partWithPort="_18_1_9250292_1418747153068_84261_13669"
+                          role="_18_5beta_9250292_1475078404982_610_28002"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476438308544_741610_28522"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476438308544_641986_28523"
+                          partWithPort="_18_1_9250292_1418747153068_84261_13669"
+                          role="_18_5beta_9250292_1475073834793_995710_28290"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476438308544_929848_28524"
+                          partWithPort="_18_1_9250292_1418747117324_362899_13645"
+                          role="_18_5beta_9250292_1475073834793_995710_28290"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476438308549_53940_28525"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476438308549_788755_28526"
+                          partWithPort="_18_1_9250292_1418747117324_362899_13645"
+                          role="_18_5beta_9250292_1475074042742_584484_28404"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476438308549_477947_28527"
+                          partWithPort="_18_1_9250292_1418747153068_84261_13669"
+                          role="_18_5beta_9250292_1475074042742_584484_28404"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476438308553_11978_28528"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476438308553_824063_28529"
+                          partWithPort="_18_1_9250292_1418747117324_362899_13645"
+                          role="_18_5beta_9250292_1475077742947_435794_28811"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476438308553_705896_28530"
+                          partWithPort="_18_1_9250292_1418747153068_84261_13669"
+                          role="_18_5beta_9250292_1475077742947_435794_28811"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476438308557_938282_28531"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476438308557_15918_28532"
+                          partWithPort="_18_1_9250292_1418747153068_84261_13669"
+                          role="_18_5beta_9250292_1475074050701_771337_28426"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476438308557_54960_28533"
+                          partWithPort="_18_1_9250292_1418747117324_362899_13645"
+                          role="_18_5beta_9250292_1475074050701_771337_28426"/>
+                  </ownedConnector>
+                  <ownedConnector xmi:type="uml:Connector" xmi:id="_18_5beta_9250292_1476438308562_845730_28534"
+                                  visibility="public">
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476438308562_575410_28535"
+                          partWithPort="_18_1_9250292_1418747117324_362899_13645"
+                          role="_18_5beta_9250292_1475077645668_649713_28789"/>
+                     <end xmi:type="uml:ConnectorEnd"
+                          xmi:id="_18_5beta_9250292_1476438308562_119779_28536"
+                          partWithPort="_18_1_9250292_1418747153068_84261_13669"
+                          role="_18_5beta_9250292_1475077645668_649713_28789"/>
+                  </ownedConnector>
+               </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_18_1_9250292_1425297572177_70760_15716"
+                             name="Audio System">
+               <packagedElement xmi:type="uml:Class" xmi:id="_18_1_9250292_1425297596241_53182_15718"
+                                name="Speakers">
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_1_9250292_1425460250782_11528_17556"
+                                  name="speaker"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  isConjugated="true"
+                                  type="_18_1_9250292_1425299742446_665739_16083"/>
+               </packagedElement>
+               <packagedElement xmi:type="uml:Class" xmi:id="_18_1_9250292_1425379402130_86489_20676"
+                                name="HeadPhones">
+                  <ownedAttribute xmi:type="uml:Port" xmi:id="_18_1_9250292_1425395382616_881548_23580"
+                                  name="speaker"
+                                  visibility="public"
+                                  aggregation="composite"
+                                  isConjugated="true"
+                                  type="_18_1_9250292_1425299742446_665739_16083"/>
+               </packagedElement>
+            </packagedElement>
+         </packagedElement>
+         <packagedElement xmi:type="uml:Package" xmi:id="_18_1_9250292_1425295198730_618802_14966"
+                          name="Item types">
+            <packagedElement xmi:type="uml:Class" xmi:id="_18_1_9250292_1418918618796_589723_13924"
+                             name="RadioWaves"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_18_1_9250292_1425389438177_845873_22104"
+                             name="Water"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_18_1_9250292_1425394161074_397302_22809"
+                             name="Electricity"/>
+         </packagedElement>
+      </packagedElement>
+   </uml:Model>
+   <sysml:FlowProperty xmi:id="_18_1_9250292_1418749054617_197646_14537"
+                       base_Property="_18_1_9250292_1418749054612_39513_14536"
+                       direction="out"/>
+   <sysml:InterfaceBlock xmi:id="_18_1_9250292_1425299110737_193162_15846"
+                         base_Class="_18_1_9250292_1425299110736_273581_15845"/>
+   <sysml:FlowProperty xmi:id="_18_1_9250292_1425299137570_914649_15848"
+                       base_Property="_18_1_9250292_1425299137568_166116_15847"
+                       direction="in"/>
+   <sysml:InterfaceBlock xmi:id="_18_1_9250292_1425299416019_514438_15854"
+                         base_Class="_18_1_9250292_1425299416018_623637_15853"/>
+   <sysml:FlowProperty xmi:id="_18_1_9250292_1425299500189_796855_16013"
+                       base_Property="_18_1_9250292_1425299500188_784601_16012"
+                       direction="out"/>
+   <sysml:InterfaceBlock xmi:id="_18_1_9250292_1425299742446_937400_16084"
+                         base_Class="_18_1_9250292_1425299742446_665739_16083"/>
+   <sysml:FlowProperty xmi:id="_18_1_9250292_1425300686519_681518_16095"
+                       base_Property="_18_1_9250292_1425300686518_496904_16094"
+                       direction="in"/>
+   <sysml:InterfaceBlock xmi:id="_18_1_9250292_1425285470265_257505_13396"
+                         base_Class="_18_1_9250292_1425285470264_261392_13395"/>
+   <sysml:InterfaceBlock xmi:id="_18_1_9250292_1425285485448_973582_13401"
+                         base_Class="_18_1_9250292_1425285485448_142228_13400"/>
+   <sysml:InterfaceBlock xmi:id="_18_5beta_9250292_1475077586370_144402_28735"
+                         base_Class="_18_5beta_9250292_1475077586369_328888_28734"/>
+   <sysml:InterfaceBlock xmi:id="_18_5beta_9250292_1475077586375_275800_28739"
+                         base_Class="_18_5beta_9250292_1475077586374_2723_28738"/>
+   <sysml:InterfaceBlock xmi:id="_18_5beta_9250292_1475077586361_420347_28729"
+                         base_Class="_18_5beta_9250292_1475077586361_205748_28728"/>
+   <sysml:InterfaceBlock xmi:id="_18_5beta_9250292_1475077586377_831828_28741"
+                         base_Class="_18_5beta_9250292_1475077586377_625953_28740"/>
+   <sysml:InterfaceBlock xmi:id="_18_5beta_9250292_1475077586356_666699_28725"
+                         base_Class="_18_5beta_9250292_1475077586356_460259_28724"/>
+   <sysml:InterfaceBlock xmi:id="_18_5beta_9250292_1475077705557_82195_28807"
+                         base_Class="_18_5beta_9250292_1475077705555_829423_28806"/>
+   <sysml:InterfaceBlock xmi:id="_18_5beta_9250292_1475078187532_901728_29267"
+                         base_Class="_18_5beta_9250292_1475078187531_969849_29266"/>
+   <sysml:InterfaceBlock xmi:id="_18_5beta_9250292_1475077586354_81099_28723"
+                         base_Class="_18_5beta_9250292_1475077586353_253364_28722"/>
+   <sysml:InterfaceBlock xmi:id="_18_5beta_9250292_1475077586364_719439_28731"
+                         base_Class="_18_5beta_9250292_1475077586364_308106_28730"/>
+   <sysml:InterfaceBlock xmi:id="_18_5beta_9250292_1475077586358_507356_28727"
+                         base_Class="_18_5beta_9250292_1475077586358_951867_28726"/>
+   <sysml:InterfaceBlock xmi:id="_18_5beta_9250292_1475077586367_836347_28733"
+                         base_Class="_18_5beta_9250292_1475077586367_864986_28732"/>
+   <sysml:InterfaceBlock xmi:id="_18_1_9250292_1418749019097_987593_14432"
+                         base_Class="_18_1_9250292_1418749019092_780081_14431"/>
+   <sysml:InterfaceBlock xmi:id="_18_1_9250292_1418746526798_461037_12800"
+                         base_Class="_18_1_9250292_1418746526798_737926_12799"/>
+   <sysml:FullPort xmi:id="_18_5beta_9250292_1475073834793_990668_28291"
+                   base_Port="_18_5beta_9250292_1475073834793_995710_28290"/>
+   <sysml:FlowProperty xmi:id="_18_1_9250292_1418748732642_211269_14404"
+                       base_Property="_18_1_9250292_1418748732642_82412_14403"
+                       direction="out"/>
+   <sysml:FullPort xmi:id="_18_5beta_9250292_1475073895595_249114_28313"
+                   base_Port="_18_5beta_9250292_1475073895595_556719_28312"/>
+   <sysml:FullPort xmi:id="_18_5beta_9250292_1475073936977_84746_28359"
+                   base_Port="_18_5beta_9250292_1475073936977_31417_28358"/>
+   <sysml:FullPort xmi:id="_18_5beta_9250292_1475073918666_561672_28335"
+                   base_Port="_18_5beta_9250292_1475073918665_307876_28334"/>
+   <sysml:FullPort xmi:id="_18_5beta_9250292_1475074028526_165176_28383"
+                   base_Port="_18_5beta_9250292_1475074028526_513091_28382"/>
+   <sysml:FullPort xmi:id="_18_5beta_9250292_1475074042742_919751_28405"
+                   base_Port="_18_5beta_9250292_1475074042742_584484_28404"/>
+   <sysml:FullPort xmi:id="_18_5beta_9250292_1475077643342_55195_28770"
+                   base_Port="_18_5beta_9250292_1475077643342_273011_28769"/>
+   <sysml:FullPort xmi:id="_18_5beta_9250292_1475074050702_470820_28427"
+                   base_Port="_18_5beta_9250292_1475074050701_771337_28426"/>
+   <sysml:FullPort xmi:id="_18_5beta_9250292_1475077645668_491862_28790"
+                   base_Port="_18_5beta_9250292_1475077645668_649713_28789"/>
+   <sysml:FullPort xmi:id="_18_5beta_9250292_1475077742948_254699_28812"
+                   base_Port="_18_5beta_9250292_1475077742947_435794_28811"/>
+   <sysml:FullPort xmi:id="_18_5beta_9250292_1475077762898_362995_28832"
+                   base_Port="_18_5beta_9250292_1475077762897_92907_28831"/>
+   <sysml:FullPort xmi:id="_18_5beta_9250292_1475077764757_983822_28852"
+                   base_Port="_18_5beta_9250292_1475077764757_957029_28851"/>
+   <sysml:FullPort xmi:id="_18_5beta_9250292_1475077766860_305108_28872"
+                   base_Port="_18_5beta_9250292_1475077766859_351992_28871"/>
+   <sysml:FullPort xmi:id="_18_5beta_9250292_1475077890644_89854_29225"
+                   base_Port="_18_5beta_9250292_1475077890644_376303_29224"/>
+   <sysml:FullPort xmi:id="_18_5beta_9250292_1475078289735_726477_27575"
+                   base_Port="_18_5beta_9250292_1475078289734_499505_27574"/>
+   <sysml:FullPort xmi:id="_18_5beta_9250292_1475078352837_389383_27957"
+                   base_Port="_18_5beta_9250292_1475078352837_647826_27956"/>
+   <sysml:FullPort xmi:id="_18_5beta_9250292_1475078363649_179285_27978"
+                   base_Port="_18_5beta_9250292_1475078363649_694203_27977"/>
+   <sysml:FullPort xmi:id="_18_5beta_9250292_1475078404982_970365_28003"
+                   base_Port="_18_5beta_9250292_1475078404982_610_28002"/>
+   <sysml:InterfaceBlock xmi:id="_18_5beta_9250292_1475077586372_120005_28737"
+                         base_Class="_18_5beta_9250292_1475077586372_74265_28736"/>
+   <sysml:InterfaceBlock xmi:id="_18_5beta_9250292_1475077586318_151301_28721"
+                         base_Class="_18_5beta_9250292_1475077586318_596001_28720"/>
+   <sysml:InterfaceBlock xmi:id="_18_5beta_9250292_1475076155134_662321_28611"
+                         base_Class="_18_5beta_9250292_1475076155134_836344_28610"/>
+   <sysml:InterfaceBlock xmi:id="_18_5beta_9250292_1475078187529_753028_29265"
+                         base_Class="_18_5beta_9250292_1475078187529_415601_29264"/>
+   <sysml:InterfaceBlock xmi:id="_18_5beta_9250292_1475078187520_645585_29259"
+                         base_Class="_18_5beta_9250292_1475078187520_505951_29258"/>
+   <sysml:InterfaceBlock xmi:id="_18_5beta_9250292_1475078187527_785446_29263"
+                         base_Class="_18_5beta_9250292_1475078187526_595617_29262"/>
+   <sysml:InterfaceBlock xmi:id="_18_1_9250292_1425287564438_134305_13294"
+                         base_Class="_18_1_9250292_1425287564435_827894_13293"/>
+   <sysml:InterfaceBlock xmi:id="_18_1_9250292_1418747647030_192270_14131"
+                         base_Class="_18_1_9250292_1418747647030_953499_14130"/>
+   <sysml:InterfaceBlock xmi:id="_18_1_9250292_1418747604025_437514_14085"
+                         base_Class="_18_1_9250292_1418747604025_833523_14084"/>
+   <sysml:FlowSpecification xmi:id="_18_1_9250292_1425457660635_354294_16430"
+                            base_Interface="_18_1_9250292_1425457660635_255625_16429"/>
+   <sysml:FullPort xmi:id="_18_1_9250292_1420188075132_9889_14605"
+                   base_Port="_18_1_9250292_1420188075131_985238_14604"/>
+   <sysml:FullPort xmi:id="_18_1_9250292_1420188103330_712410_14695"
+                   base_Port="_18_1_9250292_1420188103329_75621_14694"/>
+   <sysml:FullPort xmi:id="_18_1_9250292_1420188112209_500017_14781"
+                   base_Port="_18_1_9250292_1420188112209_128673_14780"/>
+   <sysml:FlowProperty xmi:id="_18_1_9250292_1418749116932_891161_14542"
+                       base_Property="_18_1_9250292_1418749116932_772748_14541"
+                       direction="in"/>
+   <sysml:FullPort xmi:id="_18_1_9250292_1420188404338_547242_15149"
+                   base_Port="_18_1_9250292_1420188404338_605_15148"/>
+   <sysml:FullPort xmi:id="_18_1_9250292_1420188425098_542862_15253"
+                   base_Port="_18_1_9250292_1420188425098_725439_15252"/>
+   <sysml:FullPort xmi:id="_18_1_9250292_1420188496807_265391_15485"
+                   base_Port="_18_1_9250292_1420188496807_628422_15484"/>
+   <sysml:FullPort xmi:id="_18_1_9250292_1420188450608_135406_15359"
+                   base_Port="_18_1_9250292_1420188450608_461089_15358"/>
+   <sysml:FullPort xmi:id="_18_1_9250292_1420188526767_65544_15587"
+                   base_Port="_18_1_9250292_1420188526767_30071_15586"/>
+   <sysml:InterfaceBlock xmi:id="_18_5beta_9250292_1475639275450_881923_32473"
+                         base_Class="_18_5beta_9250292_1475639275450_781993_32472"/>
+   <sysml:InterfaceBlock xmi:id="_18_5beta_9250292_1475639275446_75144_32471"
+                         base_Class="_18_5beta_9250292_1475639275445_398730_32470"/>
+   <sysml:InterfaceBlock xmi:id="_18_5beta_9250292_1475639275457_720891_32477"
+                         base_Class="_18_5beta_9250292_1475639275457_659692_32476"/>
+   <sysml:InterfaceBlock xmi:id="_18_5beta_9250292_1475639275463_987634_32479"
+                         base_Class="_18_5beta_9250292_1475639275462_464320_32478"/>
+   <sysml:InterfaceBlock xmi:id="_18_5beta_9250292_1475639275443_181195_32469"
+                         base_Class="_18_5beta_9250292_1475639275442_629946_32468"/>
+   <sysml:InterfaceBlock xmi:id="_18_5beta_9250292_1475639275397_982802_32465"
+                         base_Class="_18_5beta_9250292_1475639275397_421708_32464"/>
+   <sysml:InterfaceBlock xmi:id="_18_5beta_9250292_1475639275454_979755_32475"
+                         base_Class="_18_5beta_9250292_1475639275454_779208_32474"/>
+   <sysml:InterfaceBlock xmi:id="_18_5beta_9250292_1475639275440_541472_32467"
+                         base_Class="_18_5beta_9250292_1475639275440_995772_32466"/>
+   <sysml:InterfaceBlock xmi:id="_18_1_9250292_1418910477418_66033_13353"
+                         base_Class="_18_1_9250292_1418910477418_440928_13352"/>
+   <sysml:InterfaceBlock xmi:id="_18_1_9250292_1418908313017_370183_13004"
+                         base_Class="_18_1_9250292_1418908313017_670226_13003"/>
+   <sysml:FlowProperty xmi:id="_18_1_9250292_1418910955257_627684_13603"
+                       base_Property="_18_1_9250292_1418910955257_623494_13602"
+                       direction="in"/>
+   <sysml:FlowProperty xmi:id="_18_1_9250292_1418908694543_566886_13071"
+                       base_Property="_18_1_9250292_1418908694543_871755_13070"
+                       direction="in"/>
+   <sysml:InterfaceBlock xmi:id="_18_1_9250292_1418747291128_287680_13830"
+                         base_Class="_18_1_9250292_1418747291128_450137_13829"/>
+   <sysml:FullPort xmi:id="_18_5beta_9250292_1475076107506_990735_28550"
+                   base_Port="_18_5beta_9250292_1475076107506_708402_28549"/>
+   <sysml:FullPort xmi:id="_18_5beta_9250292_1475076134969_569730_28572"
+                   base_Port="_18_5beta_9250292_1475076134969_150382_28571"/>
+   <sysml:FullPort xmi:id="_18_5beta_9250292_1475076151909_522213_28594"
+                   base_Port="_18_5beta_9250292_1475076151909_679355_28593"/>
+   <sysml:FlowProperty xmi:id="_18_1_9250292_1418748707242_232419_14394"
+                       base_Property="_18_1_9250292_1418748707242_547217_14393"
+                       direction="in"/>
+   <sysml:FullPort xmi:id="_18_5beta_9250292_1475076159315_754569_28616"
+                   base_Port="_18_5beta_9250292_1475076159314_683951_28615"/>
+   <sysml:FullPort xmi:id="_18_5beta_9250292_1475076170314_318452_28638"
+                   base_Port="_18_5beta_9250292_1475076170314_528460_28637"/>
+   <sysml:InterfaceBlock xmi:id="_18_5beta_9250292_1475076130833_744199_28567"
+                         base_Class="_18_5beta_9250292_1475076130832_720927_28566"/>
+   <sysml:InterfaceBlock xmi:id="_18_5beta_9250292_1475076140509_813581_28589"
+                         base_Class="_18_5beta_9250292_1475076140509_361812_28588"/>
+   <sysml:InterfaceBlock xmi:id="_18_5beta_9250292_1475076167325_629576_28633"
+                         base_Class="_18_5beta_9250292_1475076167325_482279_28632"/>
+   <sysml:InterfaceBlock xmi:id="_18_5beta_9250292_1475076175121_444121_28655"
+                         base_Class="_18_5beta_9250292_1475076175121_318590_28654"/>
+   <sysml:FlowProperty xmi:id="_18_5beta_9250292_1475409891601_82307_28419"
+                       base_Property="_18_5beta_9250292_1475409891597_785621_28412"
+                       direction="out"/>
+   <sysml:FullPort xmi:id="_18_5beta_9250292_1475409891601_664270_28420"
+                   base_Port="_18_5beta_9250292_1475409891598_498667_28413"/>
+   <sysml:FullPort xmi:id="_18_5beta_9250292_1475409891601_855049_28421"
+                   base_Port="_18_5beta_9250292_1475409891599_444452_28414"/>
+   <sysml:FullPort xmi:id="_18_5beta_9250292_1475409891601_673203_28422"
+                   base_Port="_18_5beta_9250292_1475409891599_511127_28415"/>
+   <sysml:FullPort xmi:id="_18_5beta_9250292_1475409891601_190035_28423"
+                   base_Port="_18_5beta_9250292_1475409891600_571087_28416"/>
+   <sysml:FullPort xmi:id="_18_5beta_9250292_1475409891601_254290_28424"
+                   base_Port="_18_5beta_9250292_1475409891600_803350_28417"/>
+   <sysml:Block xmi:id="_18_1_9250292_1418749980548_488578_14569"
+                base_Class="_18_1_9250292_1418749980543_448807_14568"/>
+   <sysml:InterfaceBlock xmi:id="_18_5beta_9250292_1475078187524_600589_29261"
+                         base_Class="_18_5beta_9250292_1475078187523_71881_29260"/>
+   <sysml:FullPort xmi:id="_18_1_9250292_1418750014048_585022_14578"
+                   base_Port="_18_1_9250292_1418750014043_920934_14577"/>
+   <sysml:FullPort xmi:id="_18_1_9250292_1418750108643_349789_14652"
+                   base_Port="_18_1_9250292_1418750108643_976038_14651"/>
+   <sysml:FullPort xmi:id="_18_1_9250292_1418750149348_420429_14792"
+                   base_Port="_18_1_9250292_1418750149348_346342_14791"/>
+   <sysml:FullPort xmi:id="_18_5beta_9250292_1476441065210_250456_28679"
+                   base_Port="_18_5beta_9250292_1476441065209_497507_28678"/>
+   <sysml:Block xmi:id="_18_1_9250292_1418746150486_339070_12751"
+                base_Class="_18_1_9250292_1418746150486_449315_12750"/>
+   <sysml:FullPort xmi:id="_18_1_9250292_1418747153068_714627_13670"
+                   base_Port="_18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:FullPort xmi:id="_18_1_9250292_1418747219790_967834_13752"
+                   base_Port="_18_1_9250292_1418747219785_194358_13751"/>
+   <sysml:FullPort xmi:id="_18_1_9250292_1418749003187_600227_14412"
+                   base_Port="_18_1_9250292_1418749003187_502399_14411"/>
+   <sysml:FullPort xmi:id="_18_1_9250292_1418921630437_629544_14607"
+                   base_Port="_18_1_9250292_1418921630437_173341_14606"/>
+   <sysml:Block xmi:id="_18_1_9250292_1425288373000_157674_13407"
+                base_Class="_18_1_9250292_1425288372999_917834_13406"/>
+   <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_18_1_9250292_1425288417634_451251_13627"
+                                                                    base_Property="_18_1_9250292_1425288417579_675704_13619"/>
+   <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_18_1_9250292_1425288419273_375675_13659"
+                                                                    base_Property="_18_1_9250292_1425288419264_631126_13651"/>
+   <sysml:FullPort xmi:id="_18_1_9250292_1425288876145_176501_14250"
+                   base_Port="_18_1_9250292_1425288876145_700252_14249"/>
+   <sysml:FullPort xmi:id="_18_1_9250292_1425288705813_44400_14166"
+                   base_Port="_18_1_9250292_1425288705812_408376_14165"/>
+   <sysml:FullPort xmi:id="_18_1_9250292_1425289031351_126825_14344"
+                   base_Port="_18_1_9250292_1425289031350_764306_14343"/>
+   <sysml:InterfaceBlock xmi:id="_18_5beta_9250292_1475409891601_879297_28418"
+                         base_Class="_18_5beta_9250292_1475409891596_106565_28411"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476442699481_325398_28086"
+                             base_ConnectorEnd="_18_5beta_9250292_1476442699476_930508_28083"
+                             propertyPath="_18_1_9250292_1425288419264_631126_13651 _18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476442699487_114109_28090"
+                             base_ConnectorEnd="_18_5beta_9250292_1476442699476_247472_28084"
+                             propertyPath="_18_1_9250292_1425288417579_675704_13619 _18_1_9250292_1418750108643_976038_14651"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443269811_367949_29881"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443266276_270892_29775"
+                             propertyPath="_18_1_9250292_1425288419264_631126_13651 _18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443269817_521177_29889"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443266282_985563_29778"
+                             propertyPath="_18_1_9250292_1425288417579_675704_13619 _18_1_9250292_1418750108643_976038_14651"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443269814_920049_29885"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443266276_354190_29776"
+                             propertyPath="_18_1_9250292_1425288417579_675704_13619 _18_1_9250292_1418750108643_976038_14651"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443269820_985491_29893"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443266282_121580_29779"
+                             propertyPath="_18_1_9250292_1425288419264_631126_13651 _18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443269822_105513_29897"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443266288_490323_29781"
+                             propertyPath="_18_1_9250292_1425288419264_631126_13651 _18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443269828_102370_29905"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443266293_46855_29784"
+                             propertyPath="_18_1_9250292_1425288419264_631126_13651 _18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443269825_233153_29901"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443266288_23694_29782"
+                             propertyPath="_18_1_9250292_1425288417579_675704_13619 _18_1_9250292_1418750108643_976038_14651"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443269830_428677_29909"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443266293_679826_29785"
+                             propertyPath="_18_1_9250292_1425288417579_675704_13619 _18_1_9250292_1418750108643_976038_14651"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443269833_188817_29913"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443266298_53847_29787"
+                             propertyPath="_18_1_9250292_1425288419264_631126_13651 _18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443269836_383402_29917"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443266298_530903_29788"
+                             propertyPath="_18_1_9250292_1425288417579_675704_13619 _18_1_9250292_1418750108643_976038_14651"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443269840_515924_29921"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443266303_656703_29790"
+                             propertyPath="_18_1_9250292_1425288419264_631126_13651 _18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443269847_67750_29929"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443266308_105513_29793"
+                             propertyPath="_18_1_9250292_1425288417579_675704_13619 _18_1_9250292_1418750108643_976038_14651"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443269843_983483_29925"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443266303_469763_29791"
+                             propertyPath="_18_1_9250292_1425288417579_675704_13619 _18_1_9250292_1418750108643_976038_14651"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443269852_42348_29937"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443266314_348088_29796"
+                             propertyPath="_18_1_9250292_1425288417579_675704_13619 _18_1_9250292_1418750108643_976038_14651"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443269849_239079_29933"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443266309_650093_29794"
+                             propertyPath="_18_1_9250292_1425288419264_631126_13651 _18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443269858_946223_29945"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443266319_574330_29799"
+                             propertyPath="_18_1_9250292_1425288417579_675704_13619 _18_1_9250292_1418750108643_976038_14651"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443269855_920041_29941"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443266314_401789_29797"
+                             propertyPath="_18_1_9250292_1425288419264_631126_13651 _18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443269860_594487_29949"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443266319_660702_29800"
+                             propertyPath="_18_1_9250292_1425288419264_631126_13651 _18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443269863_343627_29953"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443266324_573559_29802"
+                             propertyPath="_18_1_9250292_1425288417579_675704_13619 _18_1_9250292_1418750108643_976038_14651"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443269865_136671_29957"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443266324_670529_29803"
+                             propertyPath="_18_1_9250292_1425288419264_631126_13651 _18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443269868_452115_29961"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443266328_548679_29805"
+                             propertyPath="_18_1_9250292_1425288417579_675704_13619 _18_1_9250292_1418750108643_976038_14651"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443269879_824205_29978"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443266340_329340_29811"
+                             propertyPath="_18_1_9250292_1425288419264_631126_13651 _18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443269869_20571_29965"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443266328_850740_29806"
+                             propertyPath="_18_1_9250292_1425288419264_631126_13651 _18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443269885_847022_29986"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443266345_616136_29814"
+                             propertyPath="_18_1_9250292_1425288417579_675704_13619 _18_1_9250292_1418750108643_976038_14651"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443269881_276578_29982"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443266340_599080_29812"
+                             propertyPath="_18_1_9250292_1425288417579_675704_13619 _18_1_9250292_1418750108643_976038_14651"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443269892_507677_29994"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443266350_203742_29817"
+                             propertyPath="_18_1_9250292_1425288417579_675704_13619 _18_1_9250292_1418750108643_976038_14651"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443269888_677563_29990"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443266345_114890_29815"
+                             propertyPath="_18_1_9250292_1425288419264_631126_13651 _18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443269898_656394_30002"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443266355_422295_29820"
+                             propertyPath="_18_1_9250292_1425288417579_675704_13619 _18_1_9250292_1418750108643_976038_14651"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443269894_68591_29998"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443266350_155612_29818"
+                             propertyPath="_18_1_9250292_1425288419264_631126_13651 _18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443269901_555146_30006"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443266355_402904_29821"
+                             propertyPath="_18_1_9250292_1425288419264_631126_13651 _18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443269904_888374_30010"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443266361_818612_29823"
+                             propertyPath="_18_1_9250292_1425288419264_631126_13651 _18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443269910_262182_30018"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443266367_549432_29826"
+                             propertyPath="_18_1_9250292_1425288417579_675704_13619 _18_1_9250292_1418750108643_976038_14651"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443269907_165841_30014"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443266361_199399_29824"
+                             propertyPath="_18_1_9250292_1425288417579_675704_13619 _18_1_9250292_1418750108643_976038_14651"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443615151_606852_32525"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443615134_784470_32522"
+                             propertyPath="_18_1_9250292_1425288417579_675704_13619 _18_1_9250292_1418750014043_920934_14577"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443269912_814989_30022"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443266367_738032_29827"
+                             propertyPath="_18_1_9250292_1425288419264_631126_13651 _18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443615155_474898_32529"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443615134_766245_32523"
+                             propertyPath="_18_1_9250292_1425289031350_764306_14343"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443617844_508108_32541"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443617839_452096_32538"
+                             propertyPath="_18_1_9250292_1425288417579_675704_13619 _18_1_9250292_1418750014043_920934_14577"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443617848_302614_32545"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443617839_70462_32539"
+                             propertyPath="_18_1_9250292_1425289031350_764306_14343"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443620748_346017_32557"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443620729_689984_32554"
+                             propertyPath="_18_1_9250292_1425288417579_675704_13619 _18_1_9250292_1418750014043_920934_14577"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443620752_293085_32561"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443620729_523303_32555"
+                             propertyPath="_18_1_9250292_1425289031350_764306_14343"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443627361_417649_32575"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443627359_644421_32572"
+                             propertyPath="_18_1_9250292_1425288417579_675704_13619 _18_1_9250292_1418750014043_920934_14577"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443627364_320890_32579"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443627359_556247_32573"
+                             propertyPath="_18_1_9250292_1425289031350_764306_14343"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443629006_958808_32591"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443628987_152621_32588"
+                             propertyPath="_18_1_9250292_1425289031350_764306_14343"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443629008_171689_32594"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443628987_380439_32589"
+                             propertyPath="_18_1_9250292_1425288417579_675704_13619 _18_1_9250292_1418750014043_920934_14577"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443630746_541732_32607"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443630743_490521_32604"
+                             propertyPath="_18_1_9250292_1425288417579_675704_13619 _18_1_9250292_1418750014043_920934_14577"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443630750_498062_32611"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443630743_932152_32605"
+                             propertyPath="_18_1_9250292_1425289031350_764306_14343"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443632636_556696_32623"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443632618_74575_32620"
+                             propertyPath="_18_1_9250292_1425289031350_764306_14343"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443632638_158152_32626"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443632618_360472_32621"
+                             propertyPath="_18_1_9250292_1425288417579_675704_13619 _18_1_9250292_1418750014043_920934_14577"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443634493_952453_32639"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443634492_720602_32636"
+                             propertyPath="_18_1_9250292_1425288417579_675704_13619 _18_1_9250292_1418750014043_920934_14577"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476443634496_706654_32643"
+                             base_ConnectorEnd="_18_5beta_9250292_1476443634492_611268_32637"
+                             propertyPath="_18_1_9250292_1425289031350_764306_14343"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1477540336106_529149_28299"
+                             base_ConnectorEnd="_18_5beta_9250292_1477540336104_737602_28296"
+                             propertyPath="_18_1_9250292_1425288417579_675704_13619"/>
+   <sysml:Block xmi:id="_18_1_9250292_1418746134034_767304_12611"
+                base_Class="_18_1_9250292_1418746134034_286649_12610"
+                isEncapsulated="true"/>
+   <sysml:FullPort xmi:id="_18_1_9250292_1418747273228_701898_13810"
+                   base_Port="_18_1_9250292_1418747273228_786715_13809"/>
+   <sysml:FullPort xmi:id="_18_1_9250292_1418747117324_773228_13646"
+                   base_Port="_18_1_9250292_1418747117324_362899_13645"/>
+   <sysml:FullPort xmi:id="_18_1_9250292_1418908349847_57468_13050"
+                   base_Port="_18_1_9250292_1418908349847_206176_13049"/>
+   <sysml:FullPort xmi:id="_18_5beta_9250292_1475638540091_497551_30853"
+                   base_Port="_18_5beta_9250292_1475638540089_472884_30852"/>
+   <sysml:Block xmi:id="_18_1_9250292_1418907640373_574363_12753"
+                base_Class="_18_1_9250292_1418907640373_595525_12752"/>
+   <sysml:FullPort xmi:id="_18_1_9250292_1418908214320_300346_12984"
+                   base_Port="_18_1_9250292_1418908214320_362650_12983"/>
+   <sysml:FullPort xmi:id="_18_1_9250292_1418909833294_846538_13204"
+                   base_Port="_18_1_9250292_1418909833294_293506_13203"/>
+   <sysml:FullPort xmi:id="_18_1_9250292_1418909981823_149182_13239"
+                   base_Port="_18_1_9250292_1418909981818_251276_13238"/>
+   <sysml:FullPort xmi:id="_18_1_9250292_1418910859885_424836_13583"
+                   base_Port="_18_1_9250292_1418910859885_270713_13582"/>
+   <sysml:FullPort xmi:id="_18_1_9250292_1425305577250_75315_18139"
+                   base_Port="_18_1_9250292_1425305577250_592247_18138"/>
+   <sysml:FullPort xmi:id="_18_1_9250292_1418910053135_887724_13263"
+                   base_Port="_18_1_9250292_1418910053135_629137_13262"/>
+   <sysml:Block xmi:id="_18_1_9250292_1425305608831_974247_18153"
+                base_Class="_18_1_9250292_1425305608830_488446_18152"/>
+   <sysml:FullPort xmi:id="_18_1_9250292_1425305635125_933330_18217"
+                   base_Port="_18_1_9250292_1425305635124_337341_18216"/>
+   <sysml:FullPort xmi:id="_18_1_9250292_1425305731151_704308_18251"
+                   base_Port="_18_1_9250292_1425305731151_409879_18250"/>
+   <sysml:FullPort xmi:id="_18_1_9250292_1425378384093_265879_20597"
+                   base_Port="_18_1_9250292_1425378384093_568343_20596"/>
+   <sysml:Block xmi:id="_18_1_9250292_1425298689872_967512_15825"
+                base_Class="_18_1_9250292_1425298689871_586322_15824"/>
+   <sysml:FullPort xmi:id="_18_5beta_9250292_1475409885609_445248_28395"
+                   base_Port="_18_5beta_9250292_1475409885609_218949_28394"/>
+   <sysml:Block xmi:id="_18_1_9250292_1425298709353_144414_15827"
+                base_Class="_18_1_9250292_1425298709352_374833_15826"/>
+   <sysml:FullPort xmi:id="_18_1_9250292_1425298906625_948812_15844"
+                   base_Port="_18_1_9250292_1425298906624_67194_15843"/>
+   <sysml:Block xmi:id="_18_1_9250292_1418746147869_368193_12705"
+                base_Class="_18_1_9250292_1418746147869_264132_12704"/>
+   <sysml:FullPort xmi:id="_18_1_9250292_1418747311058_741633_13880"
+                   base_Port="_18_1_9250292_1418747311058_314846_13879"/>
+   <sysml:FullPort xmi:id="_18_1_9250292_1425299243637_516990_15852"
+                   base_Port="_18_1_9250292_1425299243636_549144_15851"/>
+   <sysml:Block xmi:id="_18_1_9250292_1425298758004_418078_15835"
+                base_Class="_18_1_9250292_1425298758003_73788_15834"/>
+   <sysml:FullPort xmi:id="_18_1_9250292_1425304149748_869060_17660"
+                   base_Port="_18_1_9250292_1425304149746_381573_17659"/>
+   <sysml:Block xmi:id="_18_1_9250292_1425298795877_678972_15840"
+                base_Class="_18_1_9250292_1425298795876_153145_15839"/>
+   <sysml:Block xmi:id="_18_1_9250292_1418746587085_635479_12903"
+                base_Class="_18_1_9250292_1418746587085_906245_12902"/>
+   <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_18_5beta_9250292_1475125727686_547397_28161"
+                                                                    base_Property="_18_5beta_9250292_1475125727673_121368_28129"/>
+   <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_18_5beta_9250292_1475409683116_103374_27804"
+                                                                    base_Property="_18_5beta_9250292_1475409683088_963086_27772"/>
+   <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_18_5beta_9250292_1475411412519_940233_30888"
+                                                                    base_Property="_18_5beta_9250292_1475411412508_939440_30856"/>
+   <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_18_5beta_9250292_1475638797137_303469_31526"
+                                                                    base_Property="_18_5beta_9250292_1475638797100_664177_31494"/>
+   <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_18_5beta_9250292_1475638819500_469429_31623"
+                                                                    base_Property="_18_5beta_9250292_1475638819487_302971_31591"/>
+   <sysml:FullPort xmi:id="_18_5beta_9250292_1475640367495_505527_34004"
+                   base_Port="_18_5beta_9250292_1475640182783_803262_33224"/>
+   <MD_Customization_for_SysML__additional_stereotypes:PartProperty xmi:id="_18_5beta_9250292_1475641222585_522361_38363"
+                                                                    base_Property="_18_5beta_9250292_1475641222571_682402_38331"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1475640889008_368438_37252"
+                             base_ConnectorEnd="_18_5beta_9250292_1475640889003_389016_37249"
+                             propertyPath="_18_5beta_9250292_1475640182783_803262_33224"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1475640889012_850937_37255"
+                             base_ConnectorEnd="_18_5beta_9250292_1475640889003_885950_37250"
+                             propertyPath="_18_5beta_9250292_1475125727673_121368_28129 _18_1_9250292_1418910053135_629137_13262"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1475640892207_453804_37276"
+                             base_ConnectorEnd="_18_5beta_9250292_1475640892202_926516_37273"
+                             propertyPath="_18_5beta_9250292_1475640182783_803262_33224"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1475640892210_197370_37279"
+                             base_ConnectorEnd="_18_5beta_9250292_1475640892202_372413_37274"
+                             propertyPath="_18_5beta_9250292_1475125727673_121368_28129 _18_1_9250292_1418910053135_629137_13262"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1475640896810_922194_37302"
+                             base_ConnectorEnd="_18_5beta_9250292_1475640896807_617307_37299"
+                             propertyPath="_18_5beta_9250292_1475640182783_803262_33224"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1475640896811_373395_37305"
+                             base_ConnectorEnd="_18_5beta_9250292_1475640896807_161846_37300"
+                             propertyPath="_18_5beta_9250292_1475125727673_121368_28129 _18_1_9250292_1418910053135_629137_13262"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1475640900007_471034_37326"
+                             base_ConnectorEnd="_18_5beta_9250292_1475640900005_7463_37323"
+                             propertyPath="_18_5beta_9250292_1475640182783_803262_33224"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1475640900009_109801_37329"
+                             base_ConnectorEnd="_18_5beta_9250292_1475640900005_552926_37324"
+                             propertyPath="_18_5beta_9250292_1475125727673_121368_28129 _18_1_9250292_1418910053135_629137_13262"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1475640902762_726742_37350"
+                             base_ConnectorEnd="_18_5beta_9250292_1475640902759_990125_37347"
+                             propertyPath="_18_5beta_9250292_1475640182783_803262_33224"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1475640902764_715028_37353"
+                             base_ConnectorEnd="_18_5beta_9250292_1475640902759_13590_37348"
+                             propertyPath="_18_5beta_9250292_1475125727673_121368_28129 _18_1_9250292_1418910053135_629137_13262"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1475640906003_352056_37374"
+                             base_ConnectorEnd="_18_5beta_9250292_1475640905999_594337_37371"
+                             propertyPath="_18_5beta_9250292_1475640182783_803262_33224"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1475640906006_805697_37377"
+                             base_ConnectorEnd="_18_5beta_9250292_1475640905999_242452_37372"
+                             propertyPath="_18_5beta_9250292_1475125727673_121368_28129 _18_1_9250292_1418910053135_629137_13262"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1475640909292_34381_37398"
+                             base_ConnectorEnd="_18_5beta_9250292_1475640909289_501526_37395"
+                             propertyPath="_18_5beta_9250292_1475640182783_803262_33224"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1475640909294_721704_37401"
+                             base_ConnectorEnd="_18_5beta_9250292_1475640909289_190728_37396"
+                             propertyPath="_18_5beta_9250292_1475125727673_121368_28129 _18_1_9250292_1418910053135_629137_13262"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1475640912961_198304_37424"
+                             base_ConnectorEnd="_18_5beta_9250292_1475640912958_682965_37421"
+                             propertyPath="_18_5beta_9250292_1475640182783_803262_33224"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1475640912963_343206_37427"
+                             base_ConnectorEnd="_18_5beta_9250292_1475640912958_524108_37422"
+                             propertyPath="_18_5beta_9250292_1475125727673_121368_28129 _18_1_9250292_1418910053135_629137_13262"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1475641330048_152724_39048"
+                             base_ConnectorEnd="_18_5beta_9250292_1475641330044_855597_39045"
+                             propertyPath="_18_5beta_9250292_1475409683088_963086_27772 _18_5beta_9250292_1475409885609_218949_28394"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1475641330050_488972_39052"
+                             base_ConnectorEnd="_18_5beta_9250292_1475641330044_523689_39046"
+                             propertyPath="_18_5beta_9250292_1475125727673_121368_28129 _18_5beta_9250292_1475638540089_472884_30852"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1475641333734_294429_39075"
+                             base_ConnectorEnd="_18_5beta_9250292_1475641333731_549429_39072"
+                             propertyPath="_18_5beta_9250292_1475409683088_963086_27772 _18_5beta_9250292_1475409885609_218949_28394"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1475641333738_957672_39079"
+                             base_ConnectorEnd="_18_5beta_9250292_1475641333731_514333_39073"
+                             propertyPath="_18_5beta_9250292_1475125727673_121368_28129 _18_5beta_9250292_1475638540089_472884_30852"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1475641336210_284405_39104"
+                             base_ConnectorEnd="_18_5beta_9250292_1475641336206_873708_39098"
+                             propertyPath="_18_5beta_9250292_1475125727673_121368_28129 _18_5beta_9250292_1475638540089_472884_30852"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1475641336208_311919_39100"
+                             base_ConnectorEnd="_18_5beta_9250292_1475641336206_922154_39097"
+                             propertyPath="_18_5beta_9250292_1475409683088_963086_27772 _18_5beta_9250292_1475409885609_218949_28394"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1475641339185_799048_39129"
+                             base_ConnectorEnd="_18_5beta_9250292_1475641339181_817025_39123"
+                             propertyPath="_18_5beta_9250292_1475125727673_121368_28129 _18_5beta_9250292_1475638540089_472884_30852"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1475641339183_498289_39125"
+                             base_ConnectorEnd="_18_5beta_9250292_1475641339181_882020_39122"
+                             propertyPath="_18_5beta_9250292_1475409683088_963086_27772 _18_5beta_9250292_1475409885609_218949_28394"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1475641341983_512029_39150"
+                             base_ConnectorEnd="_18_5beta_9250292_1475641341979_914701_39147"
+                             propertyPath="_18_5beta_9250292_1475409683088_963086_27772 _18_5beta_9250292_1475409885609_218949_28394"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1475641341987_622958_39154"
+                             base_ConnectorEnd="_18_5beta_9250292_1475641341979_399132_39148"
+                             propertyPath="_18_5beta_9250292_1475125727673_121368_28129 _18_5beta_9250292_1475638540089_472884_30852"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1475645190432_18907_40954"
+                             base_ConnectorEnd="_18_5beta_9250292_1475645190421_639774_40948"
+                             propertyPath="_18_5beta_9250292_1475125727673_121368_28129 _18_1_9250292_1418747273228_786715_13809"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1475645190427_461576_40950"
+                             base_ConnectorEnd="_18_5beta_9250292_1475645190421_573416_40947"
+                             propertyPath="_18_5beta_9250292_1475641222571_682402_38331 _18_1_9250292_1425298906624_67194_15843"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1475645193952_378172_40979"
+                             base_ConnectorEnd="_18_5beta_9250292_1475645193929_938868_40973"
+                             propertyPath="_18_5beta_9250292_1475125727673_121368_28129 _18_1_9250292_1418747273228_786715_13809"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1475645193949_186926_40975"
+                             base_ConnectorEnd="_18_5beta_9250292_1475645193928_170939_40972"
+                             propertyPath="_18_5beta_9250292_1475641222571_682402_38331 _18_1_9250292_1425298906624_67194_15843"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1475645203972_62914_41010"
+                             base_ConnectorEnd="_18_5beta_9250292_1475645203962_702249_41004"
+                             propertyPath="_18_5beta_9250292_1475125727673_121368_28129 _18_1_9250292_1418747273228_786715_13809"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1475645203968_41027_41006"
+                             base_ConnectorEnd="_18_5beta_9250292_1475645203962_481094_41003"
+                             propertyPath="_18_5beta_9250292_1475641222571_682402_38331 _18_1_9250292_1425298906624_67194_15843"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1475645246102_823642_41151"
+                             base_ConnectorEnd="_18_5beta_9250292_1475645246094_834849_41145"
+                             propertyPath="_18_5beta_9250292_1475125727673_121368_28129 _18_1_9250292_1418747273228_786715_13809"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1475645246099_832354_41147"
+                             base_ConnectorEnd="_18_5beta_9250292_1475645246094_656250_41144"
+                             propertyPath="_18_5beta_9250292_1475641222571_682402_38331 _18_1_9250292_1425298906624_67194_15843"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1475645248383_955904_41172"
+                             base_ConnectorEnd="_18_5beta_9250292_1475645248362_427913_41169"
+                             propertyPath="_18_5beta_9250292_1475641222571_682402_38331 _18_1_9250292_1425298906624_67194_15843"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1475645248387_422803_41176"
+                             base_ConnectorEnd="_18_5beta_9250292_1475645248362_97472_41170"
+                             propertyPath="_18_5beta_9250292_1475125727673_121368_28129 _18_1_9250292_1418747273228_786715_13809"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476438314223_750925_28595"
+                             base_ConnectorEnd="_18_5beta_9250292_1476438308481_591441_28485"
+                             propertyPath="_18_5beta_9250292_1475125727673_121368_28129 _18_1_9250292_1418747117324_362899_13645"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476438314221_539665_28591"
+                             base_ConnectorEnd="_18_5beta_9250292_1476438308481_732534_28484"
+                             propertyPath="_18_5beta_9250292_1475411412508_939440_30856 _18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476438314226_906788_28599"
+                             base_ConnectorEnd="_18_5beta_9250292_1476438308487_176660_28487"
+                             propertyPath="_18_5beta_9250292_1475125727673_121368_28129 _18_1_9250292_1418747117324_362899_13645"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476438314228_283805_28603"
+                             base_ConnectorEnd="_18_5beta_9250292_1476438308487_710797_28488"
+                             propertyPath="_18_5beta_9250292_1475411412508_939440_30856 _18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476438314232_24795_28607"
+                             base_ConnectorEnd="_18_5beta_9250292_1476438308492_99191_28490"
+                             propertyPath="_18_5beta_9250292_1475125727673_121368_28129 _18_1_9250292_1418747117324_362899_13645"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476438314234_355309_28611"
+                             base_ConnectorEnd="_18_5beta_9250292_1476438308492_235154_28491"
+                             propertyPath="_18_5beta_9250292_1475411412508_939440_30856 _18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476438314238_506879_28619"
+                             base_ConnectorEnd="_18_5beta_9250292_1476438308497_591751_28494"
+                             propertyPath="_18_5beta_9250292_1475125727673_121368_28129 _18_1_9250292_1418747117324_362899_13645"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476438314236_14639_28615"
+                             base_ConnectorEnd="_18_5beta_9250292_1476438308496_290365_28493"
+                             propertyPath="_18_5beta_9250292_1475411412508_939440_30856 _18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476438314240_395689_28623"
+                             base_ConnectorEnd="_18_5beta_9250292_1476438308501_15326_28496"
+                             propertyPath="_18_5beta_9250292_1475125727673_121368_28129 _18_1_9250292_1418747117324_362899_13645"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476438314242_15849_28627"
+                             base_ConnectorEnd="_18_5beta_9250292_1476438308501_156575_28497"
+                             propertyPath="_18_5beta_9250292_1475411412508_939440_30856 _18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476438314247_473624_28635"
+                             base_ConnectorEnd="_18_5beta_9250292_1476438308506_385577_28500"
+                             propertyPath="_18_5beta_9250292_1475411412508_939440_30856 _18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476438314245_655343_28631"
+                             base_ConnectorEnd="_18_5beta_9250292_1476438308506_328470_28499"
+                             propertyPath="_18_5beta_9250292_1475125727673_121368_28129 _18_1_9250292_1418747117324_362899_13645"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476438314251_649576_28643"
+                             base_ConnectorEnd="_18_5beta_9250292_1476438308511_558659_28503"
+                             propertyPath="_18_5beta_9250292_1475125727673_121368_28129 _18_1_9250292_1418747117324_362899_13645"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476438314250_164887_28639"
+                             base_ConnectorEnd="_18_5beta_9250292_1476438308511_9069_28502"
+                             propertyPath="_18_5beta_9250292_1475411412508_939440_30856 _18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476438314254_883025_28647"
+                             base_ConnectorEnd="_18_5beta_9250292_1476438308516_107354_28505"
+                             propertyPath="_18_5beta_9250292_1475411412508_939440_30856 _18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476438314256_207050_28651"
+                             base_ConnectorEnd="_18_5beta_9250292_1476438308516_133525_28506"
+                             propertyPath="_18_5beta_9250292_1475125727673_121368_28129 _18_1_9250292_1418747117324_362899_13645"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476438314258_538461_28655"
+                             base_ConnectorEnd="_18_5beta_9250292_1476438308520_869539_28508"
+                             propertyPath="_18_5beta_9250292_1475411412508_939440_30856 _18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476438314260_87884_28659"
+                             base_ConnectorEnd="_18_5beta_9250292_1476438308520_692510_28509"
+                             propertyPath="_18_5beta_9250292_1475125727673_121368_28129 _18_1_9250292_1418747117324_362899_13645"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476438314263_232959_28663"
+                             base_ConnectorEnd="_18_5beta_9250292_1476438308525_868351_28511"
+                             propertyPath="_18_5beta_9250292_1475125727673_121368_28129 _18_1_9250292_1418747117324_362899_13645"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476438314265_631857_28667"
+                             base_ConnectorEnd="_18_5beta_9250292_1476438308525_604127_28512"
+                             propertyPath="_18_5beta_9250292_1475411412508_939440_30856 _18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476438314267_656281_28671"
+                             base_ConnectorEnd="_18_5beta_9250292_1476438308530_728223_28514"
+                             propertyPath="_18_5beta_9250292_1475125727673_121368_28129 _18_1_9250292_1418747117324_362899_13645"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476438314269_747465_28675"
+                             base_ConnectorEnd="_18_5beta_9250292_1476438308530_326710_28515"
+                             propertyPath="_18_5beta_9250292_1475411412508_939440_30856 _18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476438314272_354406_28679"
+                             base_ConnectorEnd="_18_5beta_9250292_1476438308534_174835_28517"
+                             propertyPath="_18_5beta_9250292_1475411412508_939440_30856 _18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476438314274_700437_28683"
+                             base_ConnectorEnd="_18_5beta_9250292_1476438308534_772527_28518"
+                             propertyPath="_18_5beta_9250292_1475125727673_121368_28129 _18_1_9250292_1418747117324_362899_13645"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476438314277_742439_28687"
+                             base_ConnectorEnd="_18_5beta_9250292_1476438308539_367852_28520"
+                             propertyPath="_18_5beta_9250292_1475125727673_121368_28129 _18_1_9250292_1418747117324_362899_13645"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476438314279_336389_28691"
+                             base_ConnectorEnd="_18_5beta_9250292_1476438308540_864031_28521"
+                             propertyPath="_18_5beta_9250292_1475411412508_939440_30856 _18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476438314284_804036_28699"
+                             base_ConnectorEnd="_18_5beta_9250292_1476438308544_929848_28524"
+                             propertyPath="_18_5beta_9250292_1475125727673_121368_28129 _18_1_9250292_1418747117324_362899_13645"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476438314286_665819_28703"
+                             base_ConnectorEnd="_18_5beta_9250292_1476438308549_788755_28526"
+                             propertyPath="_18_5beta_9250292_1475125727673_121368_28129 _18_1_9250292_1418747117324_362899_13645"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476438314282_803617_28695"
+                             base_ConnectorEnd="_18_5beta_9250292_1476438308544_641986_28523"
+                             propertyPath="_18_5beta_9250292_1475411412508_939440_30856 _18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476438314291_496984_28711"
+                             base_ConnectorEnd="_18_5beta_9250292_1476438308553_824063_28529"
+                             propertyPath="_18_5beta_9250292_1475125727673_121368_28129 _18_1_9250292_1418747117324_362899_13645"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476438314293_969079_28715"
+                             base_ConnectorEnd="_18_5beta_9250292_1476438308553_705896_28530"
+                             propertyPath="_18_5beta_9250292_1475411412508_939440_30856 _18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476438314303_410840_28719"
+                             base_ConnectorEnd="_18_5beta_9250292_1476438308557_15918_28532"
+                             propertyPath="_18_5beta_9250292_1475411412508_939440_30856 _18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476438314305_74055_28723"
+                             base_ConnectorEnd="_18_5beta_9250292_1476438308557_54960_28533"
+                             propertyPath="_18_5beta_9250292_1475125727673_121368_28129 _18_1_9250292_1418747117324_362899_13645"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476438314308_324359_28727"
+                             base_ConnectorEnd="_18_5beta_9250292_1476438308562_575410_28535"
+                             propertyPath="_18_5beta_9250292_1475125727673_121368_28129 _18_1_9250292_1418747117324_362899_13645"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476438314310_338642_28731"
+                             base_ConnectorEnd="_18_5beta_9250292_1476438308562_119779_28536"
+                             propertyPath="_18_5beta_9250292_1475411412508_939440_30856 _18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:Block xmi:id="_18_1_9250292_1425297596242_458279_15719"
+                base_Class="_18_1_9250292_1425297596241_53182_15718"/>
+   <sysml:FullPort xmi:id="_18_1_9250292_1425460250783_148199_17557"
+                   base_Port="_18_1_9250292_1425460250782_11528_17556"/>
+   <sysml:Block xmi:id="_18_1_9250292_1425379402131_966532_20677"
+                base_Class="_18_1_9250292_1425379402130_86489_20676"/>
+   <sysml:FullPort xmi:id="_18_1_9250292_1425395382616_144559_23581"
+                   base_Port="_18_1_9250292_1425395382616_881548_23580"/>
+   <sysml:Block xmi:id="_18_1_9250292_1418918618806_820415_13925"
+                base_Class="_18_1_9250292_1418918618796_589723_13924"/>
+   <sysml:Block xmi:id="_18_1_9250292_1425389438177_468744_22105"
+                base_Class="_18_1_9250292_1425389438177_845873_22104"/>
+   <sysml:Block xmi:id="_18_1_9250292_1425394161075_596284_22810"
+                base_Class="_18_1_9250292_1425394161074_397302_22809"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_5beta_9250292_1476438314289_95349_28707"
+                             base_ConnectorEnd="_18_5beta_9250292_1476438308549_477947_28527"
+                             propertyPath="_18_5beta_9250292_1475411412508_939440_30856 _18_1_9250292_1418747153068_84261_13669"/>
+   <sysml:NestedConnectorEnd xmi:id="_18_1_9250292_1425288894692_5100_14284"
+                             base_ConnectorEnd="_18_1_9250292_1425288894690_448328_14282"
+                             propertyPath="_18_1_9250292_1425288419264_631126_13651"/>
+</xmi:XMI>
